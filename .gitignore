@@ -1,3 +1,4 @@
 vim/.vim/bundle
 zsh/.zsh/antigen/bundles
 zsh/.zsh/.zcache
+tmux/.tmux/.git
