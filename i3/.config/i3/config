@@ -189,6 +189,11 @@ bindsym $mod+Pause mode "$mode_system"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+    colors {
+        background #002b36
+        focused_background #073642
+    }
+    tray_padding 4
     height 25
     status_command i3status --config ~/.config/i3/i3status.conf
 }
@@ -206,15 +211,23 @@ workspace $wksp9 output $monitor_left
 workspace $wksp10 output $monitor_right
 
 # gaps (remove window borders and title bar)
-for_window [class=".*"] border pixel 0
-
+#for_window [class=".*"] border pixel 0
+new_window none
 # Only enable gaps on a workspace when there is at least one container
-smart_gaps on
+#smart_gaps on
 
 # Activate smart borders (always)
 smart_borders on
-gaps inner 10
+gaps inner 8
 gaps outer 0
+
+# Correct handling of floating windows
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [window_role="dialog"] floating enable
+for_window [window_role="menu"] floating enable
+for_window [window_role="Preferences"] floating enable
 
 for_window [class="Visual Studio Code"] move to workspace $wksp1
 assign [class="Firefox"] $wksp2
