@@ -1,0 +1,111 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/destin/
+	..
+1557532265
+'b
+	/home/destin/bin/
+	..
+1557532265
+'h
+	/home/destin/
+	..
+1557532265
+
+# Bookmarks:
+
+# TUI:
+ar
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/destin
+	..
+0
+d
+
+# Right window history (oldest to newest):
+D/home/destin
+	Books
+1
+D/home/destin/Books
+	..
+0
+D/home/destin
+	Books
+1
+D/home
+	destin
+1
+D/home/destin
+	Downloads
+4
+D/home/destin/Downloads
+	..
+0
+D/home/destin
+	Downloads
+4
+D/home/destin/Downloads
+	atlassian-git-cheatsheet.pdf
+18
+D
+
+# Command line history (oldest to newest):
+:h
+:reg
+:q
+
+# Search history (oldest to newest):
+/jquer
+/color
+
+# Prompt history (oldest to newest):
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/destin/Trash/000_TimeTracking.csv
+	/home/destin/Downloads/TimeTracking.csv
+t/home/destin/Trash/000_knifemakersvic3e.jpg
+	/home/destin/Downloads/knifemakersvic3e.jpg
+t/home/destin/Trash/000_zshrc
+	/home/destin/Downloads/zshrc
+t/home/destin/Trash/000_wordpress-52-761637.png
+	/home/destin/Downloads/wordpress-52-761637.png
+t/home/destin/Trash/000_timeslottracker_1.3.20_all.deb
+	/home/destin/Downloads/timeslottracker_1.3.20_all.deb
+t/home/destin/Trash/000_tetrjs.png
+	/home/destin/Downloads/tetrjs.png
+t/home/destin/Trash/000_testpattern.jpg
+	/home/destin/Downloads/testpattern.jpg
+t/home/destin/Trash/000_rachota_24.jar
+	/home/destin/Downloads/rachota_24.jar
+t/home/destin/Trash/000_jquery.steps.css
+	/home/destin/Downloads/jquery.steps.css
+t/home/destin/Trash/000_colors.json
+	/home/destin/Downloads/colors.json
+t/home/destin/Trash/000_Scripts.zip
+	/home/destin/Downloads/Scripts.zip
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0
