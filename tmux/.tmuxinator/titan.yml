@@ -36,5 +36,5 @@ windows:
       panes:
         - cd ~ && clear
         - cd ~ && clear
-  - ranger: ranger
+  - "vifm filemanager": vifm
   - htop: htop

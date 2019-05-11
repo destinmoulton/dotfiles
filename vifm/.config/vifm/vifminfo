@@ -15,6 +15,27 @@
 1557532265
 
 # Bookmarks:
+b/home/destin/Downloads/
+	downloads
+	1557533124
+b/home/destin/
+	~,home
+	1557533087
+b/home/destin/Documents/
+	documents,docs
+	1557533137
+b/mnt/
+	mnt
+	1557533153
+b/mnt/backup/
+	backup
+	1557533178
+b/home/destin/projects/
+	projects
+	1557533219
+b/home/destin/projects/gizmo/
+	gizmo
+	1557533229
 
 # TUI:
 ar
@@ -26,12 +47,42 @@ l2
 r2
 
 # Left window history (oldest to newest):
+d/home/destin/Downloads
+	..
+0
 d/home/destin
 	..
 0
 d
 
 # Right window history (oldest to newest):
+D/home/destin/Documents
+	..
+0
+D/
+	mnt
+8
+D/mnt
+	backup
+1
+D/mnt/backup
+	..
+0
+D/mnt
+	backup
+1
+D/
+	mnt
+8
+D/home/destin/projects
+	gizmo
+13
+D/home/destin/projects/gizmo
+	..
+0
+D/home/destin/projects
+	gizmo
+13
 D/home/destin
 	Books
 1
@@ -54,16 +105,38 @@ D/home/destin
 	Downloads
 4
 D/home/destin/Downloads
-	atlassian-git-cheatsheet.pdf
-18
+	maxmoult_dblivetaos.sql
+22
 D
 
 # Command line history (oldest to newest):
-:h
+:bmarks d
+:bmark d
+:bmarks home ~
+:bmark ~ home
+:bmgo ~
+:bmgo d
+:bmgo h
+:bmark downloads
+:bmark documents docs
+:bmark mnt
+:bmarks
+:bmark backup
+:bmgo home
+:bmark projects
+:bmark gizmo
+:bmgo downloads
+:filter *.js
+:filter /^.*\js$/
+:filter /*\.js\/*/
+:filter /*\.js$/
 :reg
+:h
 :q
 
 # Search history (oldest to newest):
+/tet
+/test
 /jquer
 /color
 
@@ -98,6 +171,10 @@ t/home/destin/Trash/000_colors.json
 	/home/destin/Downloads/colors.json
 t/home/destin/Trash/000_Scripts.zip
 	/home/destin/Downloads/Scripts.zip
+t/home/destin/Trash/000_bill.jpg
+	/home/destin/Downloads/bill.jpg
+t/home/destin/Trash/000_chimpexpress.1.6.zip
+	/home/destin/Downloads/chimpexpress.1.6.zip
 
 # State:
 f
