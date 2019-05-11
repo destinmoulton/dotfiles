@@ -8,7 +8,15 @@ Install `stow`:
 `yay -Sy stow`
 
 Clone the repo into `~`:
-`git clone git@github.com:destinmoulton/dotfiles.git`
 
-To install zsh dotfiles:
-`stow zsh`
+```
+cd ~
+git clone git@github.com:destinmoulton/dotfiles.git
+```
+
+To install zsh dotfiles (as symlinks in your home dir):
+
+```
+cd ~/dotfiles
+stow zsh
+```
