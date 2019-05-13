@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Fri 10 May 2019 12:06:03 PM MDT
+#   Compiled on: Mon 13 May 2019 07:22:13 AM MDT
 #
 #
 #
@@ -64,6 +64,9 @@ export WINEARCH=win32
 
 # EXPORT THE PATH
 export PATH
+
+# Set the TERM
+export TERM="xterm-256color"
 
 
 #

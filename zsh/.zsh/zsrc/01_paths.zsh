@@ -43,3 +43,6 @@ export WINEARCH=win32
 # EXPORT THE PATH
 export PATH
 
+# Set the TERM
+export TERM="xterm-256color"
+
