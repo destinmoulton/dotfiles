@@ -131,6 +131,12 @@ D/mnt/music/Bluegrass/John Hartford
 D/mnt/music/Bluegrass/John Hartford/Aereo-Plain
 	01 - John Hartford - Turn Your Radio On - Aereo-Plain.mp3
 1
+D/home/destin/Downloads
+	flame.avi
+11
+D/home/destin
+	.bash_history
+28
 D
 
 # Command line history (oldest to newest):
@@ -149,7 +155,6 @@ D
 :bmgo home
 :bmark projects
 :bmark gizmo
-:bmgo downloads
 :filter *.js
 :filter /^.*\js$/
 :filter /*\.js\/*/
@@ -157,6 +162,7 @@ D
 :reg
 :h
 :q
+:bmgo downloads
 
 # Search history (oldest to newest):
 /tet
@@ -169,7 +175,7 @@ D
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/destin/Trash/000_2018_TaxReturn_forHC.pdf
+""/home/destin/Trash/000_.tmux.conf.local
 
 # Directory stack (oldest to newest):
 
@@ -228,6 +234,8 @@ t/home/destin/Trash/000_atlassian-git-cheatsheet.pdf
 	/home/destin/Downloads/atlassian-git-cheatsheet.pdf
 t/home/destin/Trash/000_2018_TaxReturn_forHC.pdf
 	/home/destin/Downloads/2018_TaxReturn_forHC.pdf
+t/home/destin/Trash/000_.tmux.conf.local
+	/home/destin/.tmux.conf.local
 
 # State:
 f
@@ -236,6 +244,6 @@ i1
 [F
 F
 I1
-].1
+].0
 ]F
 s0
