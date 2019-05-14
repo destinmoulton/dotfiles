@@ -31,9 +31,12 @@ tmux_options: -f ~/.tmux.conf
 # post: tmux -CC attach -t titan
 
 windows:
-  - consoles:
+  - "TERMINALS":
       layout: even-horizontal
       panes:
         - cd ~ && clear
         - cd ~ && clear
-  - "vifm filemanager": vifm
+  - "VIFM": vifm
+  - "SSH":
+      panes:
+        - cd ~ && clear

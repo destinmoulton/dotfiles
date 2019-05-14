@@ -5,6 +5,10 @@
 	/home/destin/
 	..
 1557532265
+'a
+	/home/destin/Trash
+	..
+1557846408
 'b
 	/home/destin/bin/
 	..
@@ -35,7 +39,13 @@ b/home/destin/projects/
 	1557533219
 b/home/destin/projects/gizmo/
 	gizmo
-	1557533229
+	1557846573
+b/home/destin/Trash/
+	trash
+	1557846412
+b/home/destin/Books/
+	books
+	1557847552
 
 # TUI:
 ar
@@ -51,6 +61,27 @@ d/home/destin/Downloads
 	..
 0
 d/home/destin
+	Desktop
+2
+d/home/destin/Desktop
+	..
+0
+d/home/destin
+	Downloads
+4
+d/home/destin/Downloads
+	..
+0
+d/home/destin
+	Books
+1
+d/home/destin/Books
+	Programming & IT
+9
+d/home/destin/Books/Programming & IT
+	git
+3
+d/home/destin/Books/Programming & IT/git
 	..
 0
 d
@@ -135,8 +166,227 @@ D/home/destin/Downloads
 	flame.avi
 11
 D/home/destin
-	.bash_history
-28
+	Downloads
+20
+D/home/destin/Downloads
+	flame.avi
+16
+D/home/destin
+	projects
+24
+D/home/destin/projects
+	gizmo
+13
+D/home/destin/projects/gizmo
+	taosunited.org
+11
+D/home/destin/projects/gizmo/taosunited.org
+	gulpfile.js
+3
+D/home/destin/projects/gizmo
+	levinetalks
+5
+D/home/destin/projects/gizmo/levinetalks
+	apologies_fix
+2
+D/home/destin/projects/gizmo/levinetalks/apologies_fix
+	apologies_pi.php
+1
+D/home/destin/projects/gizmo/levinetalks
+	apologies_fix
+2
+D/home/destin/projects/gizmo
+	taos.org
+7
+D/home/destin/projects/gizmo/taos.org
+	wp-content
+2
+D/home/destin/projects/gizmo/taos.org/wp-content
+	themes
+1
+D/home/destin/projects/gizmo/taos.org/wp-content/themes
+	Taos
+1
+D/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos
+	library
+1
+D/home/destin/projects/gizmo/taos.org/wp-content/themes
+	Taos
+1
+D/home/destin/projects/gizmo/taos.org/wp-content
+	themes
+1
+D/home/destin/projects/gizmo/taos.org
+	wp-content
+2
+D/home/destin/projects/gizmo
+	taos.org
+7
+D/home/destin/projects
+	gizmo
+13
+D/home/destin/Downloads
+	Gizmo Time April 2019 - TimeTracking.pdf
+11
+D/home/destin
+	Trash
+21
+D/home/destin/Trash
+	..
+0
+D/home/destin/projects
+	gizmo
+13
+D/home/destin/projects/gizmo
+	taos.org
+7
+D/home/destin/projects
+	gizmo
+13
+D/home/destin/Downloads
+	parsley.min.js
+14
+D/home/destin/Downloads/zsh-autosuggestions/.git/objects
+	..
+0
+D/home/destin/Downloads/zsh-autosuggestions/.git
+	objects
+5
+D/home/destin/Downloads/zsh-autosuggestions
+	.git
+2
+D/home/destin/Downloads
+	zsh-autosuggestions
+6
+D/home/destin/Downloads/zsh-autosuggestions
+	src
+4
+D/home/destin/Downloads/zsh-autosuggestions/src
+	..
+0
+D/home/destin/Downloads/zsh-autosuggestions
+	src
+4
+D/home/destin/Downloads
+	.zshBAK
+1
+D/home/destin/Downloads/.zshBAK
+	..
+0
+D/home/destin/Downloads
+	1040.pdf
+5
+D/home/destin
+	Desktop
+18
+D/home/destin/Desktop
+	..
+0
+D/home/destin
+	.vscode-file-history
+15
+D/home/destin/.vscode-file-history
+	.history
+1
+D/home/destin/.vscode-file-history/.history
+	home
+1
+D/home/destin/.vscode-file-history/.history/home
+	destin
+1
+D/home/destin/.vscode-file-history/.history/home/destin
+	projects
+3
+D/home/destin/.vscode-file-history/.history/home/destin/projects
+	gizmo
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo
+	taos.org
+2
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org
+	wp-content
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content
+	themes
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes
+	Taos
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos
+	library
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/library
+	js
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/library/js
+	scripts_20190412142746.js
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/library
+	scss
+2
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/library/scss
+	breakpoints
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/library/scss/breakpoints
+	..
+0
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/library/scss
+	breakpoints
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/library
+	scss
+2
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos
+	library
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes
+	Taos
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content
+	themes
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org
+	wp-content
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo
+	taos.org
+2
+D/home/destin/.vscode-file-history/.history/home/destin/projects
+	gizmo
+1
+D/home/destin/.vscode-file-history/.history/home/destin
+	projects
+3
+D/home/destin/.vscode-file-history/.history/home
+	destin
+1
+D/home/destin/.vscode-file-history/.history
+	home
+1
+D/home/destin/.vscode-file-history
+	.history
+1
+D/home/destin/Documents
+	receipts
+4
+D/home/destin/Documents/receipts
+	nmgco
+4
+D/home/destin/Documents/receipts/nmgco
+	nmgco_bill_receipt_5_11_2019.pdf
+8
+D/home/destin/Documents/receipts
+	nmgco
+4
+D/home/destin/Downloads
+	280px-PNG_transparency_demonstration_1.png
+5
+D/home/destin
+	Downloads
+20
+D/home/destin/Downloads
+	1040.pdf
+4
 D
 
 # Command line history (oldest to newest):
@@ -150,32 +400,59 @@ D
 :bmark downloads
 :bmark documents docs
 :bmark mnt
-:bmarks
 :bmark backup
 :bmgo home
 :bmark projects
-:bmark gizmo
 :filter *.js
 :filter /^.*\js$/
 :filter /*\.js\/*/
 :filter /*\.js$/
 :reg
 :h
-:q
+:filter /*\.mkv$/
+:filter/*\.pdf$/
+:filter /^.*\.jpg$/
+:bmark trash
+:bmarks
+:bmgo trash
+:bmark gizmo
+:bmgo gizmo
+:bmgo projects
+:tree
+:tree!
+:sync
+:cd
+:bmark books
+:lsview
+:vifm-ls-view
+:setlocal vifm-ls-view
+:bmgo documents
 :bmgo downloads
+:q
 
 # Search history (oldest to newest):
 /tet
 /test
 /jquer
 /color
+/unit
+/levine
+/yml
+/pro
+/re
 
 # Prompt history (oldest to newest):
+papologies_pi.php.bak
+ptest.zip
+pparsley.min
 
 # Local filter history (oldest to newest):
+|*.php
+|*.css
+|*.avi
 
 # Registers:
-""/home/destin/Trash/000_.tmux.conf.local
+""/home/destin/Trash/000_.directory
 
 # Directory stack (oldest to newest):
 
@@ -236,6 +513,50 @@ t/home/destin/Trash/000_2018_TaxReturn_forHC.pdf
 	/home/destin/Downloads/2018_TaxReturn_forHC.pdf
 t/home/destin/Trash/000_.tmux.conf.local
 	/home/destin/.tmux.conf.local
+t/home/destin/Trash/000_apologies_pi(1).php
+	/home/destin/projects/gizmo/levinetalks/apologies_fix/apologies_pi(1).php
+t/home/destin/Trash/000_DeepinScreenshot_select-area_20190513124244.png
+	/home/destin/Downloads/DeepinScreenshot_select-area_20190513124244.png
+t/home/destin/Trash/000_SampleVideo_1280x720_1mb.mkv
+	/home/destin/Downloads/SampleVideo_1280x720_1mb.mkv
+t/home/destin/Trash/000_SampleVideo_1280x720_1mb.mp4
+	/home/destin/Downloads/SampleVideo_1280x720_1mb.mp4
+t/home/destin/Trash/000_flame.avi
+	/home/destin/Downloads/flame.avi
+t/home/destin/Trash/000_h0EFF2871.jpg
+	/home/destin/Downloads/h0EFF2871.jpg
+t/home/destin/Trash/000_test.7z
+	/home/destin/Downloads/test.7z
+t/home/destin/Trash/000_test.tar
+	/home/destin/Downloads/test.tar
+t/home/destin/Trash/000_test.tar.gz
+	/home/destin/Downloads/test.tar.gz
+t/home/destin/Trash/000_test.zip
+	/home/destin/Downloads/test.zip
+t/home/destin/Trash/000_parsley.min(1).js
+	/home/destin/Downloads/parsley.min(1).js
+t/home/destin/Trash/000_zsh-autosuggestions
+	/home/destin/Downloads/zsh-autosuggestions
+t/home/destin/Trash/000_Git Best Practices Guide by Eric Pidoux
+	/home/destin/Downloads/Git Best Practices Guide by Eric Pidoux
+t/home/destin/Trash/000_.zshBAK
+	/home/destin/Downloads/.zshBAK
+t/home/destin/Trash/000_.profileBAK
+	/home/destin/Downloads/.profileBAK
+t/home/destin/Trash/000_.tmux.conf.BAK
+	/home/destin/Downloads/.tmux.conf.BAK
+t/home/destin/Trash/000_DeepinScreenshot_select-area_20190513124141.png
+	/home/destin/Desktop/DeepinScreenshot_select-area_20190513124141.png
+t/home/destin/Trash/000_01 - Prelude to a Feud.mp3
+	/home/destin/Downloads/01 - Prelude to a Feud.mp3
+t/home/destin/Trash/000_280px-PNG_transparency_demonstration_1.png
+	/home/destin/Downloads/280px-PNG_transparency_demonstration_1.png
+t/home/destin/Trash/000_giphy.gif
+	/home/destin/Downloads/giphy.gif
+t/home/destin/Trash/000_jpg.jpg
+	/home/destin/Downloads/jpg.jpg
+t/home/destin/Trash/000_.directory
+	/home/destin/Downloads/.directory
 
 # State:
 f

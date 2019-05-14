@@ -198,7 +198,7 @@ command! reload :write | restart
 " uncommenting one of lines below will result in ignoring 'vi[x]cmd' option
 " for unknown file types.
 " For *nix:
-filetype * xdg-open
+filetype * xdg-open 2>/dev/null &
 
 " For OS X:
 " filetype * open
