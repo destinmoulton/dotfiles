@@ -33,6 +33,7 @@ PATH=$PATH:$JAVA_HOME
 
 # Add yarn global path
 PATH=$PATH:$HOME/.yarn/bin
+PATH=$PATH:$HOME/.npm/global-packages/bin
 
 # Snap package manager binaries
 PATH=$PATH:/snap/bin

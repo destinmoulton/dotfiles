@@ -21,7 +21,7 @@ set $wksp6 "6: Misc"
 set $wksp7 "7: Filezilla"
 set $wksp8 "8: Spacemacs"
 set $wksp9 "9: Spotify"
-set $wksp10 "10: Scratch"
+set $wksp10 "10: Misc"
 
 # Set the modifier
 set $mod Mod4
@@ -51,9 +51,13 @@ bindsym $mod+w exec python ~/projects/i3void/i3void.py
 
 # Other applications
 bindsym $mod+Control+w exec emacs
+bindsym $mod+Control+s exec emacs
 bindsym $mod+Control+c exec google-chrome-stable
 bindsym $mod+Control+f exec firefox
 bindsym $mod+Control+v exec code
+bindsym $mod+Control+z exec filezilla
+bindsym Print exec deepin-screenshot
+bindsyn $mod + Print exec deepin-screenshot
 
 # Volume Control
 bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5dB+ unmute #increase sound volume
@@ -230,8 +234,6 @@ for_window [window_role="menu"] floating enable
 for_window [window_role="Preferences"] floating enable
 
 for_window [class="Visual Studio Code"] move to workspace $wksp1
-assign [class="Firefox"] $wksp2
-for_window [title="TMUX - TITAN"] move to workspace $wksp3
 assign [class="Firefox"] $wksp2
 for_window [class="Spotify"] move to workspace $wksp9
 

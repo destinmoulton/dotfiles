@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Mon 13 May 2019 07:22:13 AM MDT
+#   Compiled on: Mon 13 May 2019 12:56:07 PM MDT
 #
 #
 #
@@ -55,6 +55,7 @@ PATH=$PATH:$JAVA_HOME
 
 # Add yarn global path
 PATH=$PATH:$HOME/.yarn/bin
+PATH=$PATH:$HOME/.npm/global-packages/bin
 
 # Snap package manager binaries
 PATH=$PATH:/snap/bin
