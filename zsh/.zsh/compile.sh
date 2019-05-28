@@ -2,13 +2,13 @@
 #
 #
 # Generate the .zsh/.zshrc file
-# from the .zsh/zsrc/*.zsh files 
+# from the .zsh/source/*.zsh files 
 #
 
 
 ZDOTDIR=$HOME/.zsh
 
-SRC_DIR=$ZDOTDIR/zsrc
+SRC_DIR=$ZDOTDIR/source
 
 ZSH_INIT_FILE=$ZDOTDIR/.zshrc
 

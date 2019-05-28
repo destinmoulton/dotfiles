@@ -172,6 +172,9 @@ command! reload :write | restart
 " program.
 
 
+" Set emacs as default editor
+:filetype *.css,*.js,*.php,*.go,*.py,*.yml,*.json emacsclient -nc %f &
+
 
 " Syntax highlighting in preview
 "

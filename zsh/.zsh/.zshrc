@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Mon 13 May 2019 12:56:07 PM MDT
+#   Compiled on: Tue 28 May 2019 07:52:10 AM MDT
 #
 #
 #
@@ -34,7 +34,7 @@
 unset SSH_ASKPASS
 
 # Add my scripts
-PATH="/home/destin/bin:/home/destin/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin"
+PATH="/home/destin/.local/bin:/usr/local/bin:/usr/bin:/bin"
 PATH=$PATH:~/scripts/
 
 # Add android studio path
@@ -45,20 +45,18 @@ PATH=$PATH:$ANDROID_HOME/tools/bin
 PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Add go (golang) path
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
+export GOPATH=$HOME/.go
 export GOBIN=$GOPATH/bin
 PATH=$PATH:$GOROOT/bin:$GOBIN
 
 # Add java path (other java settings defined in /etc/profile.d/custom.sh)
 PATH=$PATH:$JAVA_HOME
 
-# Add yarn global path
-PATH=$PATH:$HOME/.yarn/bin
+# Add npm global path
 PATH=$PATH:$HOME/.npm/global-packages/bin
 
-# Snap package manager binaries
-PATH=$PATH:/snap/bin
+# Composer 
+PATH=$PATH:$HOME/.config/composer/vendor/bin
 
 # Set wine to use win32
 export WINEARCH=win32
@@ -66,8 +64,6 @@ export WINEARCH=win32
 # EXPORT THE PATH
 export PATH
 
-# Set the TERM
-export TERM="xterm-256color"
 
 
 #
@@ -113,6 +109,7 @@ antigen bundle zdharma/fast-syntax-highlighting
 antigen bundle zlsun/solarized-man
 
 antigen bundle changyuheng/zsh-interactive-cd
+
 
 # Load theme
 antigen theme bhilburn/powerlevel9k powerlevel9k
@@ -286,6 +283,12 @@ function mkdcd {
 function cdls {
     builtin cd "$argv[-1]" && ls "${(@)argv[1,-2]}"
 }
+
+
+# zshmarks aliases
+alias bmgo="jump"
+alias bmark="bookmark"
+alias bmarks="showmarks"
 
 #
 # 05_zstyles.zsh

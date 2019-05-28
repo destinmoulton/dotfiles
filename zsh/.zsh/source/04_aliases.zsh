@@ -88,3 +88,9 @@ function mkdcd {
 function cdls {
     builtin cd "$argv[-1]" && ls "${(@)argv[1,-2]}"
 }
+
+
+# zshmarks aliases
+alias bmgo="jump"
+alias bmark="bookmark"
+alias bmarks="showmarks"

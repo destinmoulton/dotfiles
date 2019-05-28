@@ -740,3 +740,675 @@ antigen
 antigen-apply
 antigen
 /home/destin/.zsh/.zshrc
+[WRN][1558479303.4197592735] /home/destin/.zsh/antigen/antigen.zsh:266
+[WRN][1558479303.4197592735] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1558479303.4198791981] /home/destin/.zsh/antigen/antigen.zsh:475
+[TRA][1558479303.4198791981] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1558479303.4198791981] TRACE
+-antigen-env-setup
+/home/destin/.zsh/antigen/antigen.zsh
+/home/destin/.zsh/.zshrc
+[TRA][1558479303.4633247852] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558479303.4633247852] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1558479303.4633247852] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558479303.4642271996] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558479303.4642271996] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1558479303.4642271996] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558479303.4648714066] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558479303.4648714066] Called antigen-bundle with zdharma/fast-syntax-highlighting BUNDLE
+[TRA][1558479303.4648714066] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558479303.4655048847] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558479303.4655048847] Called antigen-bundle with zlsun/solarized-man BUNDLE
+[TRA][1558479303.4655048847] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558479303.4661564827] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558479303.4661564827] Called antigen-bundle with changyuheng/zsh-interactive-cd BUNDLE
+[TRA][1558479303.4661564827] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558479303.4689891338] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558479303.4689891338] Called antigen-bundle with bhilburn/powerlevel9k powerlevel9k --btype=theme BUNDLE
+[TRA][1558479303.4689891338] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/destin/.zsh/.zshrc
+[LOG][1558479303.4698405266] /home/destin/.zsh/antigen/antigen.zsh:785
+[LOG][1558479303.4698405266] Called antigen-apply
+[TRA][1558479303.4699208736] /home/destin/.zsh/antigen/antigen.zsh:789
+[TRA][1558479303.4699208736] Gonna create compdump file @ apply COMPDUMP
+[TRA][1558479303.4699208736] TRACE
+antigen-apply
+antigen
+/home/destin/.zsh/.zshrc
+[WRN][1558531244.0955805779] /home/destin/.zsh/antigen/antigen.zsh:266
+[WRN][1558531244.0955805779] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1558531244.0957233906] /home/destin/.zsh/antigen/antigen.zsh:475
+[TRA][1558531244.0957233906] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1558531244.0957233906] TRACE
+-antigen-env-setup
+/home/destin/.zsh/antigen/antigen.zsh
+/home/destin/.zsh/.zshrc
+[TRA][1558531244.1324152946] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531244.1324152946] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1558531244.1324152946] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531244.1332979202] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531244.1332979202] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1558531244.1332979202] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531244.1339399815] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531244.1339399815] Called antigen-bundle with zdharma/fast-syntax-highlighting BUNDLE
+[TRA][1558531244.1339399815] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531244.1345753670] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531244.1345753670] Called antigen-bundle with zlsun/solarized-man BUNDLE
+[TRA][1558531244.1345753670] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531244.1351869106] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531244.1351869106] Called antigen-bundle with changyuheng/zsh-interactive-cd BUNDLE
+[TRA][1558531244.1351869106] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531244.1381175518] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531244.1381175518] Called antigen-bundle with bhilburn/powerlevel9k powerlevel9k --btype=theme BUNDLE
+[TRA][1558531244.1381175518] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/destin/.zsh/.zshrc
+[LOG][1558531244.1389977932] /home/destin/.zsh/antigen/antigen.zsh:785
+[LOG][1558531244.1389977932] Called antigen-apply
+[TRA][1558531244.1390781403] /home/destin/.zsh/antigen/antigen.zsh:789
+[TRA][1558531244.1390781403] Gonna create compdump file @ apply COMPDUMP
+[TRA][1558531244.1390781403] TRACE
+antigen-apply
+antigen
+/home/destin/.zsh/.zshrc
+[WRN][1558531604.1895587444] /home/destin/.zsh/antigen/antigen.zsh:266
+[WRN][1558531604.1895587444] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1558531604.1897513866] /home/destin/.zsh/antigen/antigen.zsh:475
+[TRA][1558531604.1897513866] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1558531604.1897513866] TRACE
+-antigen-env-setup
+/home/destin/.zsh/antigen/antigen.zsh
+/home/destin/.zsh/.zshrc
+[TRA][1558531604.2563934326] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531604.2563934326] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1558531604.2563934326] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531604.2577645779] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531604.2577645779] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1558531604.2577645779] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531604.2587106228] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531604.2587106228] Called antigen-bundle with zdharma/fast-syntax-highlighting BUNDLE
+[TRA][1558531604.2587106228] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531604.2596187592] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531604.2596187592] Called antigen-bundle with zlsun/solarized-man BUNDLE
+[TRA][1558531604.2596187592] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531604.2604923248] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531604.2604923248] Called antigen-bundle with changyuheng/zsh-interactive-cd BUNDLE
+[TRA][1558531604.2604923248] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531604.2648985386] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531604.2648985386] Called antigen-bundle with bhilburn/powerlevel9k powerlevel9k --btype=theme BUNDLE
+[TRA][1558531604.2648985386] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/destin/.zsh/.zshrc
+[LOG][1558531604.2661623955] /home/destin/.zsh/antigen/antigen.zsh:785
+[LOG][1558531604.2661623955] Called antigen-apply
+[TRA][1558531604.2662725449] /home/destin/.zsh/antigen/antigen.zsh:789
+[TRA][1558531604.2662725449] Gonna create compdump file @ apply COMPDUMP
+[TRA][1558531604.2662725449] TRACE
+antigen-apply
+antigen
+/home/destin/.zsh/.zshrc
+[WRN][1558531608.9715635777] /home/destin/.zsh/antigen/antigen.zsh:266
+[WRN][1558531608.9715635777] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1558531608.9718389511] /home/destin/.zsh/antigen/antigen.zsh:475
+[TRA][1558531608.9718389511] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1558531608.9718389511] TRACE
+-antigen-env-setup
+/home/destin/.zsh/antigen/antigen.zsh
+/home/destin/.zsh/.zshrc
+[TRA][1558531609.0583803654] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531609.0583803654] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1558531609.0583803654] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531609.0599465370] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531609.0599465370] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1558531609.0599465370] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531609.0610005856] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531609.0610005856] Called antigen-bundle with zdharma/fast-syntax-highlighting BUNDLE
+[TRA][1558531609.0610005856] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531609.0620415211] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531609.0620415211] Called antigen-bundle with zlsun/solarized-man BUNDLE
+[TRA][1558531609.0620415211] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531609.0630381107] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531609.0630381107] Called antigen-bundle with changyuheng/zsh-interactive-cd BUNDLE
+[TRA][1558531609.0630381107] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531609.0680150986] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531609.0680150986] Called antigen-bundle with bhilburn/powerlevel9k powerlevel9k --btype=theme BUNDLE
+[TRA][1558531609.0680150986] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/destin/.zsh/.zshrc
+[LOG][1558531609.0692303181] /home/destin/.zsh/antigen/antigen.zsh:785
+[LOG][1558531609.0692303181] Called antigen-apply
+[TRA][1558531609.0693352222] /home/destin/.zsh/antigen/antigen.zsh:789
+[TRA][1558531609.0693352222] Gonna create compdump file @ apply COMPDUMP
+[TRA][1558531609.0693352222] TRACE
+antigen-apply
+antigen
+/home/destin/.zsh/.zshrc
+[WRN][1558531636.5809879303] /home/destin/.zsh/antigen/antigen.zsh:266
+[WRN][1558531636.5809879303] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1558531636.5812525749] /home/destin/.zsh/antigen/antigen.zsh:475
+[TRA][1558531636.5812525749] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1558531636.5812525749] TRACE
+-antigen-env-setup
+/home/destin/.zsh/antigen/antigen.zsh
+/home/destin/.zsh/.zshrc
+[TRA][1558531636.6673185825] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531636.6673185825] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1558531636.6673185825] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531636.6687383652] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531636.6687383652] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1558531636.6687383652] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531636.6695518494] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531636.6695518494] Called antigen-bundle with zdharma/fast-syntax-highlighting BUNDLE
+[TRA][1558531636.6695518494] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531636.6703481674] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531636.6703481674] Called antigen-bundle with zlsun/solarized-man BUNDLE
+[TRA][1558531636.6703481674] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531636.6711177826] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531636.6711177826] Called antigen-bundle with changyuheng/zsh-interactive-cd BUNDLE
+[TRA][1558531636.6711177826] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531636.6752271652] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531636.6752271652] Called antigen-bundle with bhilburn/powerlevel9k powerlevel9k --btype=theme BUNDLE
+[TRA][1558531636.6752271652] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/destin/.zsh/.zshrc
+[LOG][1558531636.6763682365] /home/destin/.zsh/antigen/antigen.zsh:785
+[LOG][1558531636.6763682365] Called antigen-apply
+[TRA][1558531636.6764671803] /home/destin/.zsh/antigen/antigen.zsh:789
+[TRA][1558531636.6764671803] Gonna create compdump file @ apply COMPDUMP
+[TRA][1558531636.6764671803] TRACE
+antigen-apply
+antigen
+/home/destin/.zsh/.zshrc
+[WRN][1558531639.6769130230] /home/destin/.zsh/antigen/antigen.zsh:266
+[WRN][1558531639.6769130230] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1558531639.6771991253] /home/destin/.zsh/antigen/antigen.zsh:475
+[TRA][1558531639.6771991253] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1558531639.6771991253] TRACE
+-antigen-env-setup
+/home/destin/.zsh/antigen/antigen.zsh
+/home/destin/.zsh/.zshrc
+[TRA][1558531639.7616899014] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531639.7616899014] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1558531639.7616899014] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531639.7630143166] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531639.7630143166] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1558531639.7630143166] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531639.7639355659] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531639.7639355659] Called antigen-bundle with zdharma/fast-syntax-highlighting BUNDLE
+[TRA][1558531639.7639355659] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531639.7648355961] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531639.7648355961] Called antigen-bundle with zlsun/solarized-man BUNDLE
+[TRA][1558531639.7648355961] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531639.7657077312] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531639.7657077312] Called antigen-bundle with changyuheng/zsh-interactive-cd BUNDLE
+[TRA][1558531639.7657077312] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531639.7703096867] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531639.7703096867] Called antigen-bundle with bhilburn/powerlevel9k powerlevel9k --btype=theme BUNDLE
+[TRA][1558531639.7703096867] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/destin/.zsh/.zshrc
+[LOG][1558531639.7713875771] /home/destin/.zsh/antigen/antigen.zsh:785
+[LOG][1558531639.7713875771] Called antigen-apply
+[TRA][1558531639.7714810371] /home/destin/.zsh/antigen/antigen.zsh:789
+[TRA][1558531639.7714810371] Gonna create compdump file @ apply COMPDUMP
+[TRA][1558531639.7714810371] TRACE
+antigen-apply
+antigen
+/home/destin/.zsh/.zshrc
+[WRN][1558531866.9166300297] /home/destin/.zsh/antigen/antigen.zsh:266
+[WRN][1558531866.9166300297] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1558531866.9169135094] /home/destin/.zsh/antigen/antigen.zsh:475
+[TRA][1558531866.9169135094] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1558531866.9169135094] TRACE
+-antigen-env-setup
+/home/destin/.zsh/antigen/antigen.zsh
+/home/destin/.zsh/.zshrc
+[TRA][1558531867.0025975704] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531867.0025975704] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1558531867.0025975704] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531867.0039312840] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531867.0039312840] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1558531867.0039312840] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531867.0048429966] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531867.0048429966] Called antigen-bundle with zdharma/fast-syntax-highlighting BUNDLE
+[TRA][1558531867.0048429966] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531867.0057389736] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531867.0057389736] Called antigen-bundle with zlsun/solarized-man BUNDLE
+[TRA][1558531867.0057389736] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531867.0066051483] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531867.0066051483] Called antigen-bundle with changyuheng/zsh-interactive-cd BUNDLE
+[TRA][1558531867.0066051483] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531867.0074944496] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531867.0074944496] Called antigen-bundle with jocelynmallon/zshmarks BUNDLE
+[TRA][1558531867.0074944496] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531867.7082238197] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531867.7082238197] Called antigen-bundle with bhilburn/powerlevel9k powerlevel9k --btype=theme BUNDLE
+[TRA][1558531867.7082238197] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/destin/.zsh/.zshrc
+[LOG][1558531867.7096457481] /home/destin/.zsh/antigen/antigen.zsh:785
+[LOG][1558531867.7096457481] Called antigen-apply
+[TRA][1558531867.7097699642] /home/destin/.zsh/antigen/antigen.zsh:789
+[TRA][1558531867.7097699642] Gonna create compdump file @ apply COMPDUMP
+[TRA][1558531867.7097699642] TRACE
+antigen-apply
+antigen
+/home/destin/.zsh/.zshrc
+[WRN][1558531874.5003490448] /home/destin/.zsh/antigen/antigen.zsh:266
+[WRN][1558531874.5003490448] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1558531874.5006089211] /home/destin/.zsh/antigen/antigen.zsh:475
+[TRA][1558531874.5006089211] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1558531874.5006089211] TRACE
+-antigen-env-setup
+/home/destin/.zsh/antigen/antigen.zsh
+/home/destin/.zsh/.zshrc
+[TRA][1558531875.1461803913] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531875.1461803913] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1558531875.1461803913] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531875.1469352245] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531875.1469352245] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1558531875.1469352245] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531875.1475510597] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531875.1475510597] Called antigen-bundle with zdharma/fast-syntax-highlighting BUNDLE
+[TRA][1558531875.1475510597] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531875.1482510567] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531875.1482510567] Called antigen-bundle with zlsun/solarized-man BUNDLE
+[TRA][1558531875.1482510567] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531875.1488442421] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531875.1488442421] Called antigen-bundle with changyuheng/zsh-interactive-cd BUNDLE
+[TRA][1558531875.1488442421] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531875.1494395733] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531875.1494395733] Called antigen-bundle with jocelynmallon/zshmarks BUNDLE
+[TRA][1558531875.1494395733] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558531875.1548471451] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558531875.1548471451] Called antigen-bundle with bhilburn/powerlevel9k powerlevel9k --btype=theme BUNDLE
+[TRA][1558531875.1548471451] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/destin/.zsh/.zshrc
+[LOG][1558531875.1556956768] /home/destin/.zsh/antigen/antigen.zsh:785
+[LOG][1558531875.1556956768] Called antigen-apply
+[TRA][1558531875.1557753086] /home/destin/.zsh/antigen/antigen.zsh:789
+[TRA][1558531875.1557753086] Gonna create compdump file @ apply COMPDUMP
+[TRA][1558531875.1557753086] TRACE
+antigen-apply
+antigen
+/home/destin/.zsh/.zshrc
+[WRN][1558532031.7136776447] /home/destin/.zsh/antigen/antigen.zsh:266
+[WRN][1558532031.7136776447] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1558532031.7139484882] /home/destin/.zsh/antigen/antigen.zsh:475
+[TRA][1558532031.7139484882] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1558532031.7139484882] TRACE
+-antigen-env-setup
+/home/destin/.zsh/antigen/antigen.zsh
+/home/destin/.zsh/.zshrc
+[TRA][1558532031.8013086319] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532031.8013086319] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1558532031.8013086319] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558532031.8026199341] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532031.8026199341] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1558532031.8026199341] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558532031.8034906387] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532031.8034906387] Called antigen-bundle with zdharma/fast-syntax-highlighting BUNDLE
+[TRA][1558532031.8034906387] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558532031.8043303490] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532031.8043303490] Called antigen-bundle with zlsun/solarized-man BUNDLE
+[TRA][1558532031.8043303490] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558532031.8051452637] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532031.8051452637] Called antigen-bundle with changyuheng/zsh-interactive-cd BUNDLE
+[TRA][1558532031.8051452637] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558532031.8059790134] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532031.8059790134] Called antigen-bundle with jocelynmallon/zshmarks BUNDLE
+[TRA][1558532031.8059790134] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558532031.8104414940] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532031.8104414940] Called antigen-bundle with bhilburn/powerlevel9k powerlevel9k --btype=theme BUNDLE
+[TRA][1558532031.8104414940] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/destin/.zsh/.zshrc
+[LOG][1558532031.8116481304] /home/destin/.zsh/antigen/antigen.zsh:785
+[LOG][1558532031.8116481304] Called antigen-apply
+[TRA][1558532031.8117518425] /home/destin/.zsh/antigen/antigen.zsh:789
+[TRA][1558532031.8117518425] Gonna create compdump file @ apply COMPDUMP
+[TRA][1558532031.8117518425] TRACE
+antigen-apply
+antigen
+/home/destin/.zsh/.zshrc
+[WRN][1558532034.8424010277] /home/destin/.zsh/antigen/antigen.zsh:266
+[WRN][1558532034.8424010277] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1558532034.8426685333] /home/destin/.zsh/antigen/antigen.zsh:475
+[TRA][1558532034.8426685333] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1558532034.8426685333] TRACE
+-antigen-env-setup
+/home/destin/.zsh/antigen/antigen.zsh
+/home/destin/.zsh/.zshrc
+[TRA][1558532034.9299800396] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532034.9299800396] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1558532034.9299800396] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558532034.9309093952] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532034.9309093952] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1558532034.9309093952] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558532034.9317793846] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532034.9317793846] Called antigen-bundle with zdharma/fast-syntax-highlighting BUNDLE
+[TRA][1558532034.9317793846] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558532034.9326314926] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532034.9326314926] Called antigen-bundle with zlsun/solarized-man BUNDLE
+[TRA][1558532034.9326314926] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558532034.9334590435] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532034.9334590435] Called antigen-bundle with changyuheng/zsh-interactive-cd BUNDLE
+[TRA][1558532034.9334590435] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558532034.9343030453] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532034.9343030453] Called antigen-bundle with jocelynmallon/zshmarks BUNDLE
+[TRA][1558532034.9343030453] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558532034.9386379719] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558532034.9386379719] Called antigen-bundle with bhilburn/powerlevel9k powerlevel9k --btype=theme BUNDLE
+[TRA][1558532034.9386379719] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/destin/.zsh/.zshrc
+[LOG][1558532034.9398837090] /home/destin/.zsh/antigen/antigen.zsh:785
+[LOG][1558532034.9398837090] Called antigen-apply
+[TRA][1558532034.9399878979] /home/destin/.zsh/antigen/antigen.zsh:789
+[TRA][1558532034.9399878979] Gonna create compdump file @ apply COMPDUMP
+[TRA][1558532034.9399878979] TRACE
+antigen-apply
+antigen
+/home/destin/.zsh/.zshrc
+[WRN][1558533948.9503879547] /home/destin/.zsh/antigen/antigen.zsh:266
+[WRN][1558533948.9503879547] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1558533948.9506270885] /home/destin/.zsh/antigen/antigen.zsh:475
+[TRA][1558533948.9506270885] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1558533948.9506270885] TRACE
+-antigen-env-setup
+/home/destin/.zsh/antigen/antigen.zsh
+/home/destin/.zsh/.zshrc
+[TRA][1558533949.0401530266] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558533949.0401530266] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1558533949.0401530266] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558533949.0410537720] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558533949.0410537720] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1558533949.0410537720] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558533949.0418651104] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558533949.0418651104] Called antigen-bundle with zdharma/fast-syntax-highlighting BUNDLE
+[TRA][1558533949.0418651104] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558533949.0426568985] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558533949.0426568985] Called antigen-bundle with zlsun/solarized-man BUNDLE
+[TRA][1558533949.0426568985] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558533949.0434229374] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558533949.0434229374] Called antigen-bundle with changyuheng/zsh-interactive-cd BUNDLE
+[TRA][1558533949.0434229374] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558533949.0442092419] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558533949.0442092419] Called antigen-bundle with jocelynmallon/zshmarks BUNDLE
+[TRA][1558533949.0442092419] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558533949.0510582924] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558533949.0510582924] Called antigen-bundle with bhilburn/powerlevel9k powerlevel9k --btype=theme BUNDLE
+[TRA][1558533949.0510582924] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/destin/.zsh/.zshrc
+[LOG][1558533949.0519721508] /home/destin/.zsh/antigen/antigen.zsh:785
+[LOG][1558533949.0519721508] Called antigen-apply
+[TRA][1558533949.0520572662] /home/destin/.zsh/antigen/antigen.zsh:789
+[TRA][1558533949.0520572662] Gonna create compdump file @ apply COMPDUMP
+[TRA][1558533949.0520572662] TRACE
+antigen-apply
+antigen
+/home/destin/.zsh/.zshrc
+[WRN][1558539659.8519964218] /home/destin/.zsh/antigen/antigen.zsh:266
+[WRN][1558539659.8519964218] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1558539659.8522636890] /home/destin/.zsh/antigen/antigen.zsh:475
+[TRA][1558539659.8522636890] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1558539659.8522636890] TRACE
+-antigen-env-setup
+/home/destin/.zsh/antigen/antigen.zsh
+/home/destin/.zsh/.zshrc
+[TRA][1558539659.9497547150] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558539659.9497547150] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1558539659.9497547150] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558539659.9507327080] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558539659.9507327080] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1558539659.9507327080] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558539659.9515876770] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558539659.9515876770] Called antigen-bundle with zdharma/fast-syntax-highlighting BUNDLE
+[TRA][1558539659.9515876770] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558539659.9524648190] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558539659.9524648190] Called antigen-bundle with zlsun/solarized-man BUNDLE
+[TRA][1558539659.9524648190] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558539659.9532868862] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558539659.9532868862] Called antigen-bundle with changyuheng/zsh-interactive-cd BUNDLE
+[TRA][1558539659.9532868862] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558539659.9541361332] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558539659.9541361332] Called antigen-bundle with jocelynmallon/zshmarks BUNDLE
+[TRA][1558539659.9541361332] TRACE
+antigen-bundle
+antigen
+/home/destin/.zsh/.zshrc
+[TRA][1558539659.9611253738] /home/destin/.zsh/antigen/antigen.zsh:808
+[TRA][1558539659.9611253738] Called antigen-bundle with bhilburn/powerlevel9k powerlevel9k --btype=theme BUNDLE
+[TRA][1558539659.9611253738] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/destin/.zsh/.zshrc
+[LOG][1558539659.9621603489] /home/destin/.zsh/antigen/antigen.zsh:785
+[LOG][1558539659.9621603489] Called antigen-apply
+[TRA][1558539659.9622488022] /home/destin/.zsh/antigen/antigen.zsh:789
+[TRA][1558539659.9622488022] Gonna create compdump file @ apply COMPDUMP
+[TRA][1558539659.9622488022] TRACE
+antigen-apply
+antigen
+/home/destin/.zsh/.zshrc

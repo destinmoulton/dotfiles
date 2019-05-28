@@ -43,6 +43,7 @@ antigen bundle zlsun/solarized-man
 
 antigen bundle changyuheng/zsh-interactive-cd
 
+
 # Load theme
 antigen theme bhilburn/powerlevel9k powerlevel9k
 

@@ -50,8 +50,7 @@ bindsym $mod+d exec dmenu_run
 bindsym $mod+w exec python ~/projects/i3void/i3void.py
 
 # Other applications
-bindsym $mod+Control+w exec emacs
-bindsym $mod+Control+s exec emacs
+bindsym $mod+Control+w exec emacsclient -nc
 bindsym $mod+Control+c exec google-chrome-stable
 bindsym $mod+Control+f exec firefox
 bindsym $mod+Control+v exec code
@@ -100,9 +99,10 @@ bindsym $mod+underscore split v
 #bindsym $mod+f fullscreen
 
 # change container layout (stacked, tabbed, toggle split)
-# bindsym $mod+s layout stacking
-# bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+#bindsym $mod+e layout toggle split
+
+# Toggle sticky mode so that a floating window appears on all workspaces
+bindsym $mod+g sticky toggle
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -162,6 +162,9 @@ mode "resize" {
         bindsym j resize grow height 6 px or 6 ppt
         bindsym k resize shrink height 6 px or 6 ppt
         bindsym l resize grow width 6 px or 6 ppt
+
+        # Resize youtube window to specific size
+        bindsym y resize set width 562px height 316px
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 6 px or 6 ppt
@@ -243,3 +246,4 @@ exec --no-startup-id i3-msg 'exec firefox;'
 exec --no-startup-id i3-msg 'exec konsole -e "tmuxinator start titan"'
 exec --no-startup-id dropbox start -i
 exec --no-startup-id SpiderOakONE
+exec --no-startup-id xmodmap ~/.Xmodmap
