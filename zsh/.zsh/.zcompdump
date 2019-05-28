@@ -1,4 +1,4 @@
-#files: 892	version: 5.7.1
+#files: 894	version: 5.7.1
 
 _comps=(
 '-' '_precommand'
@@ -41,6 +41,7 @@ _comps=(
 'ansible-pull' '_ansible'
 'ansible-vault' '_ansible'
 'ant' '_ant'
+'antigen' '_antigen'
 'antiword' '_antiword'
 'aodh' '_openstack'
 'aoss' '_precommand'
@@ -383,6 +384,7 @@ _comps=(
 'fuser' '_fuser'
 'fusermount' '_fusermount'
 'fwhois' '_whois'
+'fwupdmgr' '_fwupdmgr'
 'g++' '_gcc'
 'galeon' '_webbrowser'
 'gas' '_gas'
@@ -679,6 +681,7 @@ _comps=(
 'killall5' '_killall'
 'kioclient' '_kfmclient'
 'kitchen' '_kitchen'
+'kitty' '_kitty'
 'knife' '_knife'
 'knock' '_knock'
 'konqueror' '_webbrowser'
@@ -972,6 +975,7 @@ _comps=(
 'pkill' '_pgrep'
 'play' '_play'
 'pldd' '_pids'
+'pm2' '_pm2'
 'pmake' '_make'
 'pman' '_perl_modules'
 'pmap' '_pids'
@@ -1877,25 +1881,26 @@ autoload -Uz _bootctl _busctl _coredumpctl _curl _hostnamectl \
             _conan _console _dad _debuild _dget \
             _dhcpcd _diana _docpad _drush _ecdsautil \
             _emulator _envdir _exportfs _fab _ffind \
-            _fleetctl _flutter _force _gas _ghc \
-            _gist _git-flow _git-journal _git-pulls _git-wtf \
-            _glances _golang _google _gtk-launch _hledger \
-            _homestead _httpie _ibus _include-what-you-use _jmeter \
-            _jmeter-plugins _jonas _jrnl _kak _kitchen \
-            _knife _language_codes _lunchy _middleman _mina \
-            _mix _multirust _mussh _mvn _nftables \
-            _node _nvm _openssl _optirun _patool \
-            _perf _periscope _pgsql_utils _phing _pixz \
-            _pkcon _play _port _pygmentize _rails \
-            _ralio _redis-cli _rfkill _rkt _rslsync \
-            _rspec _rsvm _rubocop _rvm _sbt \
-            _scala _scrub _sdd _setcap _setup.py \
-            _sfdx _showoff _srm _stack _subl \
-            _subliminal _supervisorctl _svm _tarsnap _teamocil \
-            _thor _tmuxinator _tmuxp _tox _trash-empty \
-            _trash-list _trash-put _trash-restore _udisksctl _ufw \
-            _vagrant _virtualbox _vnstat _wemux _wg-quick \
-            _xinput _xsel _yaourt _yarn _zcash-cli
+            _fleetctl _flutter _force _fwupdmgr _gas \
+            _ghc _gist _git-flow _git-journal _git-pulls \
+            _git-wtf _glances _golang _google _gtk-launch \
+            _hledger _homestead _httpie _ibus _include-what-you-use \
+            _jmeter _jmeter-plugins _jonas _jrnl _kak \
+            _kitchen _kitty _knife _language_codes _lunchy \
+            _middleman _mina _mix _multirust _mussh \
+            _mvn _nftables _node _nvm _openssl \
+            _optirun _patool _perf _periscope _pgsql_utils \
+            _phing _pixz _pkcon _play _pm2 \
+            _port _pygmentize _rails _ralio _redis-cli \
+            _rfkill _rkt _rslsync _rspec _rsvm \
+            _rubocop _sbt _scala _scrub _sdd \
+            _setcap _setup.py _sfdx _showoff _srm \
+            _stack _subl _subliminal _supervisorctl _svm \
+            _tarsnap _teamocil _thor _tmuxinator _tmuxp \
+            _tox _trash-empty _trash-list _trash-put _trash-restore \
+            _udisksctl _ufw _vagrant _virtualbox _vnstat \
+            _wemux _wg-quick _xinput _xsel _yaourt \
+            _yarn _zcash-cli
 autoload -Uz +X _call_program
 
 typeset -gUa _comp_assocs

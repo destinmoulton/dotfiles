@@ -164,7 +164,7 @@ mode "resize" {
         bindsym l resize grow width 6 px or 6 ppt
 
         # Resize youtube window to specific size
-        bindsym y resize set width 562px height 316px
+        bindsym y resize set width 712px height 400px
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 6 px or 6 ppt

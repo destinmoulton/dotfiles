@@ -43,6 +43,17 @@ antigen bundle zlsun/solarized-man
 
 antigen bundle changyuheng/zsh-interactive-cd
 
+# FZF Marks
+# Bookmark manager using fzf
+# Commands:
+#    mark <mark>, to register a new mark to the current dir
+#    fzm <optional-initial-query> to jump to or delete a mark using fzf
+#    ctrl+y, to jump to a match
+#    ctrl+t, to toggle a match for deletion
+#    ctrl+d, to delete the selected matches
+#    ctrl+g, Keybinding to open fzm
+antigen bundle urbainvaes/fzf-marks
+FZF_MARKS_FILE=$ZDOTDIR/.fzf-marks
 
 # Load theme
 antigen theme bhilburn/powerlevel9k powerlevel9k

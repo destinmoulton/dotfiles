@@ -1,5 +1,5 @@
 #-- START ZCACHE GENERATED FILE
-#-- GENERATED: Fri 10 May 2019 11:55:45 AM MDT
+#-- GENERATED: Tue 28 May 2019 11:08:37 AM MDT
 #-- ANTIGEN v2.2.2
 _antigen () {
 	local -a _1st_arguments
@@ -36,7 +36,7 @@ antigen () {
   return 0;
 }
 typeset -gaU fpath path
-fpath+=(/home/destin/dotfiles/zsh/.zsh/antigen/bundles/zsh-users/zsh-completions /home/destin/dotfiles/zsh/.zsh/antigen/bundles/zsh-users/zsh-autosuggestions /home/destin/dotfiles/zsh/.zsh/antigen/bundles/zdharma/fast-syntax-highlighting /home/destin/dotfiles/zsh/.zsh/antigen/bundles/zlsun/solarized-man /home/destin/dotfiles/zsh/.zsh/antigen/bundles/changyuheng/zsh-interactive-cd) path+=(/home/destin/dotfiles/zsh/.zsh/antigen/bundles/zsh-users/zsh-completions /home/destin/dotfiles/zsh/.zsh/antigen/bundles/zsh-users/zsh-autosuggestions /home/destin/dotfiles/zsh/.zsh/antigen/bundles/zdharma/fast-syntax-highlighting /home/destin/dotfiles/zsh/.zsh/antigen/bundles/zlsun/solarized-man /home/destin/dotfiles/zsh/.zsh/antigen/bundles/changyuheng/zsh-interactive-cd)
+fpath+=(/home/destin/dotfiles/zsh/.zsh/antigen/bundles/zsh-users/zsh-completions /home/destin/dotfiles/zsh/.zsh/antigen/bundles/zsh-users/zsh-autosuggestions /home/destin/dotfiles/zsh/.zsh/antigen/bundles/zdharma/fast-syntax-highlighting /home/destin/dotfiles/zsh/.zsh/antigen/bundles/zlsun/solarized-man /home/destin/dotfiles/zsh/.zsh/antigen/bundles/changyuheng/zsh-interactive-cd /home/destin/dotfiles/zsh/.zsh/antigen/bundles/urbainvaes/fzf-marks) path+=(/home/destin/dotfiles/zsh/.zsh/antigen/bundles/zsh-users/zsh-completions /home/destin/dotfiles/zsh/.zsh/antigen/bundles/zsh-users/zsh-autosuggestions /home/destin/dotfiles/zsh/.zsh/antigen/bundles/zdharma/fast-syntax-highlighting /home/destin/dotfiles/zsh/.zsh/antigen/bundles/zlsun/solarized-man /home/destin/dotfiles/zsh/.zsh/antigen/bundles/changyuheng/zsh-interactive-cd /home/destin/dotfiles/zsh/.zsh/antigen/bundles/urbainvaes/fzf-marks)
 _antigen_compinit () {
   autoload -Uz compinit; compinit -d "/home/destin/.zsh/antigen/.zcompdump"; compdef _antigen antigen
   add-zsh-hook -D precmd _antigen_compinit
@@ -53,12 +53,13 @@ source '/home/destin/dotfiles/zsh/.zsh/antigen/bundles/zsh-users/zsh-autosuggest
 source '/home/destin/dotfiles/zsh/.zsh/antigen/bundles/zdharma/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh';
 source '/home/destin/dotfiles/zsh/.zsh/antigen/bundles/zlsun/solarized-man/solarized-man.plugin.zsh';
 source '/home/destin/dotfiles/zsh/.zsh/antigen/bundles/changyuheng/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh';
+source '/home/destin/dotfiles/zsh/.zsh/antigen/bundles/urbainvaes/fzf-marks/fzf-marks.plugin.zsh';
 source '/home/destin/dotfiles/zsh/.zsh/antigen/bundles/bhilburn/powerlevel9k/powerlevel9k.zsh-theme.antigen-compat';
 
 #--- BUNDLES END
-typeset -gaU _ANTIGEN_BUNDLE_RECORD; _ANTIGEN_BUNDLE_RECORD=('https://github.com/zsh-users/zsh-completions.git / plugin true' 'https://github.com/zsh-users/zsh-autosuggestions.git / plugin true' 'https://github.com/zdharma/fast-syntax-highlighting.git / plugin true' 'https://github.com/zlsun/solarized-man.git / plugin true' 'https://github.com/changyuheng/zsh-interactive-cd.git / plugin true' 'https://github.com/bhilburn/powerlevel9k.git powerlevel9k.zsh-theme theme true')
+typeset -gaU _ANTIGEN_BUNDLE_RECORD; _ANTIGEN_BUNDLE_RECORD=('https://github.com/zsh-users/zsh-completions.git / plugin true' 'https://github.com/zsh-users/zsh-autosuggestions.git / plugin true' 'https://github.com/zdharma/fast-syntax-highlighting.git / plugin true' 'https://github.com/zlsun/solarized-man.git / plugin true' 'https://github.com/changyuheng/zsh-interactive-cd.git / plugin true' 'https://github.com/urbainvaes/fzf-marks.git / plugin true' 'https://github.com/bhilburn/powerlevel9k.git powerlevel9k.zsh-theme theme true')
 typeset -g _ANTIGEN_CACHE_LOADED; _ANTIGEN_CACHE_LOADED=true
-typeset -ga _ZCACHE_BUNDLE_SOURCE; _ZCACHE_BUNDLE_SOURCE=('/home/destin/.zsh/antigen/bundles/zsh-users/zsh-completions//' '/home/destin/.zsh/antigen/bundles/zsh-users/zsh-completions///zsh-completions.plugin.zsh' '/home/destin/.zsh/antigen/bundles/zsh-users/zsh-autosuggestions//' '/home/destin/.zsh/antigen/bundles/zsh-users/zsh-autosuggestions///zsh-autosuggestions.plugin.zsh' '/home/destin/.zsh/antigen/bundles/zdharma/fast-syntax-highlighting//' '/home/destin/.zsh/antigen/bundles/zdharma/fast-syntax-highlighting///fast-syntax-highlighting.plugin.zsh' '/home/destin/.zsh/antigen/bundles/zlsun/solarized-man//' '/home/destin/.zsh/antigen/bundles/zlsun/solarized-man///solarized-man.plugin.zsh' '/home/destin/.zsh/antigen/bundles/changyuheng/zsh-interactive-cd//' '/home/destin/.zsh/antigen/bundles/changyuheng/zsh-interactive-cd///zsh-interactive-cd.plugin.zsh' '/home/destin/.zsh/antigen/bundles/bhilburn/powerlevel9k/powerlevel9k.zsh-theme' '/home/destin/.zsh/antigen/bundles/bhilburn/powerlevel9k/powerlevel9k.zsh-theme')
+typeset -ga _ZCACHE_BUNDLE_SOURCE; _ZCACHE_BUNDLE_SOURCE=('/home/destin/.zsh/antigen/bundles/zsh-users/zsh-completions//' '/home/destin/.zsh/antigen/bundles/zsh-users/zsh-completions///zsh-completions.plugin.zsh' '/home/destin/.zsh/antigen/bundles/zsh-users/zsh-autosuggestions//' '/home/destin/.zsh/antigen/bundles/zsh-users/zsh-autosuggestions///zsh-autosuggestions.plugin.zsh' '/home/destin/.zsh/antigen/bundles/zdharma/fast-syntax-highlighting//' '/home/destin/.zsh/antigen/bundles/zdharma/fast-syntax-highlighting///fast-syntax-highlighting.plugin.zsh' '/home/destin/.zsh/antigen/bundles/zlsun/solarized-man//' '/home/destin/.zsh/antigen/bundles/zlsun/solarized-man///solarized-man.plugin.zsh' '/home/destin/.zsh/antigen/bundles/changyuheng/zsh-interactive-cd//' '/home/destin/.zsh/antigen/bundles/changyuheng/zsh-interactive-cd///zsh-interactive-cd.plugin.zsh' '/home/destin/.zsh/antigen/bundles/urbainvaes/fzf-marks//' '/home/destin/.zsh/antigen/bundles/urbainvaes/fzf-marks///fzf-marks.plugin.zsh' '/home/destin/.zsh/antigen/bundles/urbainvaes/fzf-marks///init.zsh' '/home/destin/.zsh/antigen/bundles/bhilburn/powerlevel9k/powerlevel9k.zsh-theme' '/home/destin/.zsh/antigen/bundles/bhilburn/powerlevel9k/powerlevel9k.zsh-theme')
 typeset -g _ANTIGEN_CACHE_VERSION; _ANTIGEN_CACHE_VERSION='v2.2.2'
 
 #-- END ZCACHE GENERATED FILE

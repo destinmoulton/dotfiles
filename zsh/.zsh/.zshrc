@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Tue 28 May 2019 07:52:10 AM MDT
+#   Compiled on: Tue 28 May 2019 11:07:39 AM MDT
 #
 #
 #
@@ -110,6 +110,15 @@ antigen bundle zlsun/solarized-man
 
 antigen bundle changyuheng/zsh-interactive-cd
 
+# FZF Marks
+# Bookmark manager using fzf
+# Commands:
+#    mark <mark>, to register a new mark to the current dir
+#    fzm <optional-initial-query> to jump to or delete a mark using fzf
+#    ctrl+y, to jump to a match
+#    ctrl+t, to toggle a match for deletion
+#    ctrl+d, to delete the selected matches
+antigen bundle urbainvaes/fzf-marks
 
 # Load theme
 antigen theme bhilburn/powerlevel9k powerlevel9k
