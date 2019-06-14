@@ -56,7 +56,9 @@ antigen bundle urbainvaes/fzf-marks
 FZF_MARKS_FILE=$ZDOTDIR/.fzf-marks
 
 # Load theme
-antigen theme bhilburn/powerlevel9k powerlevel9k
+# powerlevel10k is faster than powerlevel9k
+# though it uses the same config (set in 20_theme.zsh)
+antigen theme romkatv/powerlevel10k
 
 antigen apply
 

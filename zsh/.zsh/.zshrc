@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Tue 28 May 2019 11:07:39 AM MDT
+#   Compiled on: Fri 14 Jun 2019 09:22:13 AM MDT
 #
 #
 #
@@ -118,10 +118,14 @@ antigen bundle changyuheng/zsh-interactive-cd
 #    ctrl+y, to jump to a match
 #    ctrl+t, to toggle a match for deletion
 #    ctrl+d, to delete the selected matches
+#    ctrl+g, Keybinding to open fzm
 antigen bundle urbainvaes/fzf-marks
+FZF_MARKS_FILE=$ZDOTDIR/.fzf-marks
 
 # Load theme
-antigen theme bhilburn/powerlevel9k powerlevel9k
+# powerlevel10k is faster than powerlevel9k
+# though it uses the same config (set in 20_theme.zsh)
+antigen theme romkatv/powerlevel10k
 
 antigen apply
 
@@ -539,11 +543,10 @@ for index ({1..9}) alias "$index"="cd +${index}"; unset index
 
 #
 # Powerline configuration for the powerline prompt
-POWERLEVEL9K_INSTALLATION_PATH=$ANTIGEN_BUNDLES/bhilburn/powerlevel9k
 PL_DIR_BACKGROUND='027'
 PL_DIR_FOREGROUND='220'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs history time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs context)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_DIR_DEFAULT_BACKGROUND=$PL_DIR_BACKGROUND
 POWERLEVEL9K_DIR_HOME_BACKGROUND=$PL_DIR_BACKGROUND
@@ -553,6 +556,8 @@ POWERLEVEL9K_DIR_DEFAULT_FOREGROUND=$PL_DIR_FOREGROUND
 POWERLEVEL9K_DIR_HOME_FOREGROUND=$PL_DIR_FOREGROUND
 POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND=$PL_DIR_FOREGROUND
 POWERLEVEL9K_DIR_ETC_FOREGROUND=$PL_DIR_FOREGROUND
+POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND='007'
+POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND='005'
 POWERLEVEL9K_VI_INSERT_MODE_STRING="INSERT"
 POWERLEVEL9K_VI_COMMAND_MODE_STRING="NORMAL" 
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""

@@ -164,7 +164,7 @@ mode "resize" {
         bindsym l resize grow width 6 px or 6 ppt
 
         # Resize youtube window to specific size
-        bindsym y resize set width 712px height 400px
+        bindsym y resize set width 623px height 350px
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 6 px or 6 ppt
@@ -237,7 +237,6 @@ for_window [window_role="menu"] floating enable
 for_window [window_role="Preferences"] floating enable
 
 for_window [class="Visual Studio Code"] move to workspace $wksp1
-assign [class="Firefox"] $wksp2
 for_window [class="Spotify"] move to workspace $wksp9
 
 # Start SpiderOak backup
