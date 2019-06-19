@@ -21,6 +21,7 @@ ADOTDIR=$ZDOTDIR/antigen
 ANTIGEN_LOG=$ADOTDIR/antigen.log
 source $ADOTDIR/antigen.zsh
 
+ANTIGEN_AUTO_CONFIG=false
 
 # Extra zsh completions
 #    - Extra configuration in: 10_completions.zsh
@@ -55,10 +56,8 @@ antigen bundle changyuheng/zsh-interactive-cd
 antigen bundle urbainvaes/fzf-marks
 FZF_MARKS_FILE=$ZDOTDIR/.fzf-marks
 
-# Load theme
-# powerlevel10k is faster than powerlevel9k
-# though it uses the same config (set in 20_theme.zsh)
-antigen theme romkatv/powerlevel10k
+# zsh-async is requirement for the pure theme (20_theme.zsh)
+antigen bundle mafredri/zsh-async
 
 antigen apply
 

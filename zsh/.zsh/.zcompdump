@@ -1,4 +1,4 @@
-#files: 894	version: 5.7.1
+#files: 896	version: 5.7.1
 
 _comps=(
 '-' '_precommand'
@@ -41,7 +41,6 @@ _comps=(
 'ansible-pull' '_ansible'
 'ansible-vault' '_ansible'
 'ant' '_ant'
-'antigen' '_antigen'
 'antiword' '_antiword'
 'aodh' '_openstack'
 'aoss' '_precommand'
@@ -196,6 +195,7 @@ _comps=(
 'compress' '_compress'
 'conan' '_conan'
 'conch' '_twisted'
+'concourse' '_concourse'
 '-condition-' '_condition'
 'config.status' '_configure'
 'configure' '_configure'
@@ -365,6 +365,7 @@ _comps=(
 'flists' '_mh'
 'float' '_typeset'
 'flutter' '_flutter'
+'fly' '_concourse'
 'fmt' '_fmt'
 'fmttest' '_mh'
 'fned' '_zed'
@@ -857,6 +858,7 @@ _comps=(
 'mysqlimport' '_mysql_utils'
 'mysqlshow' '_mysql_utils'
 'nail' '_mail'
+'nano' '_nano'
 'native2ascii' '_java'
 'nautilus' '_nautilus'
 'nawk' '_awk'
@@ -1119,7 +1121,6 @@ _comps=(
 'rusage' '_precommand'
 'rview' '_vim'
 'rvim' '_vim'
-'rvm' '_rvm'
 'rwho' '_hosts'
 'rxvt' '_urxvt'
 's2p' '_sed'
@@ -1398,6 +1399,7 @@ _comps=(
 '-value-,ANDROID_SERIAL,-default-' '_adb'
 '-value-,ANT_ARGS,-default-' '_ant'
 '-value-,CFLAGS,-default-' '_gcc'
+'-value-,CMAKE_GENERATOR,-default-' '_cmake'
 '-value-,CPPFLAGS,-default-' '_gcc'
 '-value-,CXXFLAGS,-default-' '_gcc'
 '-value-,-default-,-command-' '_zargs'
@@ -1878,29 +1880,29 @@ autoload -Uz _bootctl _busctl _coredumpctl _curl _hostnamectl \
             _atach _bitcoin-cli _bower _bundle _caffeinate \
             _cap _cask _ccache _cf _cheat \
             _choc _chromium _cmake _coffee _composer \
-            _conan _console _dad _debuild _dget \
-            _dhcpcd _diana _docpad _drush _ecdsautil \
-            _emulator _envdir _exportfs _fab _ffind \
-            _fleetctl _flutter _force _fwupdmgr _gas \
-            _ghc _gist _git-flow _git-journal _git-pulls \
-            _git-wtf _glances _golang _google _gtk-launch \
-            _hledger _homestead _httpie _ibus _include-what-you-use \
-            _jmeter _jmeter-plugins _jonas _jrnl _kak \
-            _kitchen _kitty _knife _language_codes _lunchy \
-            _middleman _mina _mix _multirust _mussh \
-            _mvn _nftables _node _nvm _openssl \
-            _optirun _patool _perf _periscope _pgsql_utils \
-            _phing _pixz _pkcon _play _pm2 \
-            _port _pygmentize _rails _ralio _redis-cli \
-            _rfkill _rkt _rslsync _rspec _rsvm \
-            _rubocop _sbt _scala _scrub _sdd \
-            _setcap _setup.py _sfdx _showoff _srm \
-            _stack _subl _subliminal _supervisorctl _svm \
-            _tarsnap _teamocil _thor _tmuxinator _tmuxp \
-            _tox _trash-empty _trash-list _trash-put _trash-restore \
-            _udisksctl _ufw _vagrant _virtualbox _vnstat \
-            _wemux _wg-quick _xinput _xsel _yaourt \
-            _yarn _zcash-cli
+            _conan _concourse _console _dad _debuild \
+            _dget _dhcpcd _diana _docpad _drush \
+            _ecdsautil _emulator _envdir _exportfs _fab \
+            _ffind _fleetctl _flutter _force _fwupdmgr \
+            _gas _ghc _gist _git-flow _git-journal \
+            _git-pulls _git-wtf _glances _golang _google \
+            _gtk-launch _hledger _homestead _httpie _ibus \
+            _include-what-you-use _jmeter _jmeter-plugins _jonas _jrnl \
+            _kak _kitchen _kitty _knife _language_codes \
+            _lunchy _middleman _mina _mix _multirust \
+            _mussh _mvn _nano _nftables _node \
+            _nvm _openssl _optirun _patool _perf \
+            _periscope _pgsql_utils _phing _pixz _pkcon \
+            _play _pm2 _port _pygmentize _rails \
+            _ralio _redis-cli _rfkill _rkt _rslsync \
+            _rspec _rsvm _rubocop _sbt _scala \
+            _scrub _sdd _setcap _setup.py _sfdx \
+            _showoff _srm _stack _subl _subliminal \
+            _supervisorctl _svm _tarsnap _teamocil _thor \
+            _tmuxinator _tmuxp _tox _trash-empty _trash-list \
+            _trash-put _trash-restore _udisksctl _ufw _vagrant \
+            _virtualbox _vnstat _wemux _wg-quick _xinput \
+            _xsel _yaourt _yarn _zcash-cli
 autoload -Uz +X _call_program
 
 typeset -gUa _comp_assocs

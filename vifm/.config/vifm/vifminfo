@@ -52,7 +52,7 @@ b/home/destin/Books/
 	1557847552
 
 # TUI:
-ar
+al
 q0
 v2
 ov
@@ -61,30 +61,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/destin/Downloads/fontawesome/fontawesome-free-5.8.2-web/webfonts
-	..
-0
-d/home/destin/Downloads/fontawesome/fontawesome-free-5.8.2-web
-	scss
-5
-d/home/destin/Downloads/fontawesome/fontawesome-free-5.8.2-web/scss
-	..
-0
-d/home/destin/Downloads/fontawesome/fontawesome-free-5.8.2-web
-	scss
-5
-d/home/destin/Downloads/fontawesome/fontawesome-free-5.8.2-web/scss
-	..
-0
-d/home/destin/Downloads/fontawesome/fontawesome-free-5.8.2-web
-	scss
-5
-d/home/destin/Downloads/fontawesome
-	fontawesome-free-5.8.2-web
-1
-d/home/destin/Downloads
-	fontawesome
-1
 d/home/destin/projects/gizmo
 	livetaos
 6
@@ -361,48 +337,33 @@ d/home/destin/Downloads/taosorg_backup
 d/home/destin/Downloads/taosorg_backup/csv
 	GeoDirCSV_BasicListings(4).csv
 1
+d/home/destin/projects/gizmo
+	taos.org
+7
+d/home/destin/projects/gizmo/taos.org
+	wp-content
+3
+d/home/destin/projects/gizmo/taos.org/wp-content
+	plugins
+1
+d/home/destin/projects/gizmo/taos.org/wp-content/plugins
+	geodirectory
+5
+d/home/destin/projects/gizmo/taos.org/wp-content/plugins/geodirectory
+	templates
+4
+d/home/destin/projects/gizmo/taos.org/wp-content/plugins/geodirectory/templates
+	listing
+3
+d/home/destin/projects/gizmo/taos.org/wp-content/plugins/geodirectory/templates/listing
+	loop.php
+6
+d/home/destin/projects/gizmo/taos.org/wp-content/plugins/geodirectory/templates
+	content-listing.php
+7
 d
 
 # Right window history (oldest to newest):
-D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/scss/scss
-	..
-0
-D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/scss
-	fontawesome
-1
-D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	css
-4
-D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/css
-	..
-0
-D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	assets
-3
-D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/assets
-	..
-0
-D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	scss
-11
-D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/scss
-	fontawesome
-1
-D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	js
-8
-D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/js
-	..
-0
-D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	css
-4
-D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/css
-	..
-0
-D/home/destin/Downloads
-	block-loading-animation.gif
-8
 D/home/destin
 	Downloads
 22
@@ -664,6 +625,45 @@ D/home/destin/projects/gizmo/djblaster/DJBlaster/BlasterBundle
 D/home/destin/Downloads
 	dev_taos_org_cmb2_catacc_export.json
 23
+D/home/destin/projects/gizmo/taos.org/wp-content/plugins/geodirectory/templates
+	..
+0
+D/home/destin/projects/gizmo/taos.org/wp-content/plugins/geodirectory
+	..
+0
+D/home/destin/projects/gizmo/taos.org/wp-content/plugins
+	geodirectory
+5
+D/home/destin/projects/gizmo/taos.org/wp-content
+	plugins
+1
+D/home/destin/projects/gizmo/taos.org
+	wp-content
+3
+D/home/destin/projects/gizmo/taos.org/wp-content
+	themes
+2
+D/home/destin/projects/gizmo/taos.org/wp-content/themes
+	Taos
+1
+D/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos
+	geodirectory
+1
+D/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/geodirectory
+	templates
+1
+D/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/geodirectory/templates
+	listing
+1
+D/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/geodirectory/templates/listing
+	
+1
+D/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/geodirectory/templates
+	..
+0
+D/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/geodirectory
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -705,7 +705,6 @@ D
 :mkdir jquery-ui-images
 :q
 :mkdir jquery-ui
-:copy
 :bmgo documents
 :cw
 :rename
@@ -714,11 +713,12 @@ D
 :mkdir chrome
 :bmgo books
 :mkdir DJBlaster
-:bmgo gizmo
 :bmgo downloads
-:sync
 :mkdir csv
 :move
+:bmgo gizmo
+:sync
+:copy
 
 # Search history (oldest to newest):
 /tet
