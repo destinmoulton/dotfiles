@@ -24,6 +24,7 @@ nnoremap <C-H> <C-W><C-H>
 set number                     " Show current line number
 set relativenumber             " Show relative line numbers
 
+
 " Setup pathogen 
 "
 " mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -36,5 +37,14 @@ filetype plugin indent on
 " Theme and Syntax
 set background=dark
 colorscheme solarized
+
+" Enable riv (RestructuredText plugin) folding
+let g:rst_fold_enabled=1
+
+" Configure the pencil writing plugin
+augroup pencil
+  autocmd!
+  autocmd FileType rst call pencil#init({'wrap': 'hard', 'autoformat': 1})
+augroup END
 
 call pathogen#helptags() "If you like to get crazy :)

@@ -52,7 +52,7 @@ b/home/destin/Books/
 	1557847552
 
 # TUI:
-al
+ar
 q0
 v2
 ov
@@ -61,87 +61,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/destin/projects/gizmo
-	livetaos
-6
-d/home/destin/projects/gizmo/livetaos
-	wp-content
-4
-d/home/destin/projects/gizmo/livetaos/wp-content
-	themes
-2
-d/home/destin/projects/gizmo/livetaos/wp-content/themes
-	wt_eris
-2
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	images
-5
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/images
-	date-arrow.png
-15
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	js
-7
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/js
-	jcarousellite_1.0.1.min.js.bak
-11
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	images
-4
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/images
-	arrow-left.png
-10
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	includes
-7
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/includes
-	..
-0
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	assets
-3
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/assets
-	jquery-ui-images
-1
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/assets/jquery-ui-images
-	..
-0
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/assets
-	jquery-ui-images
-1
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	images
-6
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/images
-	arrow-left.png
-10
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	images
-6
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/images
-	arrow-left.png
-10
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	assets
-3
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/assets
-	webfonts
-1
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	images
-6
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/images
-	jquery-ui-images
-5
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
-	scss
-11
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/scss
-	jquery-ui
-2
-d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/scss/jquery-ui
-	theme.scss
-2
 d/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/scss
 	jquery-ui
 2
@@ -361,249 +280,90 @@ d/home/destin/projects/gizmo/taos.org/wp-content/plugins/geodirectory/templates/
 d/home/destin/projects/gizmo/taos.org/wp-content/plugins/geodirectory/templates
 	content-listing.php
 7
+d/home/destin/projects/gizmo/taos.org/wp-content/plugins/geodirectory
+	templates
+4
+d/home/destin/Documents
+	receipts
+4
+d/home/destin/Documents/receipts
+	molina
+2
+d/mnt/backup
+	..
+0
+d/mnt
+	backup
+1
+d/home/destin/Documents
+	receipts
+4
+d/home/destin/Documents/receipts
+	progressive
+5
+d/home/destin/projects/gizmo
+	taos.org
+7
+d/home/destin/projects/gizmo/taos.org
+	wp-content
+3
+d/home/destin/projects/gizmo/taos.org/wp-content
+	themes
+3
+d/home/destin/projects/gizmo/taos.org/wp-content/themes
+	Taos
+1
+d/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos
+	library
+2
+d/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/library
+	js
+3
+d/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/library/js
+	..
+0
+d/home/destin/Downloads
+	fontawesome
+1
+d/home/destin/Downloads/fontawesome
+	fontawesome-free-5.8.2-web
+1
+d/home/destin/Downloads/fontawesome/fontawesome-free-5.8.2-web
+	css
+1
+d/home/destin/Downloads/fontawesome/fontawesome-free-5.8.2-web/css
+	fontawesome.css
+4
+d/home/destin/Downloads/fontawesome/fontawesome-free-5.8.2-web
+	css
+1
+d/home/destin/Downloads/fontawesome
+	fontawesome-free-5.8.2-web
+1
+d/home/destin/Downloads
+	jquery-ui-themes
+5
+d/home/destin/Downloads/jquery-ui-themes
+	jquery-ui-themes-1.12.1
+1
+d/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1
+	themes
+2
+d/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1/themes
+	..
+0
+d/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1
+	themes
+2
+d/home/destin/Downloads/jquery-ui-themes
+	jquery-ui-themes-1.12.1
+1
+d/home/destin/Downloads
+	jquery-ui-themes
+5
 d
 
 # Right window history (oldest to newest):
-D/home/destin
-	Downloads
-22
-D/home/destin/Downloads
-	jquery-ui-themes
-4
-D/home/destin/Downloads/jquery-ui-themes
-	jquery-ui-themes-1.12.1
-1
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1
-	themes
-2
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1/themes
-	base
-1
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1/themes/base
-	images
-1
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1/themes/base/images
-	..
-0
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1/themes/base
-	images
-1
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1/themes/base/images
-	..
-0
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1/themes/base
-	jquery-ui.css
-2
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1/themes
-	base
-1
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1
-	themes
-2
-D/home/destin/Downloads/jquery-ui-themes
-	jquery-ui-themes-1.12.1
-1
-D/home/destin/Downloads
-	jquery-ui-themes
-4
-D/home/destin/Downloads/jquery-ui-themes
-	jquery-ui-themes-1.12.1
-1
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1
-	themes
-2
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1/themes
-	base
-1
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1/themes/base
-	jquery-ui.css
-2
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1/themes
-	base
-1
-D/home/destin/Downloads/jquery-ui-themes/jquery-ui-themes-1.12.1
-	themes
-2
-D/home/destin/Downloads/jquery-ui-themes
-	jquery-ui-themes-1.12.1
-1
-D/home/destin/Downloads
-	dev_taos_org_cmb2_catacc_export.json
-10
-D/home/destin
-	Downloads
-22
-D/home/destin/projects/gizmo
-	taos.org
-7
-D/home/destin/projects/gizmo/taos.org
-	wp-content
-2
-D/home/destin/projects/gizmo/taos.org/wp-content
-	uploads
-4
-D/home/destin/projects/gizmo/taos.org/wp-content/uploads
-	2019
-1
-D/home/destin/projects/gizmo/taos.org/wp-content/uploads/2019
-	05
-2
-D/home/destin/projects/gizmo/taos.org/wp-content/uploads/2019/05
-	CategoryAccordianTemplate.json
-1
-D/home/destin/projects/gizmo/taos.org/wp-content/uploads/2019
-	05
-2
-D/home/destin/Downloads
-	Gizmo Time April 2019 - TimeTracking.pdf
-8
-D/home/destin/.mozilla/firefox/49y0fxy9.dev-edition-default
-	webappsstore.sqlite
-39
-D/home/destin/.mozilla/firefox
-	49y0fxy9.dev-edition-default
-1
-D/home/destin/.mozilla
-	firefox
-2
-D/home/destin
-	.mozilla
-5
-D/home/destin/.mozilla
-	firefox
-2
-D/home/destin/.mozilla/firefox
-	49y0fxy9.dev-edition-default
-1
-D/home/destin/.mozilla
-	systemextensionsdev
-3
-D/home/destin/.mozilla/systemextensionsdev
-	..
-0
-D/home/destin/.mozilla
-	extensions
-1
-D/home/destin/.mozilla/extensions
-	..
-0
-D/home/destin/.mozilla
-	extensions
-1
-D/home/destin
-	.local
-4
-D/home/destin/.local
-	..
-0
-D/home/destin
-	.putty
-9
-D/home/destin/.putty
-	..
-0
-D/home/destin
-	.tor-browser
-19
-D/home/destin/.tor-browser
-	..
-0
-D/home/destin
-	.cache
-1
-D/home/destin/.cache
-	..
-0
-D/home/destin
-	.config
-2
-D/home/destin/.config
-	composer
-5
-D/home/destin
-	apps
-28
-D/home/destin/apps
-	SQLiteStudio
-3
-D/home/destin
-	scripts
-22
-D/home/destin/scripts
-	backup
-1
-D/home/destin/scripts/backup
-	logs
-1
-D/home/destin/scripts/backup/logs
-	..
-0
-D/home/destin/scripts/backup
-	logs
-2
-D/home/destin/scripts/backup/logs
-	backup_D2019-06-05T11-41-04.log.txt
-40
-D/home/destin/scripts/backup
-	logs
-2
-D/home/destin/scripts
-	backup
-1
-D/home/destin
-	scripts
-22
-D/home/destin/Books
-	SciFi
-10
-D/home/destin/Books/SciFi
-	Alastair Reynolds
-1
-D/home/destin/Books/SciFi/Alastair Reynolds
-	..
-0
-D/home/destin/Books/SciFi
-	James S.A. Corey - The Expanse Trilogy
-11
-D/home/destin/Books/SciFi/James S.A. Corey - The Expanse Trilogy
-	..
-0
-D/home/destin/Books/SciFi
-	John Scalz
-12
-D/home/destin/Books/SciFi/John Scalz
-	..
-0
-D/home/destin/Books/SciFi
-	Kim Stanley Robinson
-14
-D/home/destin/Books/SciFi/Kim Stanley Robinson
-	..
-0
-D/home/destin/Books/SciFi
-	Catherynne Valente
-3
-D/home/destin/Books/SciFi/Catherynne Valente
-	..
-0
-D/home/destin/Books/SciFi
-	Cixin Liu [Dark Forest Trilogy]
-5
-D/home/destin/Books/SciFi/Cixin Liu [Dark Forest Trilogy]
-	..
-0
-D/home/destin/Books/SciFi
-	Cixin Liu [Dark Forest Trilogy]
-5
-D/home/destin/Books
-	SciFi
-10
-D/home/destin/projects/gizmo
-	djblaster
-2
-D/home/destin/projects/gizmo/djblaster
-	DJBlaster
-1
 D/home/destin/projects/gizmo/djblaster/DJBlaster
 	djblasterbundle
 1
@@ -664,6 +424,246 @@ D/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/geodirectory/templa
 D/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/geodirectory
 	..
 0
+D/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos
+	geodirectory
+1
+D/mnt/backup
+	urbangurucafe
+8
+D/home/destin/Documents
+	..
+0
+D/home/destin/Documents/receipts
+	progressive
+5
+D/home/destin/Documents/receipts/progressive
+	progressive_06_03_2018.pdf
+1
+D/home/destin/Documents/receipts
+	molina
+2
+D/home/destin/Documents/receipts/molina
+	molina_12_11_2017.pdf
+16
+D/home/destin/Documents/receipts
+	moda.pdf
+17
+D/home/destin/projects
+	gizmo
+13
+D/home/destin/projects/gizmo
+	taosunited.org
+11
+D/home/destin/projects/gizmo/taosunited.org
+	wp-content
+2
+D/home/destin/projects/gizmo/taosunited.org/wp-content
+	themes
+2
+D/home/destin/projects/gizmo/taosunited.org/wp-content/themes
+	restored316-market
+2
+D/home/destin/projects/gizmo/taosunited.org/wp-content/themes/restored316-market
+	scss
+6
+D/home/destin/projects/gizmo/taosunited.org/wp-content/themes/restored316-market/scss
+	_media-queries.scss
+2
+D/home/destin/Downloads
+	foundation
+2
+D/home/destin/Downloads/foundation
+	foundation-6.5.1-essential
+1
+D/home/destin/Downloads/foundation/foundation-6.5.1-essential
+	css
+1
+D/home/destin/Downloads/foundation/foundation-6.5.1-essential/css
+	foundation.css
+2
+D/home/destin/Downloads/foundation/foundation-6.5.1-essential
+	css
+1
+D/home/destin/Downloads/foundation
+	foundation-6.5.1-essential
+1
+D/home/destin/Downloads
+	foundation
+2
+D/home/destin
+	Downloads
+17
+D/home/destin/projects
+	gizmo
+13
+D/home/destin/projects/gizmo
+	taosunited.org
+11
+D/home/destin/projects/gizmo/taosunited.org
+	wp-content
+2
+D/home/destin/projects/gizmo/taosunited.org/wp-content
+	themes
+2
+D/home/destin/projects/gizmo/taosunited.org/wp-content/themes
+	restored316-market
+2
+D/home/destin/projects/gizmo/taosunited.org/wp-content/themes/restored316-market
+	scss
+6
+D/home/destin/projects/gizmo/taosunited.org/wp-content/themes/restored316-market/scss
+	_media-queries.scss
+2
+D/home/destin/projects/gizmo/taosunited.org/wp-content/themes/restored316-market
+	scss
+6
+D/home/destin/projects/gizmo/taosunited.org/wp-content/themes
+	restored316-market
+2
+D/home/destin/projects/gizmo/taosunited.org/wp-content
+	themes
+2
+D/home/destin/projects/gizmo/taosunited.org
+	wp-content
+2
+D/home/destin/projects/gizmo
+	taosunited.org
+11
+D/home/destin/projects/gizmo/taosunited.org
+	wp-content
+2
+D/home/destin/projects/gizmo/taosunited.org/wp-content
+	themes
+2
+D/home/destin/projects/gizmo/taosunited.org
+	wp-content
+2
+D/home/destin/projects/gizmo
+	livetaos
+6
+D/home/destin/projects/gizmo/livetaos
+	wp-content
+5
+D/home/destin/projects/gizmo/livetaos/wp-content
+	themes
+2
+D/home/destin/projects/gizmo/livetaos/wp-content/themes
+	wt_eris
+2
+D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
+	css
+4
+D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/css
+	lt_events.css
+6
+D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
+	search.php
+35
+D/home/destin/Downloads
+	devwptaos_backup_before_import.sql
+20
+D/home/destin
+	.vscode-file-history
+12
+D/home/destin/.vscode-file-history
+	.history
+1
+D/home/destin/.vscode-file-history/.history
+	home
+1
+D/home/destin/.vscode-file-history/.history/home
+	destin
+1
+D/home/destin/.vscode-file-history/.history/home/destin
+	projects
+3
+D/home/destin/.vscode-file-history/.history/home/destin/projects
+	gizmo
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo
+	taos.org
+5
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org
+	wp-content
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content
+	themes
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes
+	Taos
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos
+	library
+2
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/library
+	js
+1
+D/home/destin/.vscode-file-history/.history/home/destin/projects/gizmo/taos.org/wp-content/themes/Taos/library/js
+	scripts_20190712112052.js
+24
+D/home/destin
+	.npm
+4
+D/home/destin/.npm
+	global-packages
+5
+D/home/destin/.npm/global-packages
+	bin
+1
+D/home/destin/.npm/global-packages/bin
+	..
+0
+D/home/destin/.npm/global-packages
+	bin
+1
+D/home/destin/.npm
+	global-packages
+5
+D/home/destin
+	.npm
+5
+D/home/destin/projects/gizmo
+	livetaos
+6
+D/home/destin/projects/gizmo/livetaos
+	wp-content
+5
+D/home/destin/projects/gizmo/livetaos/wp-content
+	themes
+2
+D/home/destin/projects/gizmo/livetaos/wp-content/themes
+	wt_eris
+2
+D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
+	scss
+4
+D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/scss
+	lt_events.scss
+9
+D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
+	css
+4
+D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/css
+	lt_events.css
+6
+D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
+	mobile.css
+20
+D/home/destin/projects/gizmo/livetaos/wp-content/themes
+	wt_eris
+2
+D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris
+	css
+4
+D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/css
+	fontawesome
+1
+D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/css/fontawesome
+	..
+0
+D/home/destin/projects/gizmo/livetaos/wp-content/themes/wt_eris/css
+	jquery-ui
+2
 D
 
 # Command line history (oldest to newest):
@@ -671,7 +671,6 @@ D
 :bmark d
 :bmarks home ~
 :bmark ~ home
-:bmgo ~
 :bmgo d
 :bmgo h
 :bmark downloads
@@ -699,26 +698,29 @@ D
 :lsview
 :vifm-ls-view
 :setlocal vifm-ls-view
-:bmgo projects
 :mkdir assets
 :clone
 :mkdir jquery-ui-images
-:q
-:mkdir jquery-ui
-:bmgo documents
-:cw
 :rename
 :mkdir taosorg_backup
 :bmgo home
 :mkdir chrome
 :bmgo books
 :mkdir DJBlaster
-:bmgo downloads
 :mkdir csv
-:move
-:bmgo gizmo
-:sync
 :copy
+:bmgo backup
+:bmgo documents
+:sync
+:mkdir progressive
+:q
+:bmgo projects
+:bmgo ~
+:bmgo gizmo
+:bmgo downloads
+:cw
+:move
+:mkdir jquery-ui
 
 # Search history (oldest to newest):
 /tet
@@ -730,10 +732,8 @@ D
 /yml
 /pro
 /re
-/live
 /liv
 /app
-/font
 /bloc
 /gze
 /image
@@ -742,6 +742,13 @@ D
 /mozi
 /chrome
 /scrip
+/found
+/live
+/screen
+/vsjkk
+/scss
+/css
+/font
 
 # Prompt history (oldest to newest):
 papologies_pi.php.bak
@@ -758,6 +765,7 @@ pwptaoshttps_subset_tables.sql.gz
 pdevwptaos.sql
 pdevwptaos_termstuff.sql
 pdevwptaos_backup_before_import.sql
+pfontawesome.all.min.css
 
 # Local filter history (oldest to newest):
 |*.php
@@ -766,7 +774,6 @@ pdevwptaos_backup_before_import.sql
 |.confi
 
 # Registers:
-""/home/destin/Trash/000_djblasterbundle
 
 # Directory stack (oldest to newest):
 
