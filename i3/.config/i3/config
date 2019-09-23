@@ -58,6 +58,11 @@ bindsym $mod+Control+z exec filezilla
 bindsym Print exec deepin-screenshot
 bindsyn $mod + Print exec deepin-screenshot
 
+# Make current window into the scratch pad
+bindsym $mod+Shift+s move scratchpad
+# Show/hide the scratch pad
+bindsym $mod+s scratchpad show
+
 # Volume Control
 bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5dB+ unmute #increase sound volume
 bindsym XF86AudioLowerVolume exec amixer -q sset Master 5dB- unmute #decrease sound volume

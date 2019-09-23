@@ -33,6 +33,7 @@ set relativenumber             " Show relative line numbers
 " https://github.com/tpope/vim-pathogen
 call pathogen#infect()
 syntax on
+filetype plugin on
 filetype plugin indent on
 " Theme and Syntax
 set background=dark
@@ -44,7 +45,7 @@ let g:rst_fold_enabled=1
 " Configure the pencil writing plugin
 augroup pencil
   autocmd!
-  autocmd FileType rst call pencil#init({'wrap': 'hard', 'autoformat': 1})
+  autocmd FileType rst call pencil#init({'wrap': 'hard', 'autoformat': 0})
 augroup END
 
 call pathogen#helptags() "If you like to get crazy :)
