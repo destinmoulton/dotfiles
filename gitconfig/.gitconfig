@@ -3,3 +3,5 @@
 	name = Destin Moulton
 [push]
 	default = matching
+[diff]
+	tool = vimdiff

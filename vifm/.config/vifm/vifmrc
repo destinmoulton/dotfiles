@@ -173,7 +173,10 @@ command! reload :write | restart
 
 
 " Set emacs as default editor
-:filetype *.css,*.js,*.php,*.go,*.py,*.yml,*.json,*.scss emacsclient -nc %f &
+:filetype *.css,*.js,*.php,*.go,*.py,*.yml,*.json,*.scss,*.txt vim %c 
+
+" Set zathura s the default viewer for pdfs
+:filetype *.pdf zathura %c
 
 
 " Syntax highlighting in preview

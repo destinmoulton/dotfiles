@@ -1,9 +1,9 @@
 zsh : /home/destin/.zsh
-books : /home/destin/Books
 sandbox : /home/destin/projects/sandbox
-projects : /home/destin/projects
-gizmo : /home/destin/projects/gizmo
 livetaos : /home/destin/projects/gizmo/livetaos
 documents : /home/destin/Documents
 taos.org : /home/destin/projects/gizmo/taos.org
 downloads : /home/destin/Downloads
+books : /home/destin/Books
+gizmo : /home/destin/projects/gizmo
+projects : /home/destin/projects
