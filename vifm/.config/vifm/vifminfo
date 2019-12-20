@@ -61,21 +61,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/destin/projects/gizmo/djblaster/DJBlaster
-	..
-0
-d/home/destin/projects/gizmo/djblaster
-	app
-2
-d/home/destin/projects/gizmo/djblaster/app
-	..
-0
-d/home/destin/projects/gizmo/djblaster
-	public_html
-4
-d/home/destin/projects/gizmo/djblaster/public_html
-	..
-0
 d/home/destin/projects/gizmo/djblaster
 	web
 6
@@ -361,159 +346,24 @@ d/home/destin/projects/gizmo/taos.org/www/wp-content/themes/Taos/library/js
 d/home/destin/projects/gizmo/taos.org/www/wp-content/themes/Taos/library/js/libs
 	..
 0
+d/home/destin/projects/gizmo
+	taoshealth
+10
+d/home/destin/projects/gizmo/taoshealth
+	js
+1
+d/home/destin/projects/gizmo/taoshealth/js
+	..
+0
+d/home/destin/projects/gizmo/taoshealth
+	js
+1
+d/home/destin/projects/gizmo
+	authorized_keys
+20
 d
 
 # Right window history (oldest to newest):
-D/home/destin/Downloads/themeforest-GIfdTrHf-eco-recycling-a-multipurpose-nature-ecology-wordpress-theme-/DEMO-CONTENT
-	Wordpress
-2
-D/home/destin/Downloads/themeforest-GIfdTrHf-eco-recycling-a-multipurpose-nature-ecology-wordpress-theme-/DEMO-CONTENT/Wordpress
-	..
-0
-D/home/destin/Downloads/themeforest-GIfdTrHf-eco-recycling-a-multipurpose-nature-ecology-wordpress-theme-/DEMO-CONTENT
-	Revolution-Slider
-1
-D/home/destin/Downloads/themeforest-GIfdTrHf-eco-recycling-a-multipurpose-nature-ecology-wordpress-theme-
-	Licensing
-3
-D/home/destin/Downloads/themeforest-GIfdTrHf-eco-recycling-a-multipurpose-nature-ecology-wordpress-theme-/Licensing
-	..
-0
-D/home/destin/Downloads/themeforest-GIfdTrHf-eco-recycling-a-multipurpose-nature-ecology-wordpress-theme-
-	CHILD-THEME
-1
-D/home/destin/Downloads/themeforest-GIfdTrHf-eco-recycling-a-multipurpose-nature-ecology-wordpress-theme-/CHILD-THEME
-	..
-0
-D/home/destin/Downloads/themeforest-GIfdTrHf-eco-recycling-a-multipurpose-nature-ecology-wordpress-theme-
-	ecorecycle.zip
-6
-D/home/destin/Downloads
-	themeforest-gAa6p75A-eco-press-nature-ecology-ngo-wordpress-theme
-8
-D/home/destin/Downloads/themeforest-gAa6p75A-eco-press-nature-ecology-ngo-wordpress-theme
-	DOCS
-2
-D/home/destin/Downloads/themeforest-gAa6p75A-eco-press-nature-ecology-ngo-wordpress-theme/DOCS
-	..
-0
-D/home/destin/Downloads/themeforest-gAa6p75A-eco-press-nature-ecology-ngo-wordpress-theme
-	DOCS
-2
-D/home/destin/Downloads
-	tswcd.org
-9
-D/home/destin/Downloads/tswcd.org
-	photo_galleries
-1
-D/home/destin/Downloads/tswcd.org/photo_galleries
-	education_outreach
-6
-D/home/destin/Downloads/tswcd.org/photo_galleries/education_outreach
-	1465519525_-ward-umo4-resize.jpg
-24
-D/home/destin/Downloads/tswcd.org/photo_galleries
-	soil_stewardship
-9
-D/home/destin/Downloads/tswcd.org/photo_galleries/soil_stewardship
-	1465520030_----0112.jpg
-3
-D/home/destin/Downloads/tswcd.org/photo_galleries
-	soil_stewardship
-10
-D/home/destin/Downloads/tswcd.org
-	photo_galleries
-1
-D/home/destin/Downloads
-	taosorg_migration
-7
-D/home/destin/Downloads/taosorg_migration
-	..
-0
-D/home/destin/Downloads
-	taosorg_lodging
-6
-D/home/destin/Downloads/taosorg_lodging
-	..
-0
-D/home/destin/Downloads
-	taosorg_backup
-5
-D/home/destin/Downloads/taosorg_backup
-	..
-0
-D/home/destin/Downloads
-	taosorg_backup
-5
-D/home/destin/projects/gizmo/taos.org
-	www
-6
-D/home/destin/projects/gizmo/taos.org/www
-	..
-0
-D/home/destin/Downloads
-	taosorg_backup
-5
-D/home/destin/Downloads/taosorg_backup
-	csv
-1
-D/home/destin/Downloads/taosorg_backup/csv
-	..
-0
-D/home/destin/Downloads/taosorg_backup
-	..
-0
-D/home/destin/Downloads
-	themeforest-gAa6p75A-eco-press-nature-ecology-ngo-wordpress-theme
-8
-D/home/destin/Downloads/themeforest-gAa6p75A-eco-press-nature-ecology-ngo-wordpress-theme
-	DOCS
-2
-D/home/destin/Downloads
-	taosorg_migration
-7
-D/home/destin/Downloads/taosorg_migration
-	..
-0
-D/home/destin/Downloads
-	taosorg_lodging
-6
-D/home/destin/Downloads/taosorg_lodging
-	..
-0
-D/home/destin/Downloads
-	taosorg_backup
-5
-D/home/destin/Downloads/taosorg_backup
-	..
-0
-D/home/destin/Downloads
-	taosorg_backup
-5
-D/home/destin/projects/gizmo/taos.org
-	project
-2
-D/home/destin/projects/gizmo/taos.org/project
-	..
-0
-D/home/destin/Downloads
-	taosorg_migration
-7
-D/home/destin/Downloads/taosorg_migration
-	..
-0
-D/home/destin/Downloads
-	taosorg_lodging
-6
-D/home/destin/Downloads/taosorg_lodging
-	..
-0
-D/home/destin/Downloads
-	plugins
-4
-D/home/destin/Downloads/plugins
-	..
-0
 D/home/destin/Downloads
 	themeforest-gAa6p75A-eco-press-nature-ecology-ngo-wordpress-theme
 4
@@ -664,9 +514,160 @@ D/home/destin/Downloads
 D/home/destin/Downloads/jquery.steps-1.1.0
 	jquery.steps.min.js
 2
+D/home/destin/Downloads
+	ultimate-member
+4
+D/home/destin/Downloads/ultimate-member
+	templates
+4
+D/home/destin/Downloads/ultimate-member/templates
+	password-reset.php
+16
+D/home/destin/Downloads/ultimate-member
+	templates
+4
+D/home/destin/Downloads
+	ultimate-member
+4
+D/home/destin
+	..
+0
+D/home
+	destin
+1
+D/
+	etc
+3
+D/etc
+	docker
+16
+D/etc/docker
+	..
+0
+D/etc
+	fonts
+17
+D/etc/fonts
+	..
+0
+D/etc
+	i3
+24
+D/etc/i3
+	..
+0
+D/etc
+	nginx
+32
+D/etc/nginx
+	..
+0
+D/etc
+	xattr.conf
+40
+D/
+	home
+4
+D/home
+	destin
+1
+D/home/destin
+	.gnome
+6
+D/home/destin/.gnome
+	apps
+1
+D/home/destin/.gnome/apps
+	..
+0
+D/home/destin/.gnome
+	apps
+1
+D/home/destin
+	.emacs.d
+5
+D/home/destin/.emacs.d
+	..
+0
+D/home/destin
+	Trash
+32
+D/home/destin/Trash
+	..
+0
+D/home/destin
+	Trash
+32
+D/home/destin/Trash
+	..
+0
+D/home/destin
+	apps
+33
+D/home/destin/apps
+	..
+0
+D/home/destin
+	tmp
+36
+D/home/destin/tmp
+	swerver
+1
+D/home/destin/tmp/swerver
+	..
+0
+D/home/destin/tmp
+	swerver
+1
+D/home/destin
+	tmp
+36
+D/home/destin/tmp
+	..
+0
+D/home/destin
+	GPUCache
+11
+D/home/destin/GPUCache
+	..
+0
+D/home/destin
+	.java
+4
+D/home/destin/.java
+	..
+0
+D/home/destin
+	Downloads
+26
+D/home/destin/Downloads
+	thecommondenominatorofsuccess-albertengray.pdf
+7
+D/home/destin
+	Documents
+25
+D/home/destin/Documents
+	pointers.txt
+20
+D/home/destin
+	Documents
+25
+D/home/destin/Documents
+	pointers.txt
+20
+D/home/destin
+	Trash
+28
+D/home/destin/Trash
+	..
+0
+D/home/destin
+	Books
+16
 D
 
 # Command line history (oldest to newest):
+:mkdir archive
 :bmarks d
 :bmark d
 :bmarks home ~
@@ -716,7 +717,6 @@ D
 :mkdir DEV_CSVs
 :bmgo home
 :bmgo mnt
-:empty
 :bmgo projects
 :mkdir education_outreach
 :rename
@@ -729,13 +729,15 @@ D
 :bmgo
 :bmgo downloads
 :bmgo documents
-:move
 :q
 :reload
-:bmgo gizmo
 :copy
+:bmgo gizmo
+:move
+:empty
 
 # Search history (oldest to newest):
+/flow
 /tet
 /test
 /color
@@ -767,6 +769,10 @@ D
 /bootst
 /io
 /jquer
+/math
+/ul
+/ult
+/etc
 
 # Prompt history (oldest to newest):
 papologies_pi.php.bak
@@ -806,7 +812,6 @@ pspinning_loader.gif
 |.confi
 
 # Registers:
-""/home/destin/Trash/000_MY_email_helper.php
 
 # Directory stack (oldest to newest):
 

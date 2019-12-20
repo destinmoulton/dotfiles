@@ -10,8 +10,8 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # define variables
-set $monitor_left DVI-I-2
-set $monitor_right DVI-I-3
+set $monitor_left HDMI-A-0
+set $monitor_right HDMI-A-1
 set $wksp1 "1: VSCode"
 set $wksp2 "2: Firefox"
 set $wksp3 "3: Terminal"
