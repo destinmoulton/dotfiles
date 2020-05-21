@@ -5,3 +5,5 @@
 	default = matching
 [diff]
 	tool = vimdiff
+[credential]
+	helper = libsecret
