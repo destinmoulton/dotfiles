@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Thu 21 May 2020 03:43:08 PM MDT
+#   Compiled on: Thu 21 May 2020 04:51:15 PM MDT
 #
 #
 #
@@ -30,7 +30,7 @@
 # 
 # SRC: https://superuser.com/questions/141044/sharing-the-same-ssh-agent-among-multiple-login-sessions
 
-eval $(keychain --eval --quiet id_rsa)
+#eval $(keychain --eval --quiet id_rsa)
 
 function sshagent_findsockets {
     find /tmp -uid $(id -u) -type s -name agent.\* 2>/dev/null

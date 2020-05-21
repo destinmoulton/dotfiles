@@ -7,4 +7,6 @@ source /home/destin/.profile &
 # Load the keychain manager for ssh
 #source /home/destin/.config/i3/scripts/ssh_keychain.sh &
 
-eval $(keychain --eval --quiet id_rsa)
+#eval $(keychain --eval --quiet id_rsa)
+eval $(gnome-keyring-daemon --start)
+export SSH_AUTH_SOCK
