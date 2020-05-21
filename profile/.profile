@@ -1,6 +1,5 @@
 # Add to the PATH
 
- 
 unset SSH_ASKPASS
 
 # Add my scripts

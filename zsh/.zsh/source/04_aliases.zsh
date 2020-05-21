@@ -13,8 +13,8 @@ alias bkd='cd ~/Downloads'
 # Alias xclip so you can do cmd | xclip (ie cat file.txt | xclip)
 alias xclip="xclip -selection c"
 
-# Alias ssh-agent and ssh-add to make connecting with passphrase painless
-alias ssh-start='eval `ssh-agent`;ssh-add'
+# Alias for the sshagent_init function (01a_fns_sshagent.zsh)
+alias ssh-start="sshagent_init"
 
 # Make ls more friendly
 alias ls="${aliases[ls]:-ls} -h --group-directories-first"

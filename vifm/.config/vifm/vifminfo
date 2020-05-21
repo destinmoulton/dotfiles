@@ -365,18 +365,6 @@ d
 
 # Right window history (oldest to newest):
 D/home/destin
-	Android Sync
-15
-D/home/destin/Android Sync
-	..
-0
-D/home/destin
-	Android Sync
-15
-D/home/destin/Android Sync
-	Links.txt
-6
-D/home/destin
 	projects
 25
 D/home/destin/projects
@@ -662,8 +650,20 @@ D/home/destin/dotfiles
 	..
 0
 D/home/destin
+	Downloads
+19
+D/home/destin/Downloads
+	test.zip
+16
+D/home/destin
 	dotfiles
 24
+D/home/destin/dotfiles
+	profile
+6
+D/home/destin/dotfiles/profile
+	.profile
+1
 D
 
 # Command line history (oldest to newest):
