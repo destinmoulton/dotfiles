@@ -246,6 +246,9 @@ for_window [class="Spotify"] move to workspace $wksp9
 
 #exec --no-startup-id i3-msg 'exec code;'
 #exec --no-startup-id i3-msg 'exec firefox;'
-exec --no-startup-id megasync
-exec --no-startup-id /usr/bin/xmodmap /home/destin/.Xmodmap
-exec --no-startup-id /usr/bin/python /home/destin/projects/i3-automator/start.py
+#exec --no-startup-id megasync
+#exec --no-startup-id /usr/bin/python /home/destin/projects/i3-automator/start.py
+
+exec --no-startup-id /usr/bin/setxkbmap -option "ctrl:nocaps"
+# Run a slew of scripts
+exec --no-startup-id ~/.config/i3/scripts/startup.sh &> ~/i3log.txt

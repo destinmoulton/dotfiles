@@ -1,11 +1,11 @@
 # Add to the PATH
 
-unset SSH_ASKPASS
+export SSH_ASKPASS=ssh-askpass
 
 # Add my scripts
-PATH="$PATH:$HOME/.local/bin"
-PATH="/home/destin/.local/bin:/usr/local/bin:/usr/bin:/bin"
-PATH=$PATH:~/scripts/
+PATH="/usr/local/bin:/usr/bin:/bin"
+PATH=$PATH:$HOME/.local/bin
+PATH=$PATH:$HOME/bin
 
 # Add android studio path
 export ANDROID_HOME=$HOME/Android/Sdk
