@@ -1,6 +1,6 @@
 # Add to the PATH
 
-export SSH_ASKPASS=ssh-askpass
+export SSH_ASKPASS=/usr/lib/seahorse/ssh-askpass
 
 # Add my scripts
 PATH="/usr/local/bin:/usr/bin:/bin"
