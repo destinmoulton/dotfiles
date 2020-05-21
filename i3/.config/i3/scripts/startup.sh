@@ -8,5 +8,5 @@ source /home/destin/.profile &
 #source /home/destin/.config/i3/scripts/ssh_keychain.sh &
 
 #eval $(keychain --eval --quiet id_rsa)
-eval $(gnome-keyring-daemon --start)
-export SSH_AUTH_SOCK
+#eval $(gnome-keyring-daemon --start)
+#export SSH_AUTH_SOCK
