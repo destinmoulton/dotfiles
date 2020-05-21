@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Wed 19 Jun 2019 07:42:54 AM MDT
+#   Compiled on: Thu 21 May 2020 08:28:36 AM MDT
 #
 #
 #
@@ -20,51 +20,6 @@
 #
 ############################################################
 ############################################################
-
-#
-# 01_paths.zsh
-# 
-# Define the variables for usage and export.
-#  - PATH
-#  - Go exports
-#  - Paths and Vars for ZSH configuration
-#
-
-
-unset SSH_ASKPASS
-
-# Add my scripts
-PATH="/home/destin/.local/bin:/usr/local/bin:/usr/bin:/bin"
-PATH=$PATH:~/scripts/
-
-# Add android studio path
-export ANDROID_HOME=$HOME/Android/Sdk
-PATH=$PATH:$ANDROID_HOME/emulator
-PATH=$PATH:$ANDROID_HOME/tools
-PATH=$PATH:$ANDROID_HOME/tools/bin
-PATH=$PATH:$ANDROID_HOME/platform-tools
-
-# Add go (golang) path
-export GOPATH=$HOME/.go
-export GOBIN=$GOPATH/bin
-PATH=$PATH:$GOROOT/bin:$GOBIN
-
-# Add java path (other java settings defined in /etc/profile.d/custom.sh)
-PATH=$PATH:$JAVA_HOME
-
-# Add npm global path
-PATH=$PATH:$HOME/.npm/global-packages/bin
-
-# Composer 
-PATH=$PATH:$HOME/.config/composer/vendor/bin
-
-# Set wine to use win32
-export WINEARCH=win32
-
-# EXPORT THE PATH
-export PATH
-
-
 
 #
 # 02_plugins.zsh
@@ -219,6 +174,9 @@ alias bkd='cd ~/Downloads'
 
 # Alias xclip so you can do cmd | xclip (ie cat file.txt | xclip)
 alias xclip="xclip -selection c"
+
+# Alias ssh-agent and ssh-add to make connecting with passphrase painless
+alias ssh-start='eval `ssh-agent`;ssh-add'
 
 # Make ls more friendly
 alias ls="${aliases[ls]:-ls} -h --group-directories-first"

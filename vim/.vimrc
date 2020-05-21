@@ -8,10 +8,6 @@ set expandtab
 set incsearch " search as characters are entered
 set hlsearch  " highlight matches
 
-" Remap kj to Esc
-inoremap kj <Esc>
-nnoremap kj <Esc> 
-
 " Show the current command in the status bar
 set showcmd
 
@@ -24,6 +20,13 @@ nnoremap <C-H> <C-W><C-H>
 set number                     " Show current line number
 set relativenumber             " Show relative line numbers
 
+" Pressing <esc> twice will clear the search highlight
+nmap <esc><esc> :noh<return>
+
+" Set the font for gvim
+if has("gui_running")
+    set guifont=Droid\ Sans\ Mono\ Regular\ 14
+endif
 
 " Setup pathogen 
 "

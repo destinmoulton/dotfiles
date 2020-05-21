@@ -19,8 +19,8 @@ set $wksp4 "4: Debug"
 set $wksp5 5
 set $wksp6 "6: Misc"
 set $wksp7 "7: Filezilla"
-set $wksp8 "8: Spacemacs"
-set $wksp9 "9: Spotify"
+set $wksp8 "8: Zeal"
+set $wksp9 "9: Google Play Music"
 set $wksp10 "10: Misc"
 
 # Set the modifier
@@ -169,7 +169,7 @@ mode "resize" {
         bindsym l resize grow width 6 px or 6 ppt
 
         # Resize youtube window to specific size
-        bindsym y resize set width 623px height 350px
+        bindsym y resize set width 534px height 300px
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 6 px or 6 ppt
@@ -185,11 +185,12 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 
-set $mode_system System (l) logout, (s) suspend, (r) reboot, (Shift+s) shutdown
+set $mode_system System (l) logout, (s) suspend, (r) reboot, (Shift+s) shutdown, (k) lock
 mode "$mode_system" {
     bindsym l exec --no-startup-id ~/scripts/i3pause logout, mode "default"
     bindsym s exec --no-startup-id ~/scripts/i3pause suspend, mode "default"
     bindsym r exec --no-startup-id ~/scripts/i3pause reboot, mode "default"
+    bindsym k exec --no-startup-id ~/scripts/i3pause lock, mode "default"
     bindsym Shift+s exec --no-startup-id ~/scripts/i3pause shutdown, mode "default"
 
     # back to normal: Enter or Escape
@@ -241,13 +242,10 @@ for_window [window_role="dialog"] floating enable
 for_window [window_role="menu"] floating enable
 for_window [window_role="Preferences"] floating enable
 
-for_window [class="Visual Studio Code"] move to workspace $wksp1
 for_window [class="Spotify"] move to workspace $wksp9
 
-# Start SpiderOak backup
-exec --no-startup-id i3-msg 'exec code;'
-exec --no-startup-id i3-msg 'exec firefox;'
-exec --no-startup-id i3-msg 'exec konsole -e "tmuxinator start titan"'
-exec --no-startup-id dropbox start -i
-exec --no-startup-id SpiderOakONE
-exec --no-startup-id xmodmap ~/.Xmodmap
+#exec --no-startup-id i3-msg 'exec code;'
+#exec --no-startup-id i3-msg 'exec firefox;'
+exec --no-startup-id megasync
+exec --no-startup-id /usr/bin/xmodmap /home/destin/.Xmodmap
+exec --no-startup-id /usr/bin/python /home/destin/projects/i3-automator/start.py

@@ -172,7 +172,7 @@ command! reload :write | restart
 " program.
 
 
-" Set emacs as default editor
+" Set vim as default editor
 :filetype *.css,*.js,*.php,*.go,*.py,*.yml,*.json,*.scss,*.txt vim %c 
 
 " Set zathura s the default viewer for pdfs
