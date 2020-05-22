@@ -2,6 +2,10 @@
 
 export SSH_ASKPASS=/usr/lib/seahorse/ssh-askpass
 
+if [ "$0" = "/etc/lxdm/Xsession" -a "$DESKTOP_SESSION" = "i3" ]; then
+    export $(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg)
+fi
+
 # Add my scripts
 PATH="/usr/local/bin:/usr/bin:/bin"
 PATH=$PATH:$HOME/.local/bin
