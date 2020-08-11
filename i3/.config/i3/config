@@ -246,8 +246,13 @@ for_window [class="Spotify"] move to workspace $wksp9
 
 #exec --no-startup-id i3-msg 'exec code;'
 #exec --no-startup-id i3-msg 'exec firefox;'
-exec --no-startup-id megasync
-exec --no-startup-id nm-applet
+exec --no-startup-id megasync &
+
+# The network manager applet
+exec --no-startup-id nm-applet &
+
+# Start the dbus message display
+exec --no-startup-id dunst &
 #exec --no-startup-id /usr/bin/python /home/destin/projects/i3-automator/start.py
 
 # Remap capslock to ctrl
