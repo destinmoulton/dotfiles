@@ -61,57 +61,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/destin/Downloads/themes/Taos
-	.gitignore
-7
-d/home/destin/projects
-	gizmo
-14
-d/home/destin/projects/gizmo
-	taos.org
-8
-d/home/destin/projects/gizmo/taos.org
-	www
-3
-d/home/destin/projects/gizmo/taos.org/www
-	wp-content
-4
-d/home/destin/projects/gizmo/taos.org/www/wp-content
-	themes
-4
-d/home/destin/projects/gizmo/taos.org/www/wp-content/themes
-	Taos
-1
-d/home/destin/projects/gizmo/taos.org/www/wp-content/themes/Taos
-	page-sting.php
-32
-d/home/destin/projects/gizmo/taos.org/www/wp-content/themes
-	index.php
-4
-d/home/destin/projects
-	trackr
-36
-d/home/destin/projects/trackr
-	app
-2
-d/home/destin/projects/trackr/app
-	node_modules
-1
-d/home/destin/projects/trackr/app/node_modules
-	lodash
-36
-d/home/destin/projects/trackr/app/node_modules/lodash
-	fp
-1
-d/home/destin/projects/trackr/app/node_modules
-	lodash
-36
-d/home/destin/projects/trackr/app
-	node_modules
-1
-d/home/destin/projects/trackr
-	server
-3
 d/home/destin/projects/trackr/server
 	public
 9
@@ -360,154 +309,61 @@ d/home/destin/Documents
 10
 d/home/destin
 	Documents
-16
+4
+d/mnt/backup
+	podcasts
+5
+d/mnt/backup/podcasts
+	..
+0
+d/mnt/backup
+	youtube
+9
+d/mnt/backup/youtube
+	..
+0
+d/home/destin/Downloads
+	gallery1.jpg
+5
+d/home/destin
+	Android Sync
+4
+d/home/destin/Android Sync
+	..
+0
+d/home/destin
+	Android Books
+4
+d/home/destin/Android Books
+	MoonReader
+2
+d/home/destin/Android Books/MoonReader
+	..
+0
+d/home/destin/Android Books
+	MoonReader
+2
+d/home/destin
+	Android Books
+4
+d/home/destin/Downloads
+	themes
+5
+d/home/destin/Downloads/themes
+	Taos
+1
+d/home/destin/Downloads/themes/Taos
+	userswp
+6
+d/home/destin/Downloads/themes/Taos/userswp
+	profile-tabs.php
+5
+d/home/destin/projects/gizmo/taos.org/tmp
+	..
+0
 d
 
 # Right window history (oldest to newest):
-D/home/destin
-	projects
-25
-D/home/destin/projects
-	moonreader-bookmarks-converter
-25
-D/home/destin/projects/moonreader-bookmarks-converter
-	.testdata
-2
-D/home/destin/projects/moonreader-bookmarks-converter/.testdata
-	Arguably_CH.mrexpt
-1
-D/home/destin/projects/moonreader-bookmarks-converter
-	.testdata
-2
-D/home/destin/projects
-	moonreader-bookmarks-converter
-25
-D/home/destin
-	Android Books
-14
-D/home/destin/Android Books
-	MoonReader
-2
-D/home/destin/Android Books/MoonReader
-	Arguably Selected Essays - Christopher Hitchens.epub
-4
-D/home/destin/Android Books
-	MoonReader
-2
-D/home/destin
-	Android Sync
-15
-D/home/destin/Android Sync
-	IdeasToPutInRoam.txt
-6
-D/home/destin
-	projects
-25
-D/home/destin/projects
-	moonreader-bookmarks-converter
-25
-D/home/destin/projects/moonreader-bookmarks-converter
-	.testdata
-2
-D/home/destin/projects/moonreader-bookmarks-converter/.testdata
-	Arguably_CH.mrexpt
-3
-D/home/destin/projects/moonreader-bookmarks-converter
-	.testdata
-2
-D/home/destin/projects
-	gizmo
-14
-D/home/destin/projects/gizmo
-	helm
-3
-D/home/destin/projects/gizmo/helm
-	wisdom2newyork
-3
-D/home/destin/projects/gizmo/helm/wisdom2newyork
-	local
-1
-D/home/destin/projects/gizmo/helm/wisdom2newyork/local
-	img
-1
-D/home/destin/projects/gizmo/helm/wisdom2newyork/local/img
-	..
-0
-D/home/destin/projects/gizmo/taos.org/www/wp-content/themes
-	Taos
-1
-D/home/destin/projects/gizmo/taos.org/www/wp-content/themes/Taos
-	tmp_homepage-trav.php
-31
-D/home/destin/Downloads
-	pixitest
-4
-D/home/destin
-	projects
-25
-D/home/destin/projects
-	sandbox
-32
-D/home/destin/projects/sandbox
-	docker_phpmyadmin
-2
-D/home/destin/projects/sandbox/docker_phpmyadmin
-	..
-0
-D/home/destin/projects/sandbox
-	docker_phpmyadmin
-2
-D/home/destin/projects
-	sandbox
-32
-D/home/destin
-	Downloads
-19
-D/home/destin/Downloads
-	fontawesome-free-5.12.0-web
-1
-D/home/destin
-	.tor-browser
-8
-D/home/destin/.tor-browser
-	app
-1
-D/home/destin/.tor-browser/app
-	Browser
-1
-D/home/destin/.tor-browser/app/Browser
-	removed-files
-35
-D/home/destin/.tor-browser/app
-	start-tor-browser.desktop
-2
-D/home/destin/.tor-browser
-	app
-1
-D/home/destin
-	.tor-browser
-8
-D/home/destin/Downloads
-	Solarized Dark.hct
-6
-D/home/destin/projects/gizmo
-	taoshospital
-11
-D/home/destin/projects/gizmo/taoshospital
-	public_html
-1
-D/home/destin/projects/gizmo/taoshospital/public_html
-	helm
-1
-D/home/destin/projects/gizmo/taoshospital/public_html/helm
-	..
-0
-D/home/destin/projects/gizmo/taoshospital/public_html
-	holycrosshospital
-2
-D/home/destin/projects/gizmo/taoshospital/public_html/holycrosshospital
-	..
-0
 D/home/destin/projects/gizmo/taoshospital/public_html
 	helm
 1
@@ -664,6 +520,150 @@ D/home/destin/dotfiles
 D/home/destin/dotfiles/profile
 	.profile
 1
+D/home/destin/dotfiles
+	profile
+6
+D/home/destin
+	Downloads
+18
+D/home/destin/Downloads
+	gallery1.jpg
+5
+D/home/destin
+	Downloads
+18
+D/home/destin/Books
+	Programming & IT
+12
+D/home/destin/Books/Programming & IT
+	go
+5
+D/home/destin/Books/Programming & IT/go
+	The Go Programming Language by Alan A. A. Donovan, Brian W. Kernighan.pdf
+8
+D/home/destin/Books/Programming & IT
+	go
+5
+D/home/destin/Downloads
+	0601201205.jpg
+5
+D/home/destin
+	Documents
+17
+D/home/destin/Documents
+	articles
+3
+D/home/destin/Documents/articles
+	50_ideas_that_changed_my_life.pdf
+1
+D/home/destin/Documents
+	receipts
+7
+D/home/destin
+	Downloads
+18
+D/home/destin/Downloads
+	image
+3
+D/home/destin/Downloads/image
+	..
+0
+D/home/destin/Downloads
+	image
+3
+D/home/destin
+	Documents
+17
+D/home/destin/Documents
+	articles
+3
+D/home/destin/Documents/articles
+	A_Conversation_with_Cixin_Liu.pdf
+2
+D/home/destin/Documents
+	gizmo
+4
+D/home/destin
+	Downloads
+18
+D/home/destin/Downloads
+	court2.jpg
+11
+D/home/destin
+	Documents
+17
+D/home/destin/Documents
+	articles
+3
+D/home/destin/Documents/articles
+	A_Conversation_with_Cixin_Liu.pdf
+2
+D/home/destin/Documents
+	articles
+3
+D/home/destin
+	projects
+25
+D/home/destin/projects
+	gizmo
+14
+D/home/destin/projects/gizmo
+	taos.org
+10
+D/home/destin/projects/gizmo/taos.org
+	www
+4
+D/home/destin/projects/gizmo/taos.org/www
+	wp-content
+5
+D/home/destin/projects/gizmo/taos.org/www/wp-content
+	themes
+4
+D/home/destin/projects/gizmo/taos.org/www/wp-content/themes
+	Taos
+1
+D/home/destin/projects/gizmo/taos.org/www/wp-content/themes/Taos
+	userswp
+6
+D/home/destin/projects/gizmo/taos.org/www/wp-content/themes/Taos/userswp
+	profile.php
+5
+D/home/destin/projects/gizmo/taos.org/www/wp-content/themes/Taos
+	userswp
+6
+D/home/destin/projects/gizmo/taos.org/www/wp-content/themes
+	Taos
+1
+D/home/destin/Documents
+	articles
+3
+D/home/destin
+	Downloads
+18
+D/home/destin/Downloads
+	bbc.com-Facebook to let users turn off political adverts.pdf
+13
+D/home/destin/projects
+	gizmo
+14
+D/home/destin/projects/gizmo
+	taos.org
+10
+D/home/destin/projects/gizmo/taos.org
+	tmp
+3
+D/home/destin/projects/gizmo/taos.org/tmp
+	wpinv-stripe-payment.tar.gz
+1
+D/home/destin/projects/gizmo/taos.org
+	backup
+1
+D/home/destin/projects/gizmo/taos.org/backup
+	wpinv-stripe-payment
+1
+D/home/destin/projects/gizmo/taos.org/backup/wpinv-stripe-payment
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -706,7 +706,6 @@ D
 :mkdir chrome
 :mkdir DJBlaster
 :mkdir csv
-:bmgo backup
 :mkdir progressive
 :mkdir jquery-ui
 :bmgo ~
@@ -723,7 +722,6 @@ D
 :mkdir project
 :co
 :bmgo
-:bmgo documents
 :reload
 :empty
 :move bulma
@@ -737,21 +735,28 @@ D
 :mkdir .testdata
 :mkdir Arg
 :bmgo projects/
-:sync
 :mov
-:bmgo projects
-:bmgo books
 :mkdir Workout
 :mkdir Simple & Sinister
 :mkdir "Simple & Sinister"
 :mkdir js
-:bmgo downloads
-:move
-:rename
-:copy
-:q
 :bmgo gizmo
 :mkdir southwestoriginals.com
+:bmgo backup
+:mkdir youtube
+:bmgo books
+:rename
+:bmgo downloads
+:alink
+:copy
+:bmgo documents
+:bmgo projects
+:sync
+:mkdir backup
+:mkdir wpinv-stripe-payment
+:move
+:vim README.md
+:q
 
 # Search history (oldest to newest):
 /flow
@@ -799,6 +804,8 @@ D
 /trac
 /lod
 /loda
+/Fou
+/Pro
 
 # Prompt history (oldest to newest):
 papologies_pi.php.bak
@@ -838,8 +845,11 @@ pspinning_loader.gif
 |.confi
 
 # Registers:
-""/home/destin/Trash/000_tiddlywiki
-""/home/destin/Trash/000_trilium
+""/home/destin/Trash/000_userswp
+""/home/destin/Trash/000_wpinv-stripe-payment
+""/home/destin/Trash/000_.htaccess
+""/home/destin/Trash/000_geodirectory-add-listing.php
+""/home/destin/Trash/000_taos-geodir-browser.php
 
 # Directory stack (oldest to newest):
 
@@ -1354,6 +1364,20 @@ t/home/destin/Trash/000_tiddlywiki
 	/home/destin/docker/tiddlywiki
 t/home/destin/Trash/000_trilium
 	/home/destin/docker/trilium
+t/home/destin/Trash/000_profile-header.php
+	/home/destin/projects/gizmo/taos.org/www/wp-content/themes/Taos/userswp/profile-header.php
+t/home/destin/Trash/000_profile-tabs.php
+	/home/destin/projects/gizmo/taos.org/www/wp-content/themes/Taos/userswp/profile-tabs.php
+t/home/destin/Trash/000_userswp
+	/home/destin/projects/gizmo/taos.org/tmp/userswp
+t/home/destin/Trash/000_wpinv-stripe-payment
+	/home/destin/projects/gizmo/taos.org/tmp/wpinv-stripe-payment
+t/home/destin/Trash/000_.htaccess
+	/home/destin/projects/gizmo/taos.org/tmp/.htaccess
+t/home/destin/Trash/000_geodirectory-add-listing.php
+	/home/destin/projects/gizmo/taos.org/tmp/geodirectory-add-listing.php
+t/home/destin/Trash/000_taos-geodir-browser.php
+	/home/destin/projects/gizmo/taos.org/tmp/taos-geodir-browser.php
 
 # State:
 f

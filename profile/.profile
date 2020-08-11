@@ -1,6 +1,6 @@
 # Add to the PATH
 
-export SSH_ASKPASS=/usr/lib/seahorse/ssh-askpass
+#export SSH_ASKPASS=/usr/lib/seahorse/ssh-askpass
 
 if [ "$0" = "/etc/lxdm/Xsession" -a "$DESKTOP_SESSION" = "i3" ]; then
     export $(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg)
@@ -37,6 +37,9 @@ export WINEARCH=win32
 
 # EXPORT THE PATH
 export PATH
+
+# EXPORT the editor
+export EDITOR=vim
 
 
 # Fix java fonts and set to gtk theme
