@@ -61,45 +61,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/destin/projects/trackr/server
-	public
-9
-d/home/destin/projects/trackr/server/public
-	js
-4
-d/home/destin/projects/trackr/server/public/js
-	lib
-2
-d/home/destin/projects/trackr/server/public/js/lib
-	..
-0
-d/home/destin/Books
-	Workout
-17
-d/home/destin/Books/Workout
-	Simple & Sinister
-1
-d/home/destin/Books/Workout/Simple & Sinister
-	..
-0
-d/home/destin/projects/gizmo
-	taoshospital
-11
-d/home/destin/projects/gizmo/taoshospital
-	public_html
-1
-d/home/destin/projects/gizmo/taoshospital/public_html
-	..
-0
-d/home/destin/projects/gizmo/taoshospital
-	system
-2
-d/home/destin/projects/gizmo/taoshospital/system
-	..
-0
-d/home/destin/projects/gizmo/taoshospital
-	public_html
-1
 d/home/destin/projects/gizmo/taoshospital/public_html
 	helm
 1
@@ -361,81 +322,48 @@ d/home/destin/Downloads/themes/Taos/userswp
 d/home/destin/projects/gizmo/taos.org/tmp
 	..
 0
+d/home/destin/projects/gizmo/taos.org
+	tmp
+4
+d/home/destin/projects/gizmo
+	helm
+4
+d/home/destin/projects/gizmo/helm
+	globalmindfulnesssummit
+2
+d/home/destin/projects/gizmo/helm/globalmindfulnesssummit
+	local
+1
+d/home/destin/projects/gizmo/helm/globalmindfulnesssummit/local
+	js
+1
+d/home/destin/projects/gizmo/helm/globalmindfulnesssummit/local/js
+	..
+0
+d/home/destin/projects/gizmo/helm/globalmindfulnesssummit/local
+	js
+2
+d/home/destin/projects/gizmo/helm/globalmindfulnesssummit
+	local
+1
+d/home/destin/projects/gizmo/helm
+	globalmindfulnesssummit
+2
+d/home/destin/projects/gizmo
+	helm
+4
+d/home/destin/projects
+	gizmo
+14
+d/home/destin
+	Downloads
+9
+d/home/destin/Downloads
+	anderson_billboard.jpg
+6
 d
 
 # Right window history (oldest to newest):
-D/home/destin/projects/gizmo/taoshospital/public_html
-	helm
-1
-D/home/destin/projects/gizmo/taoshospital/public_html/helm
-	application
-1
-D/home/destin/projects/gizmo/taoshospital/public_html/helm/application
-	libraries
-7
-D/home/destin/projects/gizmo/taoshospital/public_html/helm/application/libraries
-	..
-0
-D/home/destin/projects/gizmo/taoshospital/public_html/helm/application
-	libraries
-7
-D/home/destin/projects/gizmo/taoshospital/public_html/helm/application/libraries
-	..
-0
-D/home/destin/projects/gizmo/taoshospital/public_html/helm/application
-	config
-1
-D/home/destin/projects/gizmo/taoshospital/public_html/helm/application/config
-	..
-0
-D/home/destin/projects/gizmo
-	helm
-3
-D/home/destin/projects/gizmo/helm
-	wisdom2summit
-5
-D/home/destin/projects/gizmo/helm/wisdom2summit
-	local
-2
-D/home/destin/projects/gizmo/helm/wisdom2summit/local
-	js
-2
-D/home/destin/projects/gizmo/helm/wisdom2summit/local/js
-	momentjs
-1
-D/home/destin/projects/gizmo/helm/wisdom2summit/local/js/momentjs
-	moment-timezone-with-data-10-year-range.min.js
-1
-D/home/destin/Downloads
-	Intermittent_Fasting_Increases_Cancer_Fighting.pdf
-12
-D/home/destin
-	Android Sync
-15
-D/home/destin/Android Sync
-	epicurean_paradox.jpg
-9
-D/home/destin
-	Downloads
-19
-D/home/destin/Downloads
-	MW-AP
-1
-D/home/destin/Downloads/MW-AP
-	..
-0
-D/home/destin/Downloads
-	MW-AP
-1
-D/home/destin/Downloads/MW-AP
-	..
-0
-D/home/destin/Downloads
-	fontawesome-free-5.12.0-web
-1
-D/home/destin
-	Android Books
-14
 D/home/destin/Android Books
 	MoonReader
 2
@@ -664,9 +592,82 @@ D/home/destin/projects/gizmo/taos.org/backup
 D/home/destin/projects/gizmo/taos.org/backup/wpinv-stripe-payment
 	..
 0
+D/home/destin/projects/gizmo/taos.org/backup
+	..
+0
+D/home/destin/projects/gizmo/taos.org
+	backup
+1
+D/home/destin/projects/gizmo
+	helm
+4
+D/home/destin/projects/gizmo/helm
+	wisdom2summit
+6
+D/home/destin/projects/gizmo/helm/wisdom2summit
+	local
+2
+D/home/destin/projects/gizmo/helm/wisdom2summit/local
+	js
+2
+D/home/destin/projects/gizmo/helm/wisdom2summit/local/js
+	momentjs
+1
+D/home/destin/projects/gizmo/helm/wisdom2summit/local
+	js
+2
+D/home/destin/projects/gizmo/helm/wisdom2summit
+	local
+2
+D/home/destin/projects/gizmo/helm
+	wisdom2summit
+6
+D/home/destin/projects/gizmo/helm/wisdom2summit
+	local
+2
+D/home/destin/projects/gizmo/helm/wisdom2summit/local
+	js
+2
+D/home/destin/projects/gizmo/helm/wisdom2summit/local/js
+	live.js
+2
+D/home/destin/projects/gizmo/helm/wisdom2summit/local
+	js
+2
+D/home/destin/projects/gizmo/helm/wisdom2summit
+	local
+2
+D/home/destin/projects/gizmo/helm
+	wisdom2summit
+6
+D/home/destin/projects/gizmo
+	helm
+4
+D/home/destin
+	Documents
+17
+D/home/destin/Documents
+	articles
+3
+D/home/destin/Documents/articles
+	50_ideas_that_changed_my_life.pdf
+1
+D/home/destin/Documents
+	articles
+3
+D/home/destin
+	Downloads
+18
+D/home/destin/Downloads
+	2008_Book_TheAlgorithmDesignManual.pdf
+3
+D/home/destin
+	time_stats_log
+20
 D
 
 # Command line history (oldest to newest):
+:set viewcolumns=*{name}..,16{mtime},7{}
 :mkdir archive
 :bmarks d
 :bmark d
@@ -713,7 +714,6 @@ D
 :mkdir public_html
 :mkdir taosorg_migration
 :mkdir DEV_CSVs
-:bmgo home
 :bmgo mnt
 :mkdir education_outreach
 :cw
@@ -739,7 +739,6 @@ D
 :mkdir Workout
 :mkdir Simple & Sinister
 :mkdir "Simple & Sinister"
-:mkdir js
 :bmgo gizmo
 :mkdir southwestoriginals.com
 :bmgo backup
@@ -748,7 +747,6 @@ D
 :rename
 :bmgo downloads
 :alink
-:copy
 :bmgo documents
 :bmgo projects
 :sync
@@ -756,6 +754,11 @@ D
 :mkdir wpinv-stripe-payment
 :move
 :vim README.md
+:mkdir local/js
+:mkdir local
+:mkdir js
+:copy
+:bmgo home
 :q
 
 # Search history (oldest to newest):
@@ -806,6 +809,7 @@ D
 /loda
 /Fou
 /Pro
+/Epub
 
 # Prompt history (oldest to newest):
 papologies_pi.php.bak
@@ -845,11 +849,7 @@ pspinning_loader.gif
 |.confi
 
 # Registers:
-""/home/destin/Trash/000_userswp
-""/home/destin/Trash/000_wpinv-stripe-payment
-""/home/destin/Trash/000_.htaccess
-""/home/destin/Trash/000_geodirectory-add-listing.php
-""/home/destin/Trash/000_taos-geodir-browser.php
+""/home/destin/Trash/000_tmux-client-1939525.log
 
 # Directory stack (oldest to newest):
 
@@ -1378,6 +1378,194 @@ t/home/destin/Trash/000_geodirectory-add-listing.php
 	/home/destin/projects/gizmo/taos.org/tmp/geodirectory-add-listing.php
 t/home/destin/Trash/000_taos-geodir-browser.php
 	/home/destin/projects/gizmo/taos.org/tmp/taos-geodir-browser.php
+t/home/destin/Trash/000_+I9BJ7He.csv
+	/home/destin/Downloads/+I9BJ7He.csv
+t/home/destin/Trash/000_+Rli40ib.csv
+	/home/destin/Downloads/+Rli40ib.csv
+t/home/destin/Trash/000_2imkGmMP.csv
+	/home/destin/Downloads/2imkGmMP.csv
+t/home/destin/Trash/000_50 Ideas That Changed My Life — David Perell.epub
+	/home/destin/Downloads/50 Ideas That Changed My Life — David Perell.epub
+t/home/destin/Trash/000_800px-Taos_Pueblo2.jpg
+	/home/destin/Downloads/800px-Taos_Pueblo2.jpg
+t/home/destin/Trash/000_0601201205.jpg
+	/home/destin/Downloads/0601201205.jpg
+t/home/destin/Trash/000_0601201217.jpg
+	/home/destin/Downloads/0601201217.jpg
+t/home/destin/Trash/000_0616201252.jpg
+	/home/destin/Downloads/0616201252.jpg
+t/home/destin/Trash/000_Analytics All Web Site Data Audience Overview 20190701-20200530.pdf
+	/home/destin/Downloads/Analytics All Web Site Data Audience Overview 20190701-20200530.pdf
+t/home/destin/Trash/000_Analytics All Web Site Data Views 20190701-20200530.pdf
+	/home/destin/Downloads/Analytics All Web Site Data Views 20190701-20200530.pdf
+t/home/destin/Trash/000_BkvE9RhF.csv
+	/home/destin/Downloads/BkvE9RhF.csv
+t/home/destin/Trash/000_EpubPress - Thu Aug 13 2020.epub
+	/home/destin/Downloads/EpubPress - Thu Aug 13 2020.epub
+t/home/destin/Trash/000_Habits vs Goals - fsblog.epub.epub
+	/home/destin/Downloads/Habits vs Goals - fsblog.epub.epub
+t/home/destin/Trash/000_I0BSAWsa
+	/home/destin/Downloads/I0BSAWsa
+t/home/destin/Trash/000_PcKKBOL6.csv
+	/home/destin/Downloads/PcKKBOL6.csv
+t/home/destin/Trash/000_R7000-back-to-ofw(1).zip
+	/home/destin/Downloads/R7000-back-to-ofw(1).zip
+t/home/destin/Trash/000_R7000-back-to-ofw(1).zip.part
+	/home/destin/Downloads/R7000-back-to-ofw(1).zip.part
+t/home/destin/Trash/000_R7000-back-to-ofw.trx
+	/home/destin/Downloads/R7000-back-to-ofw.trx
+t/home/destin/Trash/000_R7000-back-to-ofw.zip
+	/home/destin/Downloads/R7000-back-to-ofw.zip
+t/home/destin/Trash/000_YQ0QfST3.csv
+	/home/destin/Downloads/YQ0QfST3.csv
+t/home/destin/Trash/000_backup_2020-06-16-1244_Taosorg_b455049c01e9-themes.zip
+	/home/destin/Downloads/backup_2020-06-16-1244_Taosorg_b455049c01e9-themes.zip
+t/home/destin/Trash/000_bbc.com-Facebook to let users turn off political adverts.pdf
+	/home/destin/Downloads/bbc.com-Facebook to let users turn off political adverts.pdf
+t/home/destin/Trash/000_bureau.jpg
+	/home/destin/Downloads/bureau.jpg
+t/home/destin/Trash/000_c92.png
+	/home/destin/Downloads/c92.png
+t/home/destin/Trash/000_cherry.jpg
+	/home/destin/Downloads/cherry.jpg
+t/home/destin/Trash/000_control_detail.jpg
+	/home/destin/Downloads/control_detail.jpg
+t/home/destin/Trash/000_cord.jpg
+	/home/destin/Downloads/cord.jpg
+t/home/destin/Trash/000_court2.jpg
+	/home/destin/Downloads/court2.jpg
+t/home/destin/Trash/000_courtdoc.jpg
+	/home/destin/Downloads/courtdoc.jpg
+t/home/destin/Trash/000_dd-wrt.v24-40559_NEWD-2_K2.6_big-nv60k.bin
+	/home/destin/Downloads/dd-wrt.v24-40559_NEWD-2_K2.6_big-nv60k.bin
+t/home/destin/Trash/000_dd-wrt.v24-40559_NEWD-2_K2.6_mini-e2500.bin
+	/home/destin/Downloads/dd-wrt.v24-40559_NEWD-2_K2.6_mini-e2500.bin
+t/home/destin/Trash/000_dhamster.jpg
+	/home/destin/Downloads/dhamster.jpg
+t/home/destin/Trash/000_drab.jpg
+	/home/destin/Downloads/drab.jpg
+t/home/destin/Trash/000_eri958In.csv
+	/home/destin/Downloads/eri958In.csv
+t/home/destin/Trash/000_factory-to-dd-wrt.chk
+	/home/destin/Downloads/factory-to-dd-wrt.chk
+t/home/destin/Trash/000_freshtomato-R7000-2020.3-initial-64K.zip
+	/home/destin/Downloads/freshtomato-R7000-2020.3-initial-64K.zip
+t/home/destin/Trash/000_freshtomato-R7000-ARM_NG-2020.3-AIO-64K.zip
+	/home/destin/Downloads/freshtomato-R7000-ARM_NG-2020.3-AIO-64K.zip
+t/home/destin/Trash/000_gallery1.jpg
+	/home/destin/Downloads/gallery1.jpg
+t/home/destin/Trash/000_gallery2.jpg
+	/home/destin/Downloads/gallery2.jpg
+t/home/destin/Trash/000_gallery3.jpg
+	/home/destin/Downloads/gallery3.jpg
+t/home/destin/Trash/000_gallery4.jpg
+	/home/destin/Downloads/gallery4.jpg
+t/home/destin/Trash/000_gallery5.jpg
+	/home/destin/Downloads/gallery5.jpg
+t/home/destin/Trash/000_gallery6.jpg
+	/home/destin/Downloads/gallery6.jpg
+t/home/destin/Trash/000_gallery7.jpg
+	/home/destin/Downloads/gallery7.jpg
+t/home/destin/Trash/000_galleryT.JPG
+	/home/destin/Downloads/galleryT.JPG
+t/home/destin/Trash/000_geodirectory-report.csv
+	/home/destin/Downloads/geodirectory-report.csv
+t/home/destin/Trash/000_https _www.sos.state.nm.us_voting-and-elections_voter-information-portal_.htm
+	/home/destin/Downloads/https _www.sos.state.nm.us_voting-and-elections_voter-information-portal_.htm
+t/home/destin/Trash/000_icons8-brain-64.png
+	/home/destin/Downloads/icons8-brain-64.png
+t/home/destin/Trash/000_icons8-head-with-brain-64.png
+	/home/destin/Downloads/icons8-head-with-brain-64.png
+t/home/destin/Trash/000_icons8_head_with_brain_64_OUh_icon.ico
+	/home/destin/Downloads/icons8_head_with_brain_64_OUh_icon.ico
+t/home/destin/Trash/000_icons8_head_with_brain_64_jTY_icon.ico
+	/home/destin/Downloads/icons8_head_with_brain_64_jTY_icon.ico
+t/home/destin/Trash/000_igloo.jpg
+	/home/destin/Downloads/igloo.jpg
+t/home/destin/Trash/000_jointer.jpg
+	/home/destin/Downloads/jointer.jpg
+t/home/destin/Trash/000_jointer2.jpg
+	/home/destin/Downloads/jointer2.jpg
+t/home/destin/Trash/000_jointerbase.jpg
+	/home/destin/Downloads/jointerbase.jpg
+t/home/destin/Trash/000_k4uoonxN.csv
+	/home/destin/Downloads/k4uoonxN.csv
+t/home/destin/Trash/000_kenwood_detail.jpg
+	/home/destin/Downloads/kenwood_detail.jpg
+t/home/destin/Trash/000_kenwood_top.jpg
+	/home/destin/Downloads/kenwood_top.jpg
+t/home/destin/Trash/000_logo.png
+	/home/destin/Downloads/logo.png
+t/home/destin/Trash/000_men-face-mask-template-rev3.pdf
+	/home/destin/Downloads/men-face-mask-template-rev3.pdf
+t/home/destin/Trash/000_model.jpg
+	/home/destin/Downloads/model.jpg
+t/home/destin/Trash/000_netgear-r7000-webflash.bin
+	/home/destin/Downloads/netgear-r7000-webflash.bin
+t/home/destin/Trash/000_nutty.gif
+	/home/destin/Downloads/nutty.gif
+t/home/destin/Trash/000_psform1093_082019_lc.pdf
+	/home/destin/Downloads/psform1093_082019_lc.pdf
+t/home/destin/Trash/000_qukKvn2Y.csv
+	/home/destin/Downloads/qukKvn2Y.csv
+t/home/destin/Trash/000_rec1.jpg
+	/home/destin/Downloads/rec1.jpg
+t/home/destin/Trash/000_rec2.jpg
+	/home/destin/Downloads/rec2.jpg
+t/home/destin/Trash/000_rec3.jpg
+	/home/destin/Downloads/rec3.jpg
+t/home/destin/Trash/000_scamp.jpg
+	/home/destin/Downloads/scamp.jpg
+t/home/destin/Trash/000_sub.html
+	/home/destin/Downloads/sub.html
+t/home/destin/Trash/000_sub.jpg
+	/home/destin/Downloads/sub.jpg
+t/home/destin/Trash/000_sub_and_amp.jpg
+	/home/destin/Downloads/sub_and_amp.jpg
+t/home/destin/Trash/000_test.pdf
+	/home/destin/Downloads/test.pdf
+t/home/destin/Trash/000_test.zip
+	/home/destin/Downloads/test.zip
+t/home/destin/Trash/000_us3-aes-128-cbc-udp-ip.ovpn
+	/home/destin/Downloads/us3-aes-128-cbc-udp-ip.ovpn
+t/home/destin/Trash/000_us_south_west-aes-128-cbc-udp-ip.ovpn
+	/home/destin/Downloads/us_south_west-aes-128-cbc-udp-ip.ovpn
+t/home/destin/Trash/000_userprofileimage.png
+	/home/destin/Downloads/userprofileimage.png
+t/home/destin/Trash/000_vXY63LqM.csv
+	/home/destin/Downloads/vXY63LqM.csv
+t/home/destin/Trash/000_wide.jpeg
+	/home/destin/Downloads/wide.jpeg
+t/home/destin/Trash/000_wiredetail.jpg
+	/home/destin/Downloads/wiredetail.jpg
+t/home/destin/Trash/000_wlconf.gz
+	/home/destin/Downloads/wlconf.gz
+t/home/destin/Trash/000_fontawesome-free-5.12.0-web
+	/home/destin/Downloads/fontawesome-free-5.12.0-web
+t/home/destin/Trash/000_image
+	/home/destin/Downloads/image
+t/home/destin/Trash/000_sub_files
+	/home/destin/Downloads/sub_files
+t/home/destin/Trash/000_stderrgpudetect.txt
+	/home/destin/stderrgpudetect.txt
+t/home/destin/Trash/000_stdoutgpudetect.txt
+	/home/destin/stdoutgpudetect.txt
+t/home/destin/Trash/000_tmux-client-1939525.log
+	/home/destin/tmux-client-1939525.log
+t/home/destin/Trash/000_ssh-askpass
+	/home/destin/bin/ssh-askpass
+t/home/destin/Trash/000_.zoom
+	/home/destin/.zoom
+t/home/destin/Trash/000_.tomighty
+	/home/destin/.tomighty
+t/home/destin/Trash/000_.BOINC
+	/home/destin/.BOINC
+t/home/destin/Trash/000_boincmgr
+	/home/destin/.cache/boincmgr
+t/home/destin/Trash/000_ranger
+	/home/destin/.cache/ranger
+t/home/destin/Trash/001_ranger
+	/home/destin/.config/ranger
 
 # State:
 f

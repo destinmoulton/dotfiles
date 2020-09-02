@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/boot/EFI'
 let g:netrw_dirhist_8='/home/destin/projects/gizmo/taos.org'
 let g:netrw_dirhist_7='/home/destin/.zsh'
 let g:netrw_dirhist_6='/home/destin/dotfiles/vifm/.config'

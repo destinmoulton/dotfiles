@@ -45,3 +45,8 @@ export EDITOR=vim
 # Fix java fonts and set to gtk theme
 export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.opengl=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel "
 
+# Set the fzf default to fd (better than find)
+export FZF_DEFAULT_COMMAND="fd --type f -E node_modules"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fd --type d -E node_modules"
+

@@ -15,17 +15,20 @@ alias xclip="xclip -selection c"
 
 
 # Make ls more friendly
-alias ls="${aliases[ls]:-ls} -h --group-directories-first"
-if [ -x "$(command -v dircolors)" ]; then
-    if [[ -s "$HOME/.dir_colors" ]]; then
-        eval "$(dircolors --sh "$HOME/.dir_colors")"
-    else
-        eval "$(dircolors --sh)"
-    fi
-    alias ls="${aliases[ls]:-ls} --color=auto"
-else
-    alias ls="${aliases[ls]:-ls} -F"
-fi
+# 
+# REPLACED BY exa command (alias in this file)
+#
+# alias ls="${aliases[ls]:-ls} -h --group-directories-first"
+# if [ -x "$(command -v dircolors)" ]; then
+#     if [[ -s "$HOME/.dir_colors" ]]; then
+#         eval "$(dircolors --sh "$HOME/.dir_colors")"
+#     else
+#         eval "$(dircolors --sh)"
+#     fi
+#     alias ls="${aliases[ls]:-ls} --color=auto"
+# else
+#     alias ls="${aliases[ls]:-ls} -F"
+# fi
 
 #
 # Most of the rest of the aliases are from prezto
@@ -35,16 +38,10 @@ fi
 alias ack='nocorrect ack'
 alias cd='nocorrect cd'
 alias cp='nocorrect cp'
-alias ebuild='nocorrect ebuild'
-alias gcc='nocorrect gcc'
-alias gist='nocorrect gist'
 alias grep='nocorrect grep'
-alias heroku='nocorrect heroku'
-alias ln='nocorrect ln'
 alias man='nocorrect man'
 alias mkdir='nocorrect mkdir'
 alias mv='nocorrect mv'
-alias mysql='nocorrect mysql'
 alias rm='nocorrect rm'
 
 # Disable globbing.
@@ -64,17 +61,25 @@ alias _='sudo'
 
 alias mkdir="${aliases[mkdir]:-mkdir} -p"
 
-alias l='ls -1A'         # Lists in one column, hidden files.
-alias ll='ls -lh'        # Lists human readable sizes.
-alias lr='ll -R'         # Lists human readable sizes, recursively.
-alias la='ll -A'         # Lists human readable sizes, hidden files.
-alias lm='la | "$PAGER"' # Lists human readable sizes, hidden files through pager.
-alias lx='ll -XB'        # Lists sorted by extension (GNU only).
-alias lk='ll -Sr'        # Lists sorted by size, largest last.
-alias lt='ll -tr'        # Lists sorted by date, most recent last.
-alias lc='lt -c'         # Lists sorted by date, most recent last, shows change time.
-alias lu='lt -u'         # Lists sorted by date, most recent last, shows access time.
-alias sl='ls' # I often screw this up.
+# exa
+# Replace ls with exa
+if ! [ -x "$(command -v exa)" ]; then
+  echo 'Warning: exa is not installed. exa is the ls replacement.' >&2
+else
+  # Define the exa command (ls replacement)
+  #  --group shows the user group
+  EXA_COMMAND="exa --long --group --group-directories-first"
+  alias exa="$EXA_COMMAND"
+  alias ls="$EXA_COMMAND"
+fi
+
+# bat
+# bat is a cat replacement
+if ! [ -x "$(command -v bat)" ]; then
+  echo 'Warning: bat is not installed. bat is the cat replacement.' >&2
+else
+  alias cat="bat --theme='OneHalfLight'"
+fi
 
 # Resource Usage
 alias df='df -kh'
@@ -95,3 +100,4 @@ function cdls {
 alias bmgo="jump"
 alias bmark="bookmark"
 alias bmarks="showmarks"
+
