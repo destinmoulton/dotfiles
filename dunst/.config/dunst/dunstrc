@@ -42,23 +42,23 @@
 
 [frame]
     width = 5
-    color = "#cc241d"
+    color = "#1e9bba"
 
 [shortcuts]
     close = ctrl+space
     close_all = ctrl+shift+space
 
 [urgency_low]
-    background = "#282828"
+    background = "#595959"
     foreground = "#ebdbb2"
     timeout = 5
 
 [urgency_normal]
-    background = "#282828"
+    background = "#595959"
     foreground = "#ebdbb2"
     timeout = 5
 
 [urgency_critical]
-    background = "#282828"
+    background = "#595959"
     foreground = "#ebdbb2"
     timeout = 5
