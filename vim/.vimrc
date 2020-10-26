@@ -39,7 +39,7 @@ syntax on
 filetype plugin on
 filetype plugin indent on
 " Theme and Syntax
-set background=dark
+set background=light
 colorscheme solarized
 
 " Enable riv (RestructuredText plugin) folding

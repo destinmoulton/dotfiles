@@ -61,57 +61,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/destin/projects/gizmo/taoshospital/public_html
-	helm
-1
-d/home/destin/projects/gizmo/taoshospital/public_html/helm
-	application
-1
-d/home/destin/projects/gizmo/taoshospital/public_html/helm/application
-	libraries
-7
-d/home/destin/projects/gizmo/taoshospital/public_html/helm/application/libraries
-	..
-0
-d/home/destin/projects/gizmo/taoshospital/public_html/helm/application
-	libraries
-7
-d/home/destin/projects/gizmo/taoshospital/public_html/helm
-	application
-1
-d/home/destin/projects/gizmo/taoshospital/public_html
-	helm
-1
-d/home/destin/projects/gizmo/taoshospital
-	public_html
-1
-d/home/destin/projects/gizmo
-	taosproperties.com
-13
-d/home/destin/projects/gizmo/taosproperties.com
-	www
-1
-d/home/destin/projects/gizmo/taosproperties.com/www
-	helm
-1
-d/home/destin/projects/gizmo/taosproperties.com/www/helm
-	flash
-1
-d/home/destin/projects/gizmo/taosproperties.com/www
-	taosproperties
-2
-d/home/destin/projects/gizmo/taosproperties.com/www/taosproperties
-	local
-1
-d/home/destin/projects/gizmo/taosproperties.com/www/taosproperties/local
-	..
-0
-d/home/destin/projects/gizmo/taosproperties.com/www/taosproperties
-	local
-1
-d/home/destin/projects/gizmo/taosproperties.com/www
-	helm
-1
 d/home/destin/projects/gizmo/taosproperties.com/www/helm
 	system
 6
@@ -359,140 +308,62 @@ d/home/destin
 	Downloads
 9
 d/home/destin/Downloads
-	anderson_billboard.jpg
-6
+	Empire of the Summer Moon_ Quanah Parker and the Rise and Fall of the Comanches, the Most Powerful Indian Tribe in American History by S C Gwynne ePUB eBOOK-ZAK
+1
+d/home/destin/Downloads/Empire of the Summer Moon_ Quanah Parker and the Rise and Fall of the Comanches, the Most Powerful Indian Tribe in American History by S C Gwynne ePUB eBOOK-ZAK
+	..
+0
+d/home/destin/Downloads
+	Scrivener 1.9.12.0 incl Patch - CrackingPatching
+1
+d/home/destin
+	Android Books
+4
+d/home/destin/Android Books
+	MoonReader
+2
+d/home/destin/Android Books/MoonReader
+	..
+0
+d/home/destin/projects/gizmo
+	roamsnm.org
+10
+d/home/destin/projects/gizmo/roamsnm.org
+	public_html
+1
+d/home/destin/projects/gizmo/roamsnm.org/public_html
+	wp-content
+1
+d/home/destin/projects/gizmo/roamsnm.org/public_html/wp-content
+	plugins
+1
+d/home/destin/projects/gizmo/roamsnm.org/public_html/wp-content/plugins
+	business-directory-plugin
+1
+d/home/destin/projects/gizmo/roamsnm.org/public_html/wp-content/plugins/business-directory-plugin
+	themes
+5
+d/home/destin/projects/gizmo/roamsnm.org/public_html/wp-content/plugins/business-directory-plugin/themes
+	roams
+3
+d/home/destin/projects/gizmo/roamsnm.org/public_html/wp-content/plugins/business-directory-plugin/themes/roams
+	templates
+2
+d/home/destin/projects/gizmo/roamsnm.org/public_html/wp-content/plugins/business-directory-plugin/themes/roams/templates
+	single_content.tpl.php
+15
+d/home/destin/projects/gizmo/roamsnm.org/public_html/wp-content/plugins/business-directory-plugin/themes/roams
+	templates
+2
+d/home/destin/projects/gizmo/roamsnm.org/public_html/wp-content/plugins/business-directory-plugin/themes
+	roams
+3
+d/home/destin/Downloads
+	hunan.png
+5
 d
 
 # Right window history (oldest to newest):
-D/home/destin/Android Books
-	MoonReader
-2
-D/home/destin/Android Books/MoonReader
-	Arguably Selected Essays - Christopher Hitchens.epub
-5
-D/home/destin/Android Books
-	MoonReader
-2
-D/home/destin
-	Downloads
-19
-D/home/destin/Downloads
-	fonts
-2
-D/home/destin/Downloads/fonts
-	..
-0
-D/home/destin/Downloads
-	pixitest
-3
-D/home/destin/Downloads/pixitest
-	..
-0
-D/home/destin/Downloads
-	pixitest
-3
-D/home/destin
-	GPUCache
-20
-D/home/destin/GPUCache
-	..
-0
-D/home/destin
-	GPUCache
-20
-D/home
-	destin
-1
-D/home/destin
-	MEGAsync
-21
-D/home/destin/MEGAsync
-	..
-0
-D/home/destin
-	Trash
-21
-D/home/destin/Trash
-	..
-0
-D/home/destin
-	apps
-22
-D/home/destin/apps
-	..
-0
-D/home/destin
-	docker
-23
-D/home/destin/docker
-	couchdb
-1
-D/home/destin
-	dotfiles
-24
-D/home/destin/dotfiles
-	..
-0
-D/home/destin
-	Downloads
-19
-D/home/destin/Downloads
-	test.zip
-16
-D/home/destin
-	dotfiles
-24
-D/home/destin/dotfiles
-	profile
-6
-D/home/destin/dotfiles/profile
-	.profile
-1
-D/home/destin/dotfiles
-	profile
-6
-D/home/destin
-	Downloads
-18
-D/home/destin/Downloads
-	gallery1.jpg
-5
-D/home/destin
-	Downloads
-18
-D/home/destin/Books
-	Programming & IT
-12
-D/home/destin/Books/Programming & IT
-	go
-5
-D/home/destin/Books/Programming & IT/go
-	The Go Programming Language by Alan A. A. Donovan, Brian W. Kernighan.pdf
-8
-D/home/destin/Books/Programming & IT
-	go
-5
-D/home/destin/Downloads
-	0601201205.jpg
-5
-D/home/destin
-	Documents
-17
-D/home/destin/Documents
-	articles
-3
-D/home/destin/Documents/articles
-	50_ideas_that_changed_my_life.pdf
-1
-D/home/destin/Documents
-	receipts
-7
-D/home/destin
-	Downloads
-18
-D/home/destin/Downloads
-	image
-3
 D/home/destin/Downloads/image
 	..
 0
@@ -663,7 +534,136 @@ D/home/destin/Downloads
 3
 D/home/destin
 	time_stats_log
-20
+40
+D/home
+	destin
+1
+D/home/destin
+	Books
+6
+D/home/destin/Books
+	History
+6
+D/home/destin/Books/History
+	Empire of the Summer Moon - S C Gwynne
+2
+D/home/destin/Books/History/Empire of the Summer Moon - S C Gwynne
+	Empire of the Summer Moon - SC Gwynne.epub
+1
+D/home/destin/Books/History
+	Empire of the Summer Moon - S C Gwynne
+2
+D/home/destin/Books/History/Empire of the Summer Moon - S C Gwynne
+	Empire of the Summer Moon - SC Gwynne.epub
+1
+D/home/destin/Books/History
+	Empire of the Summer Moon - S C Gwynne
+2
+D/home/destin/Books/History/Empire of the Summer Moon - S C Gwynne
+	Empire of the Summer Moon - SC Gwynne.epub
+1
+D/home/destin/Books/History
+	Empire of the Summer Moon - S C Gwynne
+2
+D/home/destin/Books
+	History
+6
+D/home/destin
+	Downloads
+9
+D/home/destin/Downloads
+	Report_Volume4.pdf
+6
+D/home/destin/projects/gizmo
+	eccoad.org
+4
+D/home/destin/projects/gizmo/eccoad.org
+	wp-includes
+3
+D/home/destin/projects/gizmo/eccoad.org/wp-includes
+	..
+0
+D/home/destin/projects/gizmo/eccoad.org
+	wp-content
+2
+D/home/destin/projects/gizmo/eccoad.org/wp-content
+	plugins
+1
+D/home/destin/projects/gizmo/eccoad.org
+	wp-content
+2
+D/home/destin/projects/gizmo/eccoad.org/wp-content
+	themes
+2
+D/home/destin/projects/gizmo/eccoad.org/wp-content/themes
+	ec-coad
+1
+D/home/destin/projects/gizmo/eccoad.org/wp-content/themes/ec-coad
+	business-directory
+1
+D/home/destin/projects/gizmo/eccoad.org/wp-content/themes/ec-coad/business-directory
+	..
+0
+D/home/destin/projects/gizmo
+	taos.org
+12
+D/home/destin/projects/gizmo/taos.org
+	www
+5
+D/home/destin/projects/gizmo/taos.org/www
+	wp-content
+5
+D/home/destin/projects/gizmo/taos.org/www/wp-content
+	themes
+4
+D/home/destin/projects/gizmo/taos.org/www/wp-content/themes
+	Taos
+1
+D/home/destin/projects/gizmo/taos.org/www/wp-content/themes/Taos
+	userswp
+6
+D/home/destin/projects/gizmo/taos.org/www/wp-content/themes
+	Taos
+1
+D/home/destin/projects/gizmo/taos.org/www/wp-content
+	uploads
+6
+D/home/destin/projects/gizmo/taos.org/www/wp-content/uploads
+	2020
+2
+D/home/destin/projects/gizmo/taos.org/www/wp-content/uploads/2020
+	10
+6
+D/home/destin/projects/gizmo/taos.org/www/wp-content/uploads/2020/10
+	..
+0
+D/home/destin/projects/gizmo/taos.org/www/wp-content/uploads/2020
+	10
+6
+D/home/destin/projects/gizmo/taos.org/www/wp-content/uploads
+	2020
+2
+D/home/destin/projects/gizmo/taos.org/www/wp-content
+	uploads
+6
+D/home/destin/projects/gizmo/taos.org/www
+	wp-content
+5
+D/home/destin/projects/gizmo/taos.org
+	www
+5
+D/home/destin/projects/gizmo
+	taos.org
+12
+D/home/destin/projects
+	gizmo
+14
+D/home/destin
+	tmp
+18
+D/home/destin/tmp
+	twiky
+3
 D
 
 # Command line history (oldest to newest):
@@ -739,26 +739,28 @@ D
 :mkdir Workout
 :mkdir Simple & Sinister
 :mkdir "Simple & Sinister"
-:bmgo gizmo
 :mkdir southwestoriginals.com
 :bmgo backup
 :mkdir youtube
 :bmgo books
-:rename
-:bmgo downloads
 :alink
 :bmgo documents
 :bmgo projects
 :sync
 :mkdir backup
 :mkdir wpinv-stripe-payment
-:move
 :vim README.md
 :mkdir local/js
 :mkdir local
 :mkdir js
-:copy
 :bmgo home
+:rename
+:copy
+:bmgo downloads
+:bmgo gizmo
+:move
+:mkdir taos.org
+:.,.+2q
 :q
 
 # Search history (oldest to newest):
@@ -810,6 +812,7 @@ D
 /Fou
 /Pro
 /Epub
+/books
 
 # Prompt history (oldest to newest):
 papologies_pi.php.bak
@@ -849,7 +852,8 @@ pspinning_loader.gif
 |.confi
 
 # Registers:
-""/home/destin/Trash/000_tmux-client-1939525.log
+""/home/destin/Trash/000_audiobook-sample.mp3
+""/home/destin/Trash/000_free audiobook version.txt
 
 # Directory stack (oldest to newest):
 
@@ -1566,6 +1570,10 @@ t/home/destin/Trash/000_ranger
 	/home/destin/.cache/ranger
 t/home/destin/Trash/001_ranger
 	/home/destin/.config/ranger
+t/home/destin/Trash/000_audiobook-sample.mp3
+	/home/destin/Books/History/Empire of the Summer Moon - S C Gwynne/audiobook-sample.mp3
+t/home/destin/Trash/000_free audiobook version.txt
+	/home/destin/Books/History/Empire of the Summer Moon - S C Gwynne/free audiobook version.txt
 
 # State:
 f

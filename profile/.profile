@@ -23,6 +23,11 @@ export GOPATH=$HOME/.go
 export GOBIN=$GOPATH/bin
 PATH=$PATH:$GOROOT/bin:$GOBIN
 
+# Setup the node 'n' command to use the home dir
+# for storing node versions
+export N_PREFIX=$HOME/.n
+PATH=$PATH:$N_PREFIX/bin
+
 # Add java path (other java settings defined in /etc/profile.d/custom.sh)
 PATH=$PATH:$JAVA_HOME
 
