@@ -34,10 +34,10 @@ windows:
   - "ONE - 2 PANES":
       layout: even-horizontal 
       panes:
-        - cd ~/projects && clear 
-        - cd ~/projects && clear
+        - cd ~/projects/<%= @args[0] %> && clear 
+        - cd ~/projects/<%= @args[0] %> && clear
   - "TWO 2 PANES":
       layout: even-horizontal 
       panes:
-        - cd ~/projects && clear 
-        - cd ~/projects && clear 
+        - cd ~/projects/<%= @args[0] %> && clear 
+        - cd ~/projects/<%= @args[0] %> && clear 

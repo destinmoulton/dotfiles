@@ -59,9 +59,13 @@ bindsym Print exec deepin-screenshot
 bindsyn $mod + Print exec deepin-screenshot
 
 # Make current window into the scratch pad
-bindsym $mod+Shift+s move scratchpad
+bindsym $mod+Shift+s mark "scratchy"; move scratchpad
 # Show/hide the scratch pad
 bindsym $mod+s scratchpad show
+for_window [floating class="Opera"] border pixel 6 
+for_window [floating class="Opera"] resize set 1300 800
+for_window [floating class="Opera"] move position center
+#for_window [floating con_mark="scratchy"] move position center
 
 # Volume Control
 bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5dB+ unmute #increase sound volume
