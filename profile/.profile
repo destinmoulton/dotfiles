@@ -38,7 +38,8 @@ PATH=$PATH:$HOME/.npm/global-packages/bin
 PATH=$PATH:$HOME/.config/composer/vendor/bin
 
 # Set wine to use win32
-export WINEARCH=win32
+export WINEARCH=win64
+export WINEPREFIX=~/.wine winecfg
 
 # EXPORT THE PATH
 export PATH
@@ -55,3 +56,8 @@ export FZF_DEFAULT_COMMAND="fd --type f -E node_modules"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="fd --type d -E node_modules"
 
+# Set the bat (cat replacement) default theme
+export BAT_THEME="Solarized (light)"
+
+# Set the QT theme (configured via qt5ct app)
+export QT_QPA_PLATFORMTHEME=qt5ct
