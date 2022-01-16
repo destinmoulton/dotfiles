@@ -11,6 +11,9 @@ PATH="/usr/local/bin:/usr/bin:/bin"
 PATH=$PATH:$HOME/.local/bin
 PATH=$PATH:$HOME/bin
 
+# Add snap
+PATH=$PATH:/var/lib/snapd/snap/bin
+
 # Add android studio path
 export ANDROID_HOME=$HOME/Android/Sdk
 PATH=$PATH:$ANDROID_HOME/emulator
