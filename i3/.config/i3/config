@@ -250,7 +250,7 @@ for_window [class="Spotify"] move to workspace $wksp9
 
 #exec --no-startup-id i3-msg 'exec code;'
 #exec --no-startup-id i3-msg 'exec firefox;'
-exec --no-startup-id megasync &
+#exec --no-startup-id nextcloud &
 
 # The network manager applet
 exec --no-startup-id nm-applet &
