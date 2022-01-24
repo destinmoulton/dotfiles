@@ -255,6 +255,9 @@ for_window [class="Spotify"] move to workspace $wksp9
 # The network manager applet
 exec --no-startup-id nm-applet &
 
+# Dropbox
+exec --no-startup-id dropbox &
+
 # Start the dbus message display
 exec --no-startup-id dunst &
 #exec --no-startup-id /usr/bin/python /home/destin/projects/i3-automator/start.py
