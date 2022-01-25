@@ -252,15 +252,19 @@ for_window [class="Spotify"] move to workspace $wksp9
 #exec --no-startup-id i3-msg 'exec firefox;'
 #exec --no-startup-id nextcloud &
 
+
+# Start the dbus message display
+exec --no-startup-id dunst &
+#exec --no-startup-id /usr/bin/python /home/destin/projects/i3-automator/start.py
+
 # The network manager applet
 exec --no-startup-id nm-applet &
 
 # Dropbox
 exec --no-startup-id dropbox &
 
-# Start the dbus message display
-exec --no-startup-id dunst &
-#exec --no-startup-id /usr/bin/python /home/destin/projects/i3-automator/start.py
+# Pulse Audio System Tray icon
+exec --no-startup-id pasystray &
 
 # Remap capslock to ctrl
 exec --no-startup-id /usr/bin/setxkbmap -option "ctrl:nocaps"
