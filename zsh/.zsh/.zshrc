@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Wed Sep 2 10:48:26 AM MDT 2020
+#   Compiled on: Tue Apr 12 03:34:00 PM MDT 2022
 #
 #
 #
@@ -279,6 +279,16 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':completion:*' menu select # select completions with arrow keys
 zstyle ':completion:*' group-name '' # group results by category
 zstyle ':completion:::::' completer _expand _complete _ignored _approximate # enable approximate matches for completi
+
+#
+# 06_zoxide.zsh
+#
+# Initialize zoxide
+# 
+# zoxide is a cd replacement that learns your most used directories
+#
+eval "$(zoxide init zsh)"
+
 
 
 #
