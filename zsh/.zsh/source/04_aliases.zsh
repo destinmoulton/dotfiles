@@ -78,7 +78,7 @@ fi
 if ! [ -x "$(command -v bat)" ]; then
   echo 'Warning: bat is not installed. bat is the cat replacement.' >&2
 else
-  alias cat="bat --theme='OneHalfLight'"
+  alias bat="bat --theme='OneHalfLight'"
 fi
 
 # Resource Usage
