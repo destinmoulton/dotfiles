@@ -95,6 +95,15 @@ function cdls {
     builtin cd "$argv[-1]" && ls "${(@)argv[1,-2]}"
 }
 
+# Show some basic commands as reminders
+function sos {
+    echo "bat - cat replacement"
+    echo "fd - find replacment"
+    echo "dust - disk usage with bar graphs"
+    echo "rg - grep replacent"
+    echo "z - change directories with history"
+}
+
 
 # zshmarks aliases
 alias bmgo="jump"

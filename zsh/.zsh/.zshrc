@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Tue Apr 12 03:34:00 PM MDT 2022
+#   Compiled on: Mon Apr 18 11:52:13 AM MDT 2022
 #
 #
 #
@@ -243,7 +243,7 @@ fi
 if ! [ -x "$(command -v bat)" ]; then
   echo 'Warning: bat is not installed. bat is the cat replacement.' >&2
 else
-  alias cat="bat --theme='OneHalfLight'"
+  alias bat="bat --theme='OneHalfLight'"
 fi
 
 # Resource Usage
@@ -258,6 +258,14 @@ function mkdcd {
 # Changes to a directory and lists its contents.
 function cdls {
     builtin cd "$argv[-1]" && ls "${(@)argv[1,-2]}"
+}
+
+# Show some basic commands as reminders
+function sos {
+    echo "bat - cat replacement"
+    echo "dust - disk usage with bar graphs"
+    echo "rg - grep replacent"
+    echo "z - change directories with history"
 }
 
 
