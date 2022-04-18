@@ -100,6 +100,7 @@ function sos {
     echo "bat - cat replacement"
     echo "fd - find replacment"
     echo "dust - disk usage with bar graphs"
+    echo "tldr - show basic command info"
     echo "rg - grep replacent"
     echo "z - change directories with history"
 }
