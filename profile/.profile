@@ -22,13 +22,13 @@ PATH=$PATH:$ANDROID_HOME/tools/bin
 PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Add go (golang) path
-export GOPATH=$HOME/.go
+export GOPATH=$HOME/.local/go
 export GOBIN=$GOPATH/bin
-PATH=$PATH:$GOROOT/bin:$GOBIN
+PATH=$PATH:$GOBIN
 
 # Setup the node 'n' command to use the home dir
 # for storing node versions
-export N_PREFIX=$HOME/.n
+export N_PREFIX=$HOME/n
 PATH=$PATH:$N_PREFIX/bin
 
 # Add java path (other java settings defined in /etc/profile.d/custom.sh)
