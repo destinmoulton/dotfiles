@@ -28,4 +28,12 @@ function sos {
 }
 
 
+# get the memory useage for a process
+# https://stackoverflow.com/questions/3853655/in-linux-how-to-tell-how-much-memory-processes-are-using
+mem()
+{                                                                                                      
+    ps -eo rss,pid,euser,args:100 --sort %mem | grep -v grep | grep -i $@ | awk '{printf $1/1024 "MB"; $1=""; print }'
+}
+
+
 
