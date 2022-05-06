@@ -81,6 +81,10 @@ else
   alias bat="bat --theme='OneHalfLight'"
 fi
 
+# btm
+# btm (bottom) is a htop or top replacement
+alias btm="btm --color default-light"
+
 # Resource Usage
 alias df='df -kh'
 alias du='du -kh'

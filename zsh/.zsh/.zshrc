@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Wed Apr 27 01:38:49 PM MDT 2022
+#   Compiled on: Fri May 6 10:46:27 AM MDT 2022
 #
 #
 #
@@ -245,6 +245,10 @@ if ! [ -x "$(command -v bat)" ]; then
 else
   alias bat="bat --theme='OneHalfLight'"
 fi
+
+# btm
+# btm (bottom) is a htop or top replacement
+alias btm="btm --color default-light"
 
 # Resource Usage
 alias df='df -kh'

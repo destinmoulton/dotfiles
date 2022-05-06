@@ -28,7 +28,7 @@ PATH=$PATH:$GOBIN
 
 # Setup the node 'n' command to use the home dir
 # for storing node versions
-export N_PREFIX=$HOME/n
+export N_PREFIX=$HOME/.local/n
 PATH=$PATH:$N_PREFIX/bin
 
 # Add java path (other java settings defined in /etc/profile.d/custom.sh)
