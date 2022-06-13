@@ -32,7 +32,7 @@ export N_PREFIX=$HOME/.local/n
 PATH=$PATH:$N_PREFIX/bin
 
 # Add java path (other java settings defined in /etc/profile.d/custom.sh)
-PATH=$PATH:$JAVA_HOME
+#PATH=$PATH:$JAVA_HOME
 
 # Add npm global path
 PATH=$PATH:$HOME/.npm/global-packages/bin
@@ -52,7 +52,7 @@ export EDITOR=vim
 
 
 # Fix java fonts and set to gtk theme
-export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.opengl=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel "
+#export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.opengl=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel "
 
 # Set the fzf default to fd (better than find)
 export FZF_DEFAULT_COMMAND="fd --type f -E node_modules"

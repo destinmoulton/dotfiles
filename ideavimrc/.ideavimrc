@@ -1,0 +1,111 @@
+"
+" NOTE: To show the full action list, use the :actionlist command in the vim console
+
+" Set <Space> to the leader
+let mapleader =","
+
+" Multiple Cursors
+" Alt-n : select current word OR next word
+" Alt-p : unselect this word and go back to last word
+" Alt-x : skip this word
+" Esc   : stop multiple cursor mode
+Plug 'terryma/vim-multiple-cursors'
+
+" Comment Plugin
+" gcc         : comment current line
+" gc          : comment selection
+" gc + motion : ie gc4j to comment next four lines
+Plug 'tpope/vim-commentary'
+
+" Surround Plugin
+" cs: To change the surroundings.
+" ds: To delete the surroundings.
+" ys: To add surroundings.
+" S: To surround the currently selected text.
+Plug 'tpope/vim-surround'
+
+" NERDTree for the file/project pane
+" https://github.com/JetBrains/ideavim/wiki/NERDTree-support
+set NERDTree
+map <c-o>   :NERDTreeToggle<CR>
+map <Leader>p :NERDTreeToggle<CR>
+
+" Highlight Yank
+" Automatically highlights the yanked portion when you don't
+" use visual mode (ie yw)
+Plug 'machakann/vim-highlightedyank'
+" Duration the highlight appears
+let g:highlightedyank_highlight_duration = 500
+" Color of the yank highlight
+" let g:highlightedyank_highlight_color = "rgba(160, 160, 160, 155)"
+
+" Turn on relative line numbers
+set relativenumber
+
+" Show the current line number on the current line
+set number
+
+" Turn on highlight incremental search
+set incsearch
+
+" Ignore case when searching
+set ignorecase
+
+" Unmap Ctrl+w
+map <C-w> <Nop>
+
+" Go To
+map <Leader>gd <Action>(GotoDeclaration)
+map <Leader>gs <Action>(GotoSuperMethod)
+map <Leader>gi <Action>(GotoImplementation)
+map <Leader>gb <Action>(JumpToLastChange)
+
+" Window Actions
+" Switch projects
+map <leader>ww <Action>(NextProjectWindow)
+map <Leader>wt <Action>(ActivateTerminalToolWindow)
+map <Leader>wc <Action>(ActivateCommitToolWindow)
+map <Leader>wv <Action>(ActivateVersionControlToolWindow)
+map <Leader>wd <Action>(ActivateDebugToolWindow)
+map <Leader>wp <Action>(ActivateProblemsViewToolWindow)
+map <Leader>wr <Action>(ActivateRunToolWindow)
+map <Leader>wf <Action>(ActivateFindToolWindow)
+
+" Run
+map <Leader><F5> <Action>(Run)
+
+" Refactor
+map <Leader>rp <Action>(Refactorings.QuickListPopupAction)
+map <Leader>rr <Action>(RenameElement)
+map <Leader>rg <Action>(Generate)
+map <Leader>ri <Action>(InspectCode)
+map <Leader>rf <Action>(ReformatCode)
+
+" File Structure Popup
+map <Leader>s <Action>(FileStructurePopup)
+
+" Context menu popup
+map <Leader>p <Action>(ShowPopupMenu)
+
+" Usages Popup
+map <Leader>u <Action>(ShowUsages)
+
+" Quick Fixes Popup (the lightbulb)
+map <Leader>q <Action>(QuickFixes)
+
+" Error description
+map <Leader>ee <Action>(ShowErrorDescription)
+map <Leader>ed <Action>(ShowErrorDescription)
+map <Leader>en <Action>(GotoNextError)
+map <Leader>ep <Action>(GotoPreviousError)
+
+
+" Find Commands
+map <Leader>ff <Action>(GotoFile)
+map <Leader>fg <Action>(GotoFile)
+map <Leader>fu <Action>(FindUsages)
+map <Leader>fR <Action>(ReplaceInPath)
+map <Leader>fr <Action>(Replace)
+map <Leader>fS <Action>(FindInPath)
+map <Leader>fs <Action>(Find)
+map <Leader>a <Action>(AnalyzeActionsPopup)
