@@ -54,11 +54,13 @@ set ignorecase
 " Unmap Ctrl+w
 map <C-w> <Nop>
 
+" Add an alias for select next word
+map gb <A-n>
+
 " Go To
 map <Leader>gd <Action>(GotoDeclaration)
 map <Leader>gs <Action>(GotoSuperMethod)
 map <Leader>gi <Action>(GotoImplementation)
-map <Leader>gb <Action>(JumpToLastChange)
 
 " Window Actions
 " Switch projects

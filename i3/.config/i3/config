@@ -12,7 +12,7 @@
 # define variables
 set $monitor_left HDMI-A-0
 set $monitor_right HDMI-A-1
-set $wksp1 "1: VSCode"
+set $wksp1 "1: Code"
 set $wksp2 "2: Firefox"
 set $wksp3 "3: Terminal"
 set $wksp4 "4: Debug"
