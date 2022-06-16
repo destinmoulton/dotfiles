@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Fri May 6 10:46:27 AM MDT 2022
+#   Compiled on: Thu Jun 16 11:42:14 AM MDT 2022
 #
 #
 #
@@ -52,22 +52,17 @@ ANTIGEN_AUTO_CONFIG=false
 #    - Extra configuration in: 10_completions.zsh
 antigen bundle zsh-users/zsh-completions
 
-
 # Autosuggestions automatically shows suggested commands from history
 #    - Ctrl + Space is the completion command (defined in keybindings)
 antigen bundle zsh-users/zsh-autosuggestions
+
 # Set the color of the autosuggest results
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 
 
 # Syntax highlighting
-antigen bundle zdharma/fast-syntax-highlighting 
-
-
-# Solarized man pages
-antigen bundle zlsun/solarized-man
-
-antigen bundle changyuheng/zsh-interactive-cd
+#antigen bundle zdharma-continuum/fast-syntax-highlighting 
+antigen bundle zsh-users/zsh-syntax-highlighting
 
 # FZF Marks
 # Bookmark manager using fzf
@@ -112,7 +107,7 @@ bindkey '^h' backward-delete-char
 # ctrl-w removed word backwards
 bindkey '^w' backward-kill-word
 
-# autosuggest plugin
+# zsh/autosuggestions: accept the suggestion
 bindkey '^ ' autosuggest-accept
 
 # fzf key bindings
@@ -300,7 +295,7 @@ function mkdcd {
 
 # Changes to a directory and lists its contents.
 function cdls {
-    builtin cd "$argv[-1]" && ls "${(@)argv[1,-2]}"
+    builtin cd "${argv[-1]}" && ls "${(@)argv[1,-2]}"
 }
 
 # Show some basic commands as reminders
@@ -318,12 +313,92 @@ function sos {
 # https://stackoverflow.com/questions/3853655/in-linux-how-to-tell-how-much-memory-processes-are-using
 mem()
 {                                                                                                      
-    ps -eo rss,pid,euser,args:100 --sort %mem | grep -v grep | grep -i $@ | awk '{printf $1/1024 "MB"; $1=""; print }'
+    ps -eo rss,pid,euser,args:100 --sort %mem | grep -v grep | grep -i "$@" | awk '{printf $1/1024 "MB"; $1=""; print }'
 }
 
+# compile zsh and load a new instance
+compilezsh()
+{
+    echo "Running ~/dotfiles/zsh/.zsh/compile.sh...";
+    /usr/bin/bash ~/dotfiles/zsh/.zsh/compile.sh;
 
+    echo "Sourcing the new zsh file...";
+    source ~/.zsh/.zshrc;
+}
 
+# Copy file or directory to system clipboard
+# Note: xclip is aliased in 04_aliases.zsh
+copy(){
+    if ! [ -x "/usr/bin/xclip" ]; then
+        echo "error: xclip not installed"
+        return 1
+    fi
 
+    if [[ $# -eq 0 ]]; then
+        # No parameter, so copy the current directory
+        pwd | xclip && echo "Current directory name copied to clipboard."
+
+    else
+
+        # Output a message if the file doesn't exist
+        [[ -f "$1" ]] || echo "$1 not found."
+
+        # If the file exists, copy the contents
+        [[ -f "$1" ]] && xclip "$1" && echo "File $1 contents copied to clipboard."
+    fi
+}
+
+encrypt(){
+    filename="$1"
+
+    if [ -d "$filename" ]; then
+        echo "$filename is a directory. Cannot encrypt. Tar it or something."
+    fi
+
+    # get the last extension (ie .gz from .tar.gz)
+    extension="${filename##*.}"
+    newfilename="$filename"
+    if ! [ "$extension" = "gpg" ]; then
+        newfilename="$filename.gpg"
+    fi
+
+    echo "Encrypting $filename to $newfilename"
+    
+    cmd="gpg --cipher-algo=AES256 --output=$newfilename -c $filename"
+
+    echo "${cmd}"
+    if eval "$cmd"; then
+      echo "Would you like to remove $filename? (y/n)"
+      read -r delete
+
+      if [ "$delete" = "y" ] || [ "$delete" = "Y" ]; then
+          echo "Shredding $filename..."
+          shred -u "$filename"
+      fi
+    fi
+}
+
+decrypt(){
+    filename="$1"
+
+    newfilename="${filename}"
+    extension="${filename##*.}"
+    if [ "$extension" = "gpg" ]; then
+      # strip gpg from filename
+      newfilename="${filename%.*}"
+    fi
+    cmd="gpg --cipher-algo=AES256 --output=$newfilename --decrypt $filename"
+    echo "${cmd}"
+    if eval "$cmd"; then
+      echo "Would you like to remove $filename? (y/n)"
+      read -r delete
+
+      if [ "$delete" = "y" ] || [ "$delete" = "Y" ]; then
+          echo "Shredding $filename..."
+          shred -u "$filename"
+      fi
+    fi
+}
 #
 # 10_completions.zsh
 #

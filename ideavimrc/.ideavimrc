@@ -51,11 +51,18 @@ set incsearch
 " Ignore case when searching
 set ignorecase
 
-" Unmap Ctrl+w
-map <C-w> <Nop>
-
 " Add an alias for select next word
 map gb <A-n>
+
+" Window Movement
+sethandler <C-j> a:vim
+sethandler <C-k> a:vim
+sethandler <C-j> a:vim
+sethandler <C-l> a:vim
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
 
 " Go To
 map <Leader>gd <Action>(GotoDeclaration)

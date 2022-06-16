@@ -24,7 +24,7 @@ bindkey '^h' backward-delete-char
 # ctrl-w removed word backwards
 bindkey '^w' backward-kill-word
 
-# autosuggest plugin
+# zsh/autosuggestions: accept the suggestion
 bindkey '^ ' autosuggest-accept
 
 # fzf key bindings

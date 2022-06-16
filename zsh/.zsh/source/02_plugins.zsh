@@ -27,22 +27,17 @@ ANTIGEN_AUTO_CONFIG=false
 #    - Extra configuration in: 10_completions.zsh
 antigen bundle zsh-users/zsh-completions
 
-
 # Autosuggestions automatically shows suggested commands from history
 #    - Ctrl + Space is the completion command (defined in keybindings)
 antigen bundle zsh-users/zsh-autosuggestions
+
 # Set the color of the autosuggest results
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 
 
 # Syntax highlighting
-antigen bundle zdharma/fast-syntax-highlighting 
-
-
-# Solarized man pages
-antigen bundle zlsun/solarized-man
-
-antigen bundle changyuheng/zsh-interactive-cd
+#antigen bundle zdharma-continuum/fast-syntax-highlighting 
+antigen bundle zsh-users/zsh-syntax-highlighting
 
 # FZF Marks
 # Bookmark manager using fzf
