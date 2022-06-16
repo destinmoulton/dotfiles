@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Thu Jun 16 11:42:14 AM MDT 2022
+#   Compiled on: Thu Jun 16 01:39:33 PM MDT 2022
 #
 #
 #
@@ -740,7 +740,7 @@ prompt_pure_preprompt_render() {
 	local -a preprompt_parts
 
 	# Set the path.
-	preprompt_parts+=('%F{blue}%~%f')
+	preprompt_parts+=('[%F{blue}%~%f]')
 
 	# Add git branch and dirty status info.
 	typeset -gA prompt_pure_vcs_info
