@@ -20,6 +20,9 @@ nnoremap <C-H> <C-W><C-H>
 set number                     " Show current line number
 set relativenumber             " Show relative line numbers
 
+" Set the colors
+set t_Co=256
+
 " Pressing <esc> twice will clear the search highlight
 nmap <esc><esc> :noh<return>
 
@@ -38,17 +41,10 @@ call pathogen#infect()
 syntax on
 filetype plugin on
 filetype plugin indent on
+
 " Theme and Syntax
-set background=light
-colorscheme solarized
+" vim-espresso plugin
+colorscheme espresso
 
-" Enable riv (RestructuredText plugin) folding
-let g:rst_fold_enabled=1
-
-" Configure the pencil writing plugin
-augroup pencil
-  autocmd!
-  autocmd FileType rst call pencil#init({'wrap': 'hard', 'autoformat': 0})
-augroup END
 
 call pathogen#helptags() "If you like to get crazy :)
