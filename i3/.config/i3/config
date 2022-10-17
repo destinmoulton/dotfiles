@@ -19,9 +19,11 @@ set $wksp4 "4: Debug"
 set $wksp5 "5: Filemanager"
 set $wksp6 "6: Misc"
 set $wksp7 "7: Filezilla"
-set $wksp8 "8" 
+set $wksp8 "8: Obsidian" 
 set $wksp9 "9: Music"
 set $wksp10 "10: Misc"
+set $wksp11 "11: Extra (-)"
+set $wksp12 "12: Extra (=)"
 
 # Set the modifier
 set $mod Mod4
@@ -37,7 +39,8 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec terminator
+#bindsym $mod+Return exec terminator
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -50,13 +53,13 @@ bindsym $mod+d exec dmenu_run
 bindsym $mod+w exec python ~/projects/i3void/i3void.py
 
 # Other applications
-bindsym $mod+Control+w exec emacsclient -nc
+#bindsym $mod+Control+w exec emacsclient -nc
 bindsym $mod+Control+c exec google-chrome-stable
 bindsym $mod+Control+f exec firefox
-bindsym $mod+Control+v exec code
+#bindsym $mod+Control+v exec code
 bindsym $mod+Control+z exec filezilla
 bindsym Print exec deepin-screenshot
-bindsyn $mod + Print exec deepin-screenshot
+bindsym $mod+Print exec deepin-screenshot
 
 # Make current window into the scratch pad
 bindsym $mod+Shift+s mark "scratchy"; move scratchpad
@@ -97,12 +100,12 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+bar split h
-bindsym $mod+backslash h
+bindsym $mod+Alt+bar split h
+bindsym $mod+Alt+backslash h
 
 # split in vertical orientation
-bindsym $mod+minus split v
-bindsym $mod+underscore split v
+bindsym $mod+Alt+minus split v
+bindsym $mod+Alt+underscore split v
 
 # enter fullscreen mode for the focused container
 #bindsym $mod+f fullscreen
@@ -136,6 +139,8 @@ bindsym $mod+7 workspace $wksp7
 bindsym $mod+8 workspace $wksp8
 bindsym $mod+9 workspace $wksp9
 bindsym $mod+0 workspace $wksp10
+bindsym $mod+minus workspace $wksp11
+bindsym $mod+equal workspace $wksp12
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $wksp1
@@ -148,6 +153,8 @@ bindsym $mod+Shift+7 move container to workspace $wksp7
 bindsym $mod+Shift+8 move container to workspace $wksp8
 bindsym $mod+Shift+9 move container to workspace $wksp9
 bindsym $mod+Shift+0 move container to workspace $wksp10
+bindsym $mod+Shift+minus move container to workspace $wksp11
+bindsym $mod+Shift+equal move container to workspace $wksp12
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -229,6 +236,8 @@ workspace $wksp7 output $monitor_left
 workspace $wksp8 output $monitor_right
 workspace $wksp9 output $monitor_left
 workspace $wksp10 output $monitor_right
+workspace $wksp11 output $monitor_left
+workspace $wksp12 output $monitor_right
 
 # gaps (remove window borders and title bar)
 #for_window [class=".*"] border pixel 0
@@ -248,10 +257,11 @@ for_window [window_role="task_dialog"] floating enable
 for_window [window_role="dialog"] floating enable
 for_window [window_role="menu"] floating enable
 for_window [window_role="Preferences"] floating enable
+for_window [class="Mollusk"] floating enable
 
 
 # Specific window rules
-for_window [class="JetBrains Toolbox"] move to workspace $wksp1
+#for_window [class="JetBrains Toolbox"] move to workspace $wksp1
 for_window [class="Spotify"] move to workspace $wksp9
 
 #exec --no-startup-id i3-msg 'exec code;'

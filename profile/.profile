@@ -53,6 +53,11 @@ export EDITOR=vim
 export FZF_DEFAULT_COMMAND="fd --type f -E node_modules"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="fd --type d -E node_modules"
+export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
+ --color=fg:#d0d0d0,bg:#121212,hl:#5f87af
+ --color=fg+:#ffffff,bg+:#4f4f4f,hl+:#5fd7ff
+ --color=info:#afaf87,prompt:#6ba6ff,pointer:#ffcb5c
+ --color=marker:#87ff00,spinner:#af5fff,header:#87afaf'
 
 # Set the bat (cat replacement) default theme
 export BAT_THEME="Solarized (light)"

@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/destin/.config/bottom'
 let g:netrw_dirhist_5='/home/destin/.config/kitty'
 let g:netrw_dirhist_4='/home/destin/scripts/backuppi/logs/movies-2021-11-11_09_29_55.log'
 let g:netrw_dirhist_3='/sys/module/snd_usb_audio'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_0='/home/destin/tmp/taos.org'
 let g:netrw_dirhist_9='/boot/EFI'
 let g:netrw_dirhist_8='/home/destin/projects/gizmo/taos.org'
 let g:netrw_dirhist_7='/home/destin/.zsh'
-let g:netrw_dirhist_6='/home/destin/dotfiles/vifm/.config'
