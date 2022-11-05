@@ -20,14 +20,3 @@ nnoremap <C-H> <C-W><C-H>
 
 " Pressing <esc> twice to clear the highlighting
 nmap <esc><esc> :noh<return>
-
-" Setup pathogen 
-"
-" mkdir -p ~/.config/nvim/autoload ~/.config/nvim/bundle && \
-" curl -LSso ~/.config/nvim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-"
-" https://github.com/tpope/vim-pathogen
-call pathogen#infect()
-syntax on
-filetype plugin on
-filetype plugin indent on
