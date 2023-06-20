@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/destin/scripts/backup'
 let g:netrw_dirhist_7='/home/destin/tmp/merdia/alla'
 let g:netrw_dirhist_6='/home/destin/.config/bottom'
 let g:netrw_dirhist_5='/home/destin/.config/kitty'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_2='/proc/asound/card0'
 let g:netrw_dirhist_1='/home/destin/dotfiles/tmux/.tmux'
 let g:netrw_dirhist_0='/home/destin/tmp/taos.org'
 let g:netrw_dirhist_9='/boot/EFI'
-let g:netrw_dirhist_8='/home/destin/projects/gizmo/taos.org'

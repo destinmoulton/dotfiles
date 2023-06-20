@@ -54,6 +54,7 @@ bindsym $mod+w exec python ~/projects/i3void/i3void.py
 
 # Other applications
 #bindsym $mod+Control+w exec emacsclient -nc
+bindsym $mod+e exec doublecmd
 bindsym $mod+Control+c exec google-chrome-stable
 bindsym $mod+Control+f exec firefox
 #bindsym $mod+Control+v exec code

@@ -14,8 +14,16 @@ set incsearch " search as characters are entered
 set hlsearch  " highlight matches
 
 set nocompatible
+
+" neovide gui font
+set guifont=Droid\ Sans\ Mono:h14
+let g:neovide_refresh_rate = 60
+
+
 filetype plugin on
 
+" Remap the leader from \ to ,
+let mapleader=","
 
 " Show the current command in the status bar
 "set showcmd
