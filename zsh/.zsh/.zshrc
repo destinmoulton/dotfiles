@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Thu Jun 16 01:39:33 PM MDT 2022
+#   Compiled on: Thu Nov 16 09:13:12 AM MST 2023
 #
 #
 #
@@ -28,7 +28,7 @@
 # 02_plugins.zsh
 # 
 # Plugins configuration
-# Uses antigen to import the plugins
+# Uses zplug to import the plugins
 #
 
 # Load fzf for:
@@ -41,28 +41,26 @@ else
     echo ".zshrc :: 02_plugins.zsh :: Unable to find fzf...\n"
 fi
 
-# Load antigen
-ADOTDIR=$ZDOTDIR/antigen
-ANTIGEN_LOG=$ADOTDIR/antigen.log
-source $ADOTDIR/antigen.zsh
+# Load zplug plugin manager
+ZPLUG_HOME=$ZDOTDIR/zplug
 
-ANTIGEN_AUTO_CONFIG=false
+# initialize zplug
+source $ZPLUG_HOME/init.zsh
 
 # Extra zsh completions
 #    - Extra configuration in: 10_completions.zsh
-antigen bundle zsh-users/zsh-completions
+zplug "zsh-users/zsh-completions"
 
 # Autosuggestions automatically shows suggested commands from history
 #    - Ctrl + Space is the completion command (defined in keybindings)
-antigen bundle zsh-users/zsh-autosuggestions
+zplug "zsh-users/zsh-autosuggestions"
 
 # Set the color of the autosuggest results
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 
 
 # Syntax highlighting
-#antigen bundle zdharma-continuum/fast-syntax-highlighting 
-antigen bundle zsh-users/zsh-syntax-highlighting
+zplug "zsh-users/zsh-syntax-highlighting"
 
 # FZF Marks
 # Bookmark manager using fzf
@@ -73,14 +71,27 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 #    ctrl+t, to toggle a match for deletion
 #    ctrl+d, to delete the selected matches
 #    ctrl+g, Keybinding to open fzm
-antigen bundle urbainvaes/fzf-marks
+zplug "urbainvaes/fzf-marks"
 FZF_MARKS_FILE=$ZDOTDIR/.fzf-marks
 
+# zsh-autocomplete for real time type ahead autocompletion
+# https://github.com/marlonrichert/zsh-autocomplete
+zplug "marlonrichert/zsh-autocomplete"
+
 # zsh-async is requirement for the pure theme (20_theme.zsh)
-antigen bundle mafredri/zsh-async
+zplug "mafredri/zsh-async", from:"github", use:"async.zsh"
 
-antigen apply
+# Let zplug manage itself
+zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
+# zplug check returns true if all packages are installed
+# Therefore, when it returns false, run zplug install
+if ! zplug check; then
+    zplug install
+fi
+
+# source plugins and add commands to the PATH
+zplug load
 
 #
 # 03_keybindings.zsh
