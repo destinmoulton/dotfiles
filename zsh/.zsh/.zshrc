@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Thu Nov 16 09:13:12 AM MST 2023
+#   Compiled on: Thu Nov 30 11:56:07 AM MST 2023
 #
 #
 #
@@ -410,6 +410,22 @@ decrypt(){
       fi
     fi
 }
+
+# Run fzf on ripgrep `rg` commands
+ function frg {
+      result=$(rg --ignore-case --color=always --line-number --no-heading "$@" |
+        fzf --ansi \
+            --color 'hl:-1:underline,hl+:-1:underline:reverse' \
+            --delimiter ':' \
+            --preview "bat --color=always {1} --theme='Solarized (light)' --highlight-line {2}" \
+            --preview-window 'up,60%,border-bottom,+{2}+3/3,~3')
+      file=${result%%:*}
+      linenumber=$(echo "${result}" | cut -d: -f2)
+      if [[ -n "$file" ]]; then
+              $EDITOR +"${linenumber}" "$file"
+      fi
+}
+
 #
 # 10_completions.zsh
 #

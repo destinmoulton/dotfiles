@@ -15,7 +15,7 @@ PATH=$PATH:$HOME/bin
 PATH=$PATH:/var/lib/snapd/snap/bin
 
 # Add android studio path
-export ANDROID_HOME=$HOME/Android/Sdk
+export ANDROID_HOME=$HOME/.android/sdk
 PATH=$PATH:$ANDROID_HOME/emulator
 PATH=$PATH:$ANDROID_HOME/tools
 PATH=$PATH:$ANDROID_HOME/tools/bin
@@ -31,6 +31,9 @@ PATH=$PATH:$GOBIN
 
 # Add npm global path
 PATH=$PATH:$HOME/.npm/global-packages/bin
+
+# Add the rust cargo bin path
+PATH=$PATH:$HOME/.cargo/bin
 
 # Composer 
 PATH=$PATH:$HOME/.config/composer/vendor/bin
@@ -64,3 +67,7 @@ export BAT_THEME="Solarized (light)"
 
 # Set the QT theme (configured via qt5ct app)
 export QT_QPA_PLATFORMTHEME=qt5ct
+
+
+# Added by Toolbox App
+export PATH="$PATH:/home/destin/.local/share/JetBrains/Toolbox/scripts"

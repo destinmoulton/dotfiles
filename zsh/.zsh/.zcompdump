@@ -435,6 +435,7 @@ _comps=(
 'fvm' '_fvm'
 'fwhois' '_whois'
 'fwupdmgr' '_fwupdmgr'
+'fzm' '_fzm'
 'g++' '_gcc'
 'galeon' '_webbrowser'
 'gas' '_gas'
