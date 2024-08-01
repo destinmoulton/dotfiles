@@ -10,8 +10,8 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # define variables
-set $monitor_left HDMI-A-0
-set $monitor_right HDMI-A-1
+set $monitor_left DP-1
+set $monitor_right HDMI-0
 set $wksp1 "1: Code"
 set $wksp2 "2: Firefox"
 set $wksp3 "3: Terminal"
@@ -66,6 +66,8 @@ bindsym $mod+Print exec deepin-screenshot
 bindsym $mod+Shift+s mark "scratchy"; move scratchpad
 # Show/hide the scratch pad
 bindsym $mod+s scratchpad show
+# remove a floating window from scratchpad
+bindsym $mod+Shift+x floating disable
 for_window [floating class="Opera"] border pixel 6 
 for_window [floating class="Opera"] resize set 1300 800
 #for_window [floating class="Opera"] move position center

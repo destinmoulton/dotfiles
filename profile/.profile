@@ -68,6 +68,9 @@ export BAT_THEME="Solarized (light)"
 # Set the QT theme (configured via qt5ct app)
 export QT_QPA_PLATFORMTHEME=qt5ct
 
+# Set Firefox to disable the RDD SANDBOX
+export MOZ_DISABLE_RDD_SANDBOX=1
+
 
 # Added by Toolbox App
 export PATH="$PATH:/home/destin/.local/share/JetBrains/Toolbox/scripts"

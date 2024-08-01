@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/destin/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/destin/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/destin/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/destin/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/destin/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/home/destin/.cache/nvim/packer_hererocks/2.1.1716656478/share/lua/5.1/?.lua;/home/destin/.cache/nvim/packer_hererocks/2.1.1716656478/share/lua/5.1/?/init.lua;/home/destin/.cache/nvim/packer_hererocks/2.1.1716656478/lib/luarocks/rocks-5.1/?.lua;/home/destin/.cache/nvim/packer_hererocks/2.1.1716656478/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/destin/.cache/nvim/packer_hererocks/2.1.1716656478/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -90,7 +90,7 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   orgmode = {
-    config = { "\27LJ\2\n•\2\0\0\5\0\14\0\0256\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\0016\0\0\0'\2\3\0B\0\2\0029\0\4\0005\2\n\0005\3\5\0005\4\6\0=\4\a\0035\4\b\0=\4\t\3=\3\v\0025\3\f\0=\3\r\2B\0\2\0016\0\0\0'\2\1\0B\0\2\0029\0\4\0B\0\1\1K\0\1\0\21ensure_installed\1\2\0\0\borg\14highlight\1\0\0&additional_vim_regex_highlighting\1\2\0\0\borg\fdisable\1\2\0\0\borg\1\0\1\venable\2\nsetup\28nvim-treesitter.configs\21setup_ts_grammar\forgmode\frequire\0" },
+    config = { "\27LJ\2\nœ\3\0\0\5\0\16\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\b\0005\3\3\0005\4\4\0=\4\5\0035\4\6\0=\4\a\3=\3\t\0025\3\n\0=\3\v\2B\0\2\0016\0\0\0'\2\f\0B\0\2\0029\0\2\0005\2\14\0005\3\r\0=\3\15\2B\0\2\1K\0\1\0\31org_blank_before_new_entry\1\0\1\31org_blank_before_new_entry\0\1\0\2\20plain_list_item\1\fheading\1\forgmode\21ensure_installed\1\2\0\0\borg\14highlight\1\0\2\14highlight\0\21ensure_installed\0&additional_vim_regex_highlighting\1\2\0\0\borg\fdisable\1\2\0\0\borg\1\0\3\fdisable\0\venable\2&additional_vim_regex_highlighting\0\nsetup\28nvim-treesitter.configs\frequire\0" },
     loaded = true,
     path = "/home/destin/.local/share/nvim/site/pack/packer/start/orgmode",
     url = "https://github.com/nvim-orgmode/orgmode"
@@ -120,7 +120,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: orgmode
 time([[Config for orgmode]], true)
-try_loadstring("\27LJ\2\n•\2\0\0\5\0\14\0\0256\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\0016\0\0\0'\2\3\0B\0\2\0029\0\4\0005\2\n\0005\3\5\0005\4\6\0=\4\a\0035\4\b\0=\4\t\3=\3\v\0025\3\f\0=\3\r\2B\0\2\0016\0\0\0'\2\1\0B\0\2\0029\0\4\0B\0\1\1K\0\1\0\21ensure_installed\1\2\0\0\borg\14highlight\1\0\0&additional_vim_regex_highlighting\1\2\0\0\borg\fdisable\1\2\0\0\borg\1\0\1\venable\2\nsetup\28nvim-treesitter.configs\21setup_ts_grammar\forgmode\frequire\0", "config", "orgmode")
+try_loadstring("\27LJ\2\nœ\3\0\0\5\0\16\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\b\0005\3\3\0005\4\4\0=\4\5\0035\4\6\0=\4\a\3=\3\t\0025\3\n\0=\3\v\2B\0\2\0016\0\0\0'\2\f\0B\0\2\0029\0\2\0005\2\14\0005\3\r\0=\3\15\2B\0\2\1K\0\1\0\31org_blank_before_new_entry\1\0\1\31org_blank_before_new_entry\0\1\0\2\20plain_list_item\1\fheading\1\forgmode\21ensure_installed\1\2\0\0\borg\14highlight\1\0\2\14highlight\0\21ensure_installed\0&additional_vim_regex_highlighting\1\2\0\0\borg\fdisable\1\2\0\0\borg\1\0\3\fdisable\0\venable\2&additional_vim_regex_highlighting\0\nsetup\28nvim-treesitter.configs\frequire\0", "config", "orgmode")
 time([[Config for orgmode]], false)
 
 _G._packer.inside_compile = false

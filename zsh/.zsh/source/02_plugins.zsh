@@ -24,34 +24,22 @@ source $ZPLUG_HOME/init.zsh
 
 # Extra zsh completions
 #    - Extra configuration in: 10_completions.zsh
-zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-completions", defer:2
 
 # Autosuggestions automatically shows suggested commands from history
 #    - Ctrl + Space is the completion command (defined in keybindings)
-zplug "zsh-users/zsh-autosuggestions"
+zplug "zsh-users/zsh-autosuggestions", defer:2
 
 # Set the color of the autosuggest results
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 
 
 # Syntax highlighting
-zplug "zsh-users/zsh-syntax-highlighting"
-
-# FZF Marks
-# Bookmark manager using fzf
-# Commands:
-#    mark <mark>, to register a new mark to the current dir
-#    fzm <optional-initial-query> to jump to or delete a mark using fzf
-#    ctrl+y, to jump to a match
-#    ctrl+t, to toggle a match for deletion
-#    ctrl+d, to delete the selected matches
-#    ctrl+g, Keybinding to open fzm
-zplug "urbainvaes/fzf-marks"
-FZF_MARKS_FILE=$ZDOTDIR/.fzf-marks
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
 # zsh-autocomplete for real time type ahead autocompletion
 # https://github.com/marlonrichert/zsh-autocomplete
-zplug "marlonrichert/zsh-autocomplete"
+zplug "marlonrichert/zsh-autocomplete", defer:2
 
 # zsh-async is requirement for the pure theme (20_theme.zsh)
 zplug "mafredri/zsh-async", from:"github", use:"async.zsh"
@@ -59,11 +47,8 @@ zplug "mafredri/zsh-async", from:"github", use:"async.zsh"
 # Let zplug manage itself
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
-# zplug check returns true if all packages are installed
-# Therefore, when it returns false, run zplug install
-if ! zplug check; then
-    zplug install
-fi
-
 # source plugins and add commands to the PATH
 zplug load
+
+# **** IMPORTANT ****
+# Run `zplug install` after adding a zplug plugin above
