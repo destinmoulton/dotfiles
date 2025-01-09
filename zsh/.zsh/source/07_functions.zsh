@@ -23,7 +23,7 @@ function sos {
     echo "fd - find replacment"
     echo "dust - disk usage with bar graphs"
     echo "tldr - show basic command info"
-    echo "rg - grep replacent"
+    echo "rg - grep replacement"
     echo "z - change directories with history"
 }
 

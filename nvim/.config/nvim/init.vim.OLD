@@ -40,11 +40,11 @@ nmap <esc><esc> :noh<return>
 lua require('plugins')
 
 " Configure vim-pencil plugin
-let g:pencil#wrapModeDefault = 'soft'   " default is 'hard'
-augroup pencil
-  autocmd!
-  autocmd FileType markdown,mkd call pencil#init()
-augroup END
+" let g:pencil#wrapModeDefault = 'soft'   " default is 'hard'
+" augroup pencil
+"   autocmd!
+"   autocmd FileType markdown,mkd call pencil#init()
+" augroup END
 
 " goyo plugin config
 " Auto enable/disable limelight with goyo

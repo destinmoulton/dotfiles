@@ -1433,6 +1433,7 @@ _comps=(
 'tkconch' '_twisted'
 'tkinfo' '_texinfo'
 'tla' '_tla'
+'tldr' '_tldr'
 'tload' '_tload'
 'tmux' '_tmux'
 'tmuxinator' '_tmuxinator'
@@ -1843,6 +1844,7 @@ _compautos=(
 '_call_program' '+X'
 )
 
+zle -C __fzf_extract_command .complete-word __fzf_extract_command
 zle -C _bash_complete-word .complete-word _bash_completions
 zle -C _bash_list-choices .list-choices _bash_completions
 zle -C _complete_debug .complete-word _complete_debug
@@ -1875,19 +1877,19 @@ bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
 autoload -Uz _autocomplete__ancestor_dirs _autocomplete__command _autocomplete__compadd_opts_len _autocomplete__history_lines _autocomplete__is_glob \
-            _autocomplete__recent_paths _autocomplete__should_insert_unambiguous _autocomplete__unambiguous _zplug _kitty \
-            _bat _bootctl _busctl _bwrap _calibre \
-            _cargo _code _coredumpctl _ctr _curl \
-            _deno _docker _dotnet _dunst _dunstctl \
-            _eza _fd _hostnamectl _img2sixel _journalctl \
-            _kernel-install _kitty _libinput _localectl _loginctl \
-            _machinectl _meson _mkinitcpio _mpv _networkctl \
-            _ninja _oomctl _pacman _paru _pip \
-            _pulseaudio _qpdf _rclone _resolvectl _rg \
-            _run0 _rustup _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes \
-            _sd_unit_files _shtab _snap _systemctl _systemd \
-            _systemd-analyze _systemd-delta _systemd-inhibit _systemd-nspawn _systemd-path \
-            _systemd-run _systemd-tmpfiles _timedatectl _trash _trash-empty \
+            _autocomplete__recent_paths _autocomplete__should_insert_unambiguous _autocomplete__unambiguous _zplug _bat \
+            _bootctl _busctl _bwrap _calibre _cargo \
+            _code _coredumpctl _ctr _curl _deno \
+            _docker _dotnet _dunst _dunstctl _eza \
+            _fd _hostnamectl _img2sixel _journalctl _kernel-install \
+            _kitty _libinput _localectl _loginctl _machinectl \
+            _meson _mkinitcpio _mpv _networkctl _ninja \
+            _oomctl _pacman _paru _pip _pulseaudio \
+            _qpdf _rclone _resolvectl _rg _run0 \
+            _rustup _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes _sd_unit_files \
+            _shtab _snap _systemctl _systemd _systemd-analyze \
+            _systemd-delta _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run \
+            _systemd-tmpfiles _timedatectl _tldr _trash _trash-empty \
             _trash-list _trash-put _trash-restore _udevadm _udisks2 \
             _varlinkctl _vifm _yay _yt-dlp _zathura \
             _zoxide _cdr _all_labels _all_matches _alternative \

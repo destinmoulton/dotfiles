@@ -61,6 +61,7 @@ bindsym $mod+Control+f exec firefox
 bindsym $mod+Control+z exec filezilla
 bindsym Print exec deepin-screenshot
 bindsym $mod+Print exec deepin-screenshot
+bindsym $mod+Scroll_Lock exec ~/bin/restarti3
 
 # Make current window into the scratch pad
 bindsym $mod+Shift+s mark "scratchy"; move scratchpad
