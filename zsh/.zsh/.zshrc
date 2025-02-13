@@ -1,7 +1,7 @@
 #
 #
 #
-#   Compiled on: Thu Feb 13 02:07:48 PM MST 2025
+#   Compiled on: Thu Feb 13 02:38:55 PM MST 2025
 #
 #
 #
@@ -23,13 +23,12 @@
 #
 ############################################################
 ############################################################
-#
+
 # 02_plugins.zsh
 # 
 # Plugins configuration
-# Uses zplug to import the plugins
 #
-
+# uses znap for plugins
 # Load fzf for:
 #   - Kill process list completion
 #   - History searching (Ctrl+r)
@@ -42,12 +41,21 @@ fi
 
 
 # znap plugin manager
+# https://github.com/marlonrichert/zsh-snap
 # Download Znap, if it's not there yet.
 ZNAPDIR=$ZDOTDIR/znap
-[[ -r ~/Repos/znap/znap.zsh ]] ||
+
+# set the location for znap to put the plugins
+zstyle ':znap:*' repos-dir $ZDOTDIR/znap_plugins
+
+# install znap if it isn't already
+if [ ! -f $ZNAPDIR/znap.zsh ]; then
     git clone --depth 1 -- \
         https://github.com/marlonrichert/zsh-snap.git $ZNAPDIR
-source $ZNAPDIR/znap.zsh  # Start Znap
+fi
+
+# start znap
+source $ZNAPDIR/znap.zsh
 
 # initialize znap
 source $ZNAPDIR/znap.zsh
@@ -72,8 +80,6 @@ znap source zsh-users/zsh-syntax-highlighting
 # https://github.com/marlonrichert/zsh-autocomplete
 znap source marlonrichert/zsh-autocomplete
 
-# zsh-async is requirement for the pure theme (20_theme.zsh)
-#znap source mafredri/zsh-async
 
 
 #
