@@ -1,5 +1,5 @@
 
--- Local version of options for brevity
+-- Local version of options variables for brevity
 local opt = vim.opt
 local g = vim.g
 
@@ -14,6 +14,9 @@ opt.tabstop = 4
 opt.softtabstop = 4
 opt.expandtab = true
 
+-- Turn on the filetype detection plugin
+vim.cmd("filetype plugin on")
+
 
 -- Turn on line numbers and relative line numbers
 opt.number = true
@@ -23,7 +26,7 @@ opt.relativenumber = true
 opt.mouse = 'a'
 
 -- search as characters are entered
-opt.incsearch = true
+opt.incsearch = true 
 
 -- highlight search matches
 opt.hlsearch = true
@@ -31,6 +34,8 @@ opt.hlsearch = true
 -- clear search highlight on <esc><esc>
 vim.keymap.set('n', '<Esc><Esc>', '<cmd>nohlsearch<CR>')
 
+-- ignore case when searching
+opt.ignorecase = true
 -- search case sensitive if you include a mixed case in search
 opt.smartcase = true
 
@@ -54,4 +59,10 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 -- neovide refresh rate
 g.neovide_refresh_rate = 60
+
+-- require plugins
+require('plugins')
+
+-- configure the pencil plugin
+require('pencil')
 

@@ -1,4 +1,3 @@
-
 #
 # 02_plugins.zsh
 # 
@@ -16,39 +15,38 @@ else
     echo ".zshrc :: 02_plugins.zsh :: Unable to find fzf...\n"
 fi
 
-# Load zplug plugin manager
-ZPLUG_HOME=$ZDOTDIR/zplug
 
-# initialize zplug
-source $ZPLUG_HOME/init.zsh
+# znap plugin manager
+# Download Znap, if it's not there yet.
+ZNAPDIR=$ZDOTDIR/znap
+[[ -r ~/Repos/znap/znap.zsh ]] ||
+    git clone --depth 1 -- \
+        https://github.com/marlonrichert/zsh-snap.git $ZNAPDIR
+source $ZNAPDIR/znap.zsh  # Start Znap
+
+# initialize znap
+source $ZNAPDIR/znap.zsh
+
+znap prompt sindresorhus/pure
 
 # Extra zsh completions
 #    - Extra configuration in: 10_completions.zsh
-zplug "zsh-users/zsh-completions", defer:2
+znap source zsh-users/zsh-completions
 
 # Autosuggestions automatically shows suggested commands from history
 #    - Ctrl + Space is the completion command (defined in keybindings)
-zplug "zsh-users/zsh-autosuggestions", defer:2
+znap source zsh-users/zsh-autosuggestions
 
 # Set the color of the autosuggest results
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 
-
 # Syntax highlighting
-zplug "zsh-users/zsh-syntax-highlighting", defer:2
+znap source zsh-users/zsh-syntax-highlighting
 
 # zsh-autocomplete for real time type ahead autocompletion
 # https://github.com/marlonrichert/zsh-autocomplete
-zplug "marlonrichert/zsh-autocomplete", defer:2
+znap source marlonrichert/zsh-autocomplete
 
 # zsh-async is requirement for the pure theme (20_theme.zsh)
-zplug "mafredri/zsh-async", from:"github", use:"async.zsh"
+#znap source mafredri/zsh-async
 
-# Let zplug manage itself
-zplug 'zplug/zplug', hook-build:'zplug --self-manage'
-
-# source plugins and add commands to the PATH
-zplug load
-
-# **** IMPORTANT ****
-# Run `zplug install` after adding a zplug plugin above

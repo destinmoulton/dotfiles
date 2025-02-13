@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/destin/.cache/nvim/packer_hererocks/2.1.1716656478/share/lua/5.1/?.lua;/home/destin/.cache/nvim/packer_hererocks/2.1.1716656478/share/lua/5.1/?/init.lua;/home/destin/.cache/nvim/packer_hererocks/2.1.1716656478/lib/luarocks/rocks-5.1/?.lua;/home/destin/.cache/nvim/packer_hererocks/2.1.1716656478/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/destin/.cache/nvim/packer_hererocks/2.1.1716656478/lib/lua/5.1/?.so"
+local package_path_str = "/home/destin/.cache/nvim/packer_hererocks/2.1.1736781742/share/lua/5.1/?.lua;/home/destin/.cache/nvim/packer_hererocks/2.1.1736781742/share/lua/5.1/?/init.lua;/home/destin/.cache/nvim/packer_hererocks/2.1.1736781742/lib/luarocks/rocks-5.1/?.lua;/home/destin/.cache/nvim/packer_hererocks/2.1.1736781742/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/destin/.cache/nvim/packer_hererocks/2.1.1736781742/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -74,15 +74,21 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["aerial.nvim"] = {
+    config = { "\27LJ\2\n4\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\vaerial\frequire\0" },
+    loaded = true,
+    path = "/home/destin/.local/share/nvim/site/pack/packer/start/aerial.nvim",
+    url = "https://github.com/stevearc/aerial.nvim"
+  },
   ["goyo.vim"] = {
     loaded = true,
     path = "/home/destin/.local/share/nvim/site/pack/packer/start/goyo.vim",
     url = "https://github.com/junegunn/goyo.vim"
   },
-  ["limelight.vim"] = {
+  ["kanagawa.nvim"] = {
     loaded = true,
-    path = "/home/destin/.local/share/nvim/site/pack/packer/start/limelight.vim",
-    url = "https://github.com/junegunn/limelight.vim"
+    path = "/home/destin/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -90,7 +96,7 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   orgmode = {
-    config = { "\27LJ\2\nœ\3\0\0\5\0\16\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\b\0005\3\3\0005\4\4\0=\4\5\0035\4\6\0=\4\a\3=\3\t\0025\3\n\0=\3\v\2B\0\2\0016\0\0\0'\2\f\0B\0\2\0029\0\2\0005\2\14\0005\3\r\0=\3\15\2B\0\2\1K\0\1\0\31org_blank_before_new_entry\1\0\1\31org_blank_before_new_entry\0\1\0\2\20plain_list_item\1\fheading\1\forgmode\21ensure_installed\1\2\0\0\borg\14highlight\1\0\2\14highlight\0\21ensure_installed\0&additional_vim_regex_highlighting\1\2\0\0\borg\fdisable\1\2\0\0\borg\1\0\3\fdisable\0\venable\2&additional_vim_regex_highlighting\0\nsetup\28nvim-treesitter.configs\frequire\0" },
+    config = { "\27LJ\2\n˜\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\31org_blank_before_new_entry\1\0\1\31org_blank_before_new_entry\0\1\0\2\fheading\1\20plain_list_item\1\nsetup\forgmode\frequire\0" },
     loaded = true,
     path = "/home/destin/.local/share/nvim/site/pack/packer/start/orgmode",
     url = "https://github.com/nvim-orgmode/orgmode"
@@ -104,6 +110,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/destin/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
+  },
+  ["vim-easymotion"] = {
+    loaded = true,
+    path = "/home/destin/.local/share/nvim/site/pack/packer/start/vim-easymotion",
+    url = "https://github.com/easymotion/vim-easymotion"
+  },
+  ["vim-markdown"] = {
+    loaded = true,
+    path = "/home/destin/.local/share/nvim/site/pack/packer/start/vim-markdown",
+    url = "https://github.com/preservim/vim-markdown"
+  },
+  ["vim-peekaboo"] = {
+    loaded = true,
+    path = "/home/destin/.local/share/nvim/site/pack/packer/start/vim-peekaboo",
+    url = "https://github.com/junegunn/vim-peekaboo"
   },
   ["vim-pencil"] = {
     loaded = true,
@@ -120,8 +141,12 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: orgmode
 time([[Config for orgmode]], true)
-try_loadstring("\27LJ\2\nœ\3\0\0\5\0\16\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\b\0005\3\3\0005\4\4\0=\4\5\0035\4\6\0=\4\a\3=\3\t\0025\3\n\0=\3\v\2B\0\2\0016\0\0\0'\2\f\0B\0\2\0029\0\2\0005\2\14\0005\3\r\0=\3\15\2B\0\2\1K\0\1\0\31org_blank_before_new_entry\1\0\1\31org_blank_before_new_entry\0\1\0\2\20plain_list_item\1\fheading\1\forgmode\21ensure_installed\1\2\0\0\borg\14highlight\1\0\2\14highlight\0\21ensure_installed\0&additional_vim_regex_highlighting\1\2\0\0\borg\fdisable\1\2\0\0\borg\1\0\3\fdisable\0\venable\2&additional_vim_regex_highlighting\0\nsetup\28nvim-treesitter.configs\frequire\0", "config", "orgmode")
+try_loadstring("\27LJ\2\n˜\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\31org_blank_before_new_entry\1\0\1\31org_blank_before_new_entry\0\1\0\2\fheading\1\20plain_list_item\1\nsetup\forgmode\frequire\0", "config", "orgmode")
 time([[Config for orgmode]], false)
+-- Config for: aerial.nvim
+time([[Config for aerial.nvim]], true)
+try_loadstring("\27LJ\2\n4\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\vaerial\frequire\0", "config", "aerial.nvim")
+time([[Config for aerial.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
