@@ -1,0 +1,22 @@
+# ~/.tmuxp/titan.yaml
+
+session_name: titan 
+root: ~/
+
+
+# Pass command line options to tmux. Useful for specifying a different tmux.conf.
+tmux_options: -f ~/.tmux.conf
+
+windows:
+  - window_name: Split
+    focus: true
+    layout: main-vertical
+    panes:
+      - cd ~ && clear
+      - cd ~ && clear
+  - window_name: Single
+    panes:
+      - cd ~ && clear
+  - window_name: Single 2
+    panes:
+      - cd ~ && clear

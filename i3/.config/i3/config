@@ -203,10 +203,11 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 
-set $mode_system System (l) logout, (s) suspend, (r) reboot, (Shift+s) shutdown, (k) lock
+set $mode_system System (l) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown, (k) lock
 mode "$mode_system" {
     bindsym l exec --no-startup-id ~/scripts/i3pause logout, mode "default"
     bindsym s exec --no-startup-id ~/scripts/i3pause suspend, mode "default"
+    bindsym h exec --no-startup-id ~/scripts/i3pause hibernate, mode "default"
     bindsym r exec --no-startup-id ~/scripts/i3pause reboot, mode "default"
     bindsym k exec --no-startup-id ~/scripts/i3pause lock, mode "default"
     bindsym Shift+s exec --no-startup-id ~/scripts/i3pause shutdown, mode "default"
