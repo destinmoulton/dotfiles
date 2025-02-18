@@ -15,44 +15,38 @@ else
 fi
 
 
-# znap plugin manager
-# https://github.com/marlonrichert/zsh-snap
-# Download Znap, if it's not there yet.
-ZNAPDIR=$ZDOTDIR/znap
+# zap plugin manager
+# https://github.com/zap-zsh/zap
+ZAPDIR=$ZDOTDIR/zap
 
-# set the location for znap to put the plugins
-zstyle ':znap:*' repos-dir $ZDOTDIR/znap_plugins
-
-# install znap if it isn't already
-if [ ! -f $ZNAPDIR/znap.zsh ]; then
-    git clone --depth 1 -- \
-        https://github.com/marlonrichert/zsh-snap.git $ZNAPDIR
-fi
+# use git prefix for zap
+export ZAP_GIT_PREFIX="git@github.com:"
 
 # start znap
-source $ZNAPDIR/znap.zsh
+# IF YOU ARE REINSTALLING ZAP - make sure it puts it in the right location
+# !!! IMPORTANT: the zap installer puts it in
+# .local/share/zap - but you can move it
+source $ZAPDIR/zap.zsh
 
-# initialize znap
-source $ZNAPDIR/znap.zsh
 
-znap prompt sindresorhus/pure
+# pure theme
+plug "sindresorhus/pure"
 
 # Extra zsh completions
 #    - Extra configuration in: 10_completions.zsh
-znap source zsh-users/zsh-completions
+plug "zsh-users/zsh-completions"
 
 # Autosuggestions automatically shows suggested commands from history
 #    - Ctrl + Space is the completion command (defined in keybindings)
-znap source zsh-users/zsh-autosuggestions
+plug "zsh-users/zsh-autosuggestions"
 
 # Set the color of the autosuggest results
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 
 # Syntax highlighting
-znap source zsh-users/zsh-syntax-highlighting
+plug "zsh-users/zsh-syntax-highlighting"
 
 # zsh-autocomplete for real time type ahead autocompletion
 # https://github.com/marlonrichert/zsh-autocomplete
-znap source marlonrichert/zsh-autocomplete
-
+plug "marlonrichert/zsh-autocomplete"
 

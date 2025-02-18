@@ -267,7 +267,7 @@ for_window [class="Mollusk"] floating enable
 
 # Specific window rules
 #for_window [class="JetBrains Toolbox"] move to workspace $wksp1
-for_window [class="Spotify"] move to workspace $wksp9
+#for_window [class="Spotify"] move to workspace $wksp9
 
 #exec --no-startup-id i3-msg 'exec code;'
 #exec --no-startup-id i3-msg 'exec firefox;'
