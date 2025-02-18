@@ -8,15 +8,15 @@ root: ~/
 tmux_options: -f ~/.tmux.conf
 
 windows:
-  - window_name: Split
+  - window_name: Splitskie
     focus: true
     layout: main-vertical
     panes:
       - cd ~ && clear
       - cd ~ && clear
-  - window_name: Single
+  - window_name: Biggie
     panes:
       - cd ~ && clear
-  - window_name: Single 2
+  - window_name: Terminal
     panes:
       - cd ~ && clear

@@ -11,3 +11,9 @@
 	autocrlf = input
 [init]
 	defaultBranch = main
+[maintenance]
+	repo = /home/destin/dotfiles/zsh/.zsh/znap_plugins/marlonrichert/zsh-autocomplete
+	repo = /home/destin/dotfiles/zsh/.zsh/znap_plugins/sindresorhus/pure
+	repo = /home/destin/dotfiles/zsh/.zsh/znap_plugins/zsh-users/zsh-autosuggestions
+	repo = /home/destin/dotfiles/zsh/.zsh/znap_plugins/zsh-users/zsh-completions
+	repo = /home/destin/dotfiles/zsh/.zsh/znap_plugins/zsh-users/zsh-syntax-highlighting
