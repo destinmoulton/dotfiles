@@ -24,9 +24,3 @@ setopt EXTENDED_GLOB        # Use extended globbing syntax.
 unsetopt CLOBBER            # Do not overwrite existing files with > and >>.
 # Use >! and >>! to bypass.
 
-#
-# Aliases
-#
-
-alias d='dirs -v'
-for index ({1..9}) alias "$index"="cd +${index}"; unset index

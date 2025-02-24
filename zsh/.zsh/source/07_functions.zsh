@@ -36,11 +36,8 @@ mem()
 }
 
 # compile zsh and load a new instance
-compilezsh()
+reloadzsh()
 {
-    echo "Running ~/dotfiles/zsh/.zsh/compile.sh...";
-    /usr/bin/bash ~/dotfiles/zsh/.zsh/compile.sh;
-
     echo "Sourcing the new zsh file...";
     source ~/.zsh/.zshrc;
 }

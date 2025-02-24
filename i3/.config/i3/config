@@ -58,10 +58,10 @@ bindsym $mod+e exec doublecmd
 bindsym $mod+Control+c exec google-chrome-stable
 bindsym $mod+Control+f exec firefox
 #bindsym $mod+Control+v exec code
-bindsym $mod+Control+z exec filezilla
-bindsym Print exec deepin-screenshot
-bindsym $mod+Print exec deepin-screenshot
-bindsym $mod+Scroll_Lock exec ~/bin/restarti3
+#bindsym $mod+Control+z exec filezilla
+bindsym Print exec deepin-screen-recorder
+bindsym $mod+Print exec deepin-screen-recorder
+#bindsym $mod+Scroll_Lock exec ~/bin/restarti3
 
 # Make current window into the scratch pad
 bindsym $mod+Shift+s mark "scratchy"; move scratchpad

@@ -6,9 +6,6 @@
 #
 
 
-# Alias bookmarks
-alias bkp='cd ~/projects'
-alias bkd='cd ~/Downloads'
 
 # Alias xclip so you can do cmd | xclip (ie cat file.txt | xclip)
 alias xclip="xclip -selection c"
@@ -81,17 +78,8 @@ else
   alias bat="bat --theme='OneHalfLight'"
 fi
 
-# btm
-# btm (bottom) is a htop or top replacement
-alias btm="btm --color default-light"
-
 # Resource Usage
 alias df='df -kh'
 alias du='du -kh'
 
-
-# zshmarks aliases
-alias bmgo="jump"
-alias bmark="bookmark"
-alias bmarks="showmarks"
 

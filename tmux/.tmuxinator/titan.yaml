@@ -5,7 +5,7 @@ root: ~/
 
 
 # Pass command line options to tmux. Useful for specifying a different tmux.conf.
-tmux_options: -f ~/.tmux.conf
+tmux_options: -f ~/.config/tmux/tmux.conf
 
 windows:
   - window_name: Splitskie

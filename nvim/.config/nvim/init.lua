@@ -10,9 +10,10 @@ g.mapleader = ','
 g.maplocalleader = ','
 
 -- fix tabs
-opt.tabstop = 4
-opt.softtabstop = 4
-opt.expandtab = true
+opt.tabstop = 4 -- A TAB character looks like 4 spaces
+opt.softtabstop = 4 -- number of spaced insterted instead of TAB
+opt.expandtab = true -- Pressing TAB inserts spaces instead of TAB
+opt.shiftwidth = 4 -- Number of spaces inserted when indenting
 
 -- Turn on the filetype detection plugin
 vim.cmd("filetype plugin on")
