@@ -82,4 +82,5 @@ fi
 alias df='df -kh'
 alias du='du -kh'
 
-
+# android adb is relocated to XDG_DATA_HOME (see .profile)
+alias adb='HOME="$XDG_DATA_HOME"/android adb'
