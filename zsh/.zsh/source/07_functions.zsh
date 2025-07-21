@@ -132,3 +132,26 @@ function frg {
               $EDITOR +"${linenumber}" "$file"
       fi
 }
+
+# This function starts broot and executes the command
+# it produces, if any.
+# It's needed because some shell commands, like `cd`,
+# have no useful effect if executed in a subshell.
+#
+# broot is a rust app that shows a useful tree
+#
+# This br function allows you to do <alt>+<enter>
+# on a directory to `cd` into that directory.
+function br {
+    local cmd cmd_file code
+    cmd_file=$(mktemp)
+    if broot --outcmd "$cmd_file" "$@"; then
+        cmd=$(<"$cmd_file")
+        command rm -f "$cmd_file"
+        eval "$cmd"
+    else
+        code=$?
+        command rm -f "$cmd_file"
+        return "$code"
+    fi
+}

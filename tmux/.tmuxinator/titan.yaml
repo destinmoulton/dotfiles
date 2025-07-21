@@ -8,13 +8,13 @@ root: ~/
 tmux_options: -f ~/.config/tmux/tmux.conf
 
 windows:
-  - window_name: Splitskie
+  - window_name: Splitty
     focus: true
     layout: main-vertical
     panes:
       - cd ~ && clear
       - cd ~ && clear
-  - window_name: Biggie
+  - window_name: Biggy
     panes:
       - cd ~ && clear
   - window_name: Terminal

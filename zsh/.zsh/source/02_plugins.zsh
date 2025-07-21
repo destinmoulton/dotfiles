@@ -22,15 +22,11 @@ ZAPDIR=$ZDOTDIR/zap
 # use git prefix for zap
 export ZAP_GIT_PREFIX="git@github.com:"
 
-# start znap
+# start zap
 # IF YOU ARE REINSTALLING ZAP - make sure it puts it in the right location
 # !!! IMPORTANT: the zap installer puts it in
 # .local/share/zap - but you can move it
 source $ZAPDIR/zap.zsh
-
-
-# pure theme
-plug "sindresorhus/pure"
 
 # Extra zsh completions
 #    - Extra configuration in: 10_completions.zsh
