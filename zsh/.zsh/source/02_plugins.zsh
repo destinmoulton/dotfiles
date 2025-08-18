@@ -28,10 +28,6 @@ export ZAP_GIT_PREFIX="git@github.com:"
 # .local/share/zap - but you can move it
 source $ZAPDIR/zap.zsh
 
-# Extra zsh completions
-#    - Extra configuration in: 10_completions.zsh
-plug "zsh-users/zsh-completions"
-
 # Autosuggestions automatically shows suggested commands from history
 #    - Ctrl + Space is the completion command (defined in keybindings)
 plug "zsh-users/zsh-autosuggestions"
@@ -44,5 +40,6 @@ plug "zsh-users/zsh-syntax-highlighting"
 
 # zsh-autocomplete for real time type ahead autocompletion
 # https://github.com/marlonrichert/zsh-autocomplete
+# NOTE: zsh-complete plugin interferes with this plugin!
 plug "marlonrichert/zsh-autocomplete"
 
