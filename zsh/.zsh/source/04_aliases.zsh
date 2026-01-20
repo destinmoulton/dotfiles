@@ -10,6 +10,9 @@
 # Alias xclip so you can do cmd | xclip (ie cat file.txt | xclip)
 alias xclip="xclip -selection c"
 
+# flatpak aliases
+alias bottles="flatpak run com.usebottles.bottles"
+
 
 # Make ls more friendly
 # 

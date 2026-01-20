@@ -9,6 +9,7 @@ fi
 # Setup default XDG variables
 # These will be used later in this for exports
 export XDG_DATA_HOME=$HOME/.local/share
+export XDG_DATA_DIRS=$HOME/.local/share/flatpack/exports/share:/var/lib/flatpak/exports/share
 export XDG_CACHE_HOME=$HOME/.cache
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_STATE_HOME=$HOME/.local/state
