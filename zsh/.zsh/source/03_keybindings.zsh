@@ -27,8 +27,6 @@ bindkey '^w' backward-kill-word
 # zsh/autosuggestions: accept the suggestion
 bindkey '^ ' autosuggest-accept
 
-# fzf key bindings
-source /usr/share/fzf/key-bindings.zsh
 
 # create a zkbd compatible hash;
 # to add other keys to this hash, see: man 5 terminfo

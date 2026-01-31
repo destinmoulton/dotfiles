@@ -1,18 +1,8 @@
-
 # 02_plugins.zsh
 # 
 # Plugins configuration
 #
 # uses znap for plugins
-# Load fzf for:
-#   - Kill process list completion
-#   - History searching (Ctrl+r)
-#   - File searching (Ctrl+t)
-if [ -f /usr/share/fzf/completion.zsh ]; then
-    source /usr/share/fzf/completion.zsh
-else
-    echo ".zshrc :: 02_plugins.zsh :: Unable to find fzf...\n"
-fi
 
 
 # zap plugin manager

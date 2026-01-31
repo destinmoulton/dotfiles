@@ -1,3 +1,9 @@
+
+# The next two lines are IMPORTANT
+# They insure that this file isn't sourced multiple times
+[[ "${_PROFILE_LIBSCRIPT:-""}" == "yes" ]] && return 0
+_PROFILE_LIBSCRIPT=yes
+
 # Add to the PATH
 
 #export SSH_ASKPASS=/usr/lib/seahorse/ssh-askpass
