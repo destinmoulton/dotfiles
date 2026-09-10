@@ -1,0 +1,301 @@
+# MIGRATED FROM i3 config
+# September 2026
+
+exec_always export GBM_BACKEND=nvidia-drm
+exec_always export __GLX_VENDOR_LIBRARY_NAME=nvidia
+exec_always export LIBVA_DRIVER_NAME=nvidia
+exec_always export SWAY_UNSUPPORTED_GPU=true
+
+
+# i3 config file (v4)
+#
+# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+
+# define variables
+set $monitor_left DP-1
+set $monitor_right HDMI-0
+set $wksp1 "1: Code"
+set $wksp2 "2: Firefox"
+set $wksp3 "3: Terminal"
+set $wksp4 "4: Debug"
+set $wksp5 "5: Filemanager"
+set $wksp6 "6: Nave"
+set $wksp7 "7: Filezilla"
+set $wksp8 "8: Obsidian" 
+set $wksp9 "9: LLM"
+set $wksp10 "10: Loft"
+set $wksp11 "11: Apse (-)"
+set $wksp12 "12: Crypt (=)"
+
+# Set the modifier
+set $mod Mod4
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+# This font is widely installed, provides lots of unicode glyphs, right-to-left
+# text rendering and scalability on retina/hidpi displays (thanks to pango).
+font pango:DejaVu Sans Mono 10
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# start a terminal
+# bindsym $mod+Return exec i3-sensible-terminal
+#bindsym $mod+Return exec terminator
+bindsym $mod+Return exec kitty
+
+# kill focused window
+bindsym $mod+Shift+q kill
+
+# start dmenu (a program launcher)
+#bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec wofi --show drun
+
+# Other applications
+#bindsym $mod+Control+w exec emacsclient -nc
+bindsym $mod+e exec doublecmd
+bindsym $mod+Control+c exec google-chrome-stable
+bindsym $mod+Control+f exec firefox
+#bindsym $mod+Control+v exec code
+#bindsym $mod+Control+z exec filezilla
+bindsym Print exec deepin-screen-recorder
+bindsym $mod+Print exec deepin-screen-recorder
+#bindsym $mod+Scroll_Lock exec ~/bin/restarti3
+
+# Make current window into the scratch pad
+bindsym $mod+Shift+s mark "scratchy"; move scratchpad
+# Show/hide the scratch pad
+bindsym $mod+s scratchpad show
+# remove a floating window from scratchpad
+bindsym $mod+Shift+x floating disable
+for_window [floating class="Opera"] border pixel 6 
+for_window [floating class="Opera"] resize set 1300 800
+#for_window [floating class="Opera"] move position center
+#for_window [floating con_mark="scratchy"] move position center
+
+# Volume Control
+bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5dB+ unmute #increase sound volume
+bindsym XF86AudioLowerVolume exec amixer -q sset Master 5dB- unmute #decrease sound volume
+bindsym XF86AudioMute exec amixer -q sset Master toggle # mute sound
+
+# change focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+Alt+bar split h
+bindsym $mod+Alt+backslash h
+
+# split in vertical orientation
+bindsym $mod+Alt+minus split v
+bindsym $mod+Alt+underscore split v
+
+# enter fullscreen mode for the focused container
+#bindsym $mod+f fullscreen
+
+# change container layout (stacked, tabbed, toggle split)
+#bindsym $mod+e layout toggle split
+
+# Toggle sticky mode so that a floating window appears on all workspaces
+bindsym $mod+g sticky toggle
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+
+# switch to workspace
+bindsym $mod+1 workspace $wksp1
+bindsym $mod+2 workspace $wksp2
+bindsym $mod+3 workspace $wksp3
+bindsym $mod+4 workspace $wksp4
+bindsym $mod+5 workspace $wksp5
+bindsym $mod+6 workspace $wksp6
+bindsym $mod+7 workspace $wksp7
+bindsym $mod+8 workspace $wksp8
+bindsym $mod+9 workspace $wksp9
+bindsym $mod+0 workspace $wksp10
+bindsym $mod+minus workspace $wksp11
+bindsym $mod+equal workspace $wksp12
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $wksp1
+bindsym $mod+Shift+2 move container to workspace $wksp2
+bindsym $mod+Shift+3 move container to workspace $wksp3 
+bindsym $mod+Shift+4 move container to workspace $wksp4
+bindsym $mod+Shift+5 move container to workspace $wksp5
+bindsym $mod+Shift+6 move container to workspace $wksp6
+bindsym $mod+Shift+7 move container to workspace $wksp7
+bindsym $mod+Shift+8 move container to workspace $wksp8
+bindsym $mod+Shift+9 move container to workspace $wksp9
+bindsym $mod+Shift+0 move container to workspace $wksp10
+bindsym $mod+Shift+minus move container to workspace $wksp11
+bindsym $mod+Shift+equal move container to workspace $wksp12
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# Set the solid background color
+exec --no-startup-id xsetroot -solid "#333333"
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s mwidth.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym h resize shrink width 6 px or 6 ppt
+        bindsym j resize grow height 6 px or 6 ppt
+        bindsym k resize shrink height 6 px or 6 ppt
+        bindsym l resize grow width 6 px or 6 ppt
+
+        # Resize youtube window to specific size
+        bindsym y resize set width 534px height 300px
+
+        # Resize window to be very large
+        bindsym b resize set width 1900px height 1000px, move position 10 px 10 px
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 6 px or 6 ppt
+        bindsym Down resize grow height 6 px or 6 ppt
+        bindsym Up resize shrink height 6 px or 6 ppt
+        bindsym Right resize grow width 6 px or 6 ppt
+
+        # back to normal: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+
+# Configure the Win+Pause command to Restart/Reboot/Suspend/Lock
+set $wmexit 	swaymsg exit
+set $lock 		swaylock -e -f -c ffffff 
+
+set $mode_system System (l) logout, (s) suspend, (r) reboot, (Shift+s) shutdown, (k) lock
+mode "$mode_system" {
+    bindsym l exec --no-startup-id $wmexit, mode "default"
+    bindsym s exec --no-startup-id $lock && systemctl suspend, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot, mode "default"
+    bindsym k exec --no-startup-id $lock, mode "default"
+    bindsym Shift+s exec --no-startup-id systemctl poweroff, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+Pause mode "$mode_system"
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+bar {
+    colors {
+        background #002b36
+        focused_background #073642
+    }
+    tray_padding 4
+    height 25
+    swaybar_command waybar
+}
+
+input "type:keyboard" {
+    xkb_options ctrl:nocaps
+}
+
+# Setup workspaces
+workspace $wksp1 output $monitor_left
+workspace $wksp2 output $monitor_right
+workspace $wksp3 output $monitor_left
+workspace $wksp4 output $monitor_right
+workspace $wksp5 output $monitor_left
+workspace $wksp6 output $monitor_right
+workspace $wksp7 output $monitor_left
+workspace $wksp8 output $monitor_right
+workspace $wksp9 output $monitor_left
+workspace $wksp10 output $monitor_right
+workspace $wksp11 output $monitor_left
+workspace $wksp12 output $monitor_right
+
+# gaps (remove window borders and title bar)
+#for_window [class=".*"] border pixel 0
+default_border none
+# Only enable gaps on a workspace when there is at least one container
+smart_gaps on
+
+# Activate smart borders (always)
+smart_borders on
+gaps inner 8
+gaps outer 0
+
+# Correct handling of floating windows
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [window_role="dialog"] floating enable
+for_window [window_role="menu"] floating enable
+for_window [window_role="Preferences"] floating enable
+for_window [class="Mollusk"] floating enable
+
+
+# Specific window rules
+#for_window [class="JetBrains Toolbox"] move to workspace $wksp1
+#for_window [class="Spotify"] move to workspace $wksp9
+
+#exec --no-startup-id i3-msg 'exec code;'
+#exec --no-startup-id i3-msg 'exec firefox;'
+#exec --no-startup-id nextcloud &
+
+
+# Start the dbus message display
+exec --no-startup-id dunst &
+#exec --no-startup-id /usr/bin/python /home/destin/projects/i3-automator/start.py
+
+# The network manager applet
+exec --no-startup-id nm-applet &
+
+# Dropbox
+exec --no-startup-id dropbox &
+
+# Jetbrains Toolbox
+exec --no-startup-id /home/destin/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox &
+
+# Pulse Audio System Tray icon
+exec --no-startup-id pasystray &
+
+# Remap capslock to ctrl
+exec --no-startup-id /usr/bin/setxkbmap -option "ctrl:nocaps"
+
